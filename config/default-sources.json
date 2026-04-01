@@ -7,27 +7,6 @@
     { "name": "Mira Murati", "handle": "miramurati" },
     { "name": "Greg Brockman", "handle": "gdb" }
   ],
-  "podcasts": [
-    {
-      "name": "Latent Space",
-      "type": "youtube_channel",
-      "url": "https://www.youtube.com/@LatentSpacePod",
-      "channelHandle": "LatentSpacePod"
-    },
-    {
-      "name": "No Priors",
-      "type": "youtube_channel", 
-      "url": "https://www.youtube.com/@NoPriorsPodcast",
-      "channelHandle": "NoPriorsPodcast"
-    }
-  ],
-  "blogs": [
-    {
-      "name": "Anthropic Engineering",
-      "type": "scrape",
-      "indexUrl": "https://www.anthropic.com/engineering",
-      "articleBaseUrl": "https://www.anthropic.com/engineering/",
-      "fetchMethod": "http"
-    }
-  ]
+  "podcasts": [],
+  "blogs": []
 }

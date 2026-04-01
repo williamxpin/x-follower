@@ -672,7 +672,7 @@ async function main() {
   }
 
   // Fetch podcasts
-  if (runPodcasts && hasSupadataKey) {
+  if (runPodcasts && hasSupadataKey && sources.podcasts && sources.podcasts.length > 0) {
     console.error('Fetching YouTube content...');
     const podcasts = await fetchYouTubeContent(sources.podcasts, supadataKey, state, errors);
     console.error(`  Found ${podcasts.length} new episodes`);
