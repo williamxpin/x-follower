@@ -1,11 +1,12 @@
 name: Generate X Feed
 on:
   schedule:
-    - cron: '0 6 * * *'  # 每天 UTC 6:00（北京时间 14:00）
+    - cron: '*/15 * * * *'  # 每15分钟运行一次，每批处理5个用户
   workflow_dispatch:       # 允许手动触发
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20  # 每批处理约15分钟，设置20分钟超时
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:

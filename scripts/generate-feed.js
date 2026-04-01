@@ -38,15 +38,17 @@ const STATE_PATH = join(SCRIPT_DIR, '..', 'state-feed.json');
 
 async function loadState() {
   if (!existsSync(STATE_PATH)) {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {} };
   }
   try {
     const state = JSON.parse(await readFile(STATE_PATH, 'utf-8'));
     // Ensure seenArticles exists for older state files
     if (!state.seenArticles) state.seenArticles = {};
+    // Ensure lastUserUpdate exists for older state files
+    if (!state.lastUserUpdate) state.lastUserUpdate = {};
     return state;
   } catch {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {} };
   }
 }
 
@@ -244,12 +246,36 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
     }
   }
 
-  // Fetch recent tweets per user (max 3, exclude retweets/replies)
+  // Fetch recent tweets per user (batch processing: 5 users per run)
+  // Filter users that haven't been updated today
+  const today = new Date().toISOString().split('T')[0];
+  const usersNeedUpdate = [];
   for (const account of xAccounts) {
+    const lastUpdate = state.lastUserUpdate?.[account.handle];
+    const lastUpdateDate = lastUpdate ? lastUpdate.split('T')[0] : null;
+    if (!lastUpdateDate || lastUpdateDate !== today) {
+      usersNeedUpdate.push(account);
+    }
+  }
+
+  console.error(`Found ${usersNeedUpdate.length} users need update today`);
+
+  // Take first 5 users for this batch
+  const batch = usersNeedUpdate.slice(0, 5);
+  console.error(`Processing batch of ${batch.length} users`);
+
+  // Process batch with 180s delay between users
+  for (let i = 0; i < batch.length; i++) {
+    const account = batch[i];
     const userData = userMap[account.handle.toLowerCase()];
-    if (!userData) continue;
+    if (!userData) {
+      console.error(`  ✗ User not found: @${account.handle}`);
+      continue;
+    }
 
     try {
+      console.error(`[${i + 1}/${batch.length}] Fetching @${account.handle}...`);
+
       const res = await fetch(
         `${X_API_BASE}/users/${userData.id}/tweets?` +
         `max_results=5` +       // fetch 5, then filter to 3 new ones
@@ -260,11 +286,11 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
       );
 
       if (!res.ok) {
-        if (res.status === 429) {
-          errors.push(`X API: Rate limited, skipping remaining accounts`);
-          break;
-        }
         errors.push(`X API: Failed to fetch tweets for @${account.handle}: HTTP ${res.status}`);
+        // Mark as updated even on failure to skip in next batch
+        state.lastUserUpdate[account.handle] = new Date().toISOString();
+        await saveState(state);
+        console.error(`  ✗ Failed @${account.handle}, marked as updated to skip`);
         continue;
       }
 
@@ -294,19 +320,32 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
         state.seenTweets[t.id] = Date.now();
       }
 
-      if (newTweets.length === 0) continue;
+      if (newTweets.length > 0) {
+        results.push({
+          source: 'x',
+          name: account.name,
+          handle: account.handle,
+          bio: userData.description,
+          tweets: newTweets
+        });
+      }
 
-      results.push({
-        source: 'x',
-        name: account.name,
-        handle: account.handle,
-        bio: userData.description,
-        tweets: newTweets
-      });
+      // Update timestamp immediately after processing each user
+      state.lastUserUpdate[account.handle] = new Date().toISOString();
+      await saveState(state);
+      console.error(`  ✓ Updated @${account.handle} (${newTweets.length} new tweets)`);
 
-      await new Promise(r => setTimeout(r, 200));
+      // Wait 180 seconds between users (not after the last one)
+      if (i < batch.length - 1) {
+        console.error(`  Waiting 180 seconds before next user...`);
+        await new Promise(r => setTimeout(r, 180000));
+      }
     } catch (err) {
       errors.push(`X API: Error fetching @${account.handle}: ${err.message}`);
+      // Mark as updated even on error to skip in next batch
+      state.lastUserUpdate[account.handle] = new Date().toISOString();
+      await saveState(state);
+      console.error(`  ✗ Error @${account.handle}, marked as updated to skip`);
     }
   }
 
@@ -655,19 +694,36 @@ async function main() {
   if (runTweets) {
     console.error('Fetching X/Twitter content...');
     const xContent = await fetchXContent(sources.x_accounts, xBearerToken, state, errors);
-    console.error(`  Found ${xContent.length} builders with new tweets`);
+    console.error(`  Found ${xContent.length} builders with new tweets in this batch`);
 
-    const totalTweets = xContent.reduce((sum, a) => sum + a.tweets.length, 0);
+    // Merge with existing feed (accumulative mode)
+    let existingFeed = { x: [] };
+    try {
+      const existingData = await readFile(join(SCRIPT_DIR, '..', 'feed-x.json'), 'utf-8');
+      existingFeed = JSON.parse(existingData);
+    } catch {
+      // File doesn't exist, use default
+    }
+
+    // Merge: use Map to deduplicate by handle, new data overwrites old
+    const userMap = new Map(existingFeed.x.map(u => [u.handle, u]));
+    for (const newUser of xContent) {
+      userMap.set(newUser.handle, newUser);
+    }
+
+    const mergedX = Array.from(userMap.values());
+    const totalTweets = mergedX.reduce((sum, a) => sum + a.tweets.length, 0);
+
     const xFeed = {
       generatedAt: new Date().toISOString(),
       lookbackHours: TWEET_LOOKBACK_HOURS,
-      x: xContent,
-      stats: { xBuilders: xContent.length, totalTweets },
+      x: mergedX,
+      stats: { xBuilders: mergedX.length, totalTweets },
       errors: errors.filter(e => e.startsWith('X API')).length > 0
         ? errors.filter(e => e.startsWith('X API')) : undefined
     };
     await writeFile(join(SCRIPT_DIR, '..', 'feed-x.json'), JSON.stringify(xFeed, null, 2));
-    console.error(`  feed-x.json: ${xContent.length} builders, ${totalTweets} tweets`);
+    console.error(`  feed-x.json: ${mergedX.length} builders total, ${totalTweets} tweets`);
   }
 
   // Fetch podcasts
