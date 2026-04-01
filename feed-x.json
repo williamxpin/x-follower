@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T11:42:38.887Z",
+  "generatedAt": "2026-04-01T12:55:58.366Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -241,10 +241,100 @@
           "quotedTweetId": "2039056257282449696"
         }
       ]
+    },
+    {
+      "source": "x",
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "tweets": [
+        {
+          "id": "2039261316121325679",
+          "text": "GStack session checkpointing is useful when Claude Code starts getting worried about long context. Makes it easy to start a new window and pick up where you left off with full context from the prior workspace in a new, fresh context window. \n\nSurprising how useful it is. https://t.co/ymDL199YdN",
+          "createdAt": "2026-04-01T08:39:20.000Z",
+          "url": "https://x.com/garrytan/status/2039261316121325679",
+          "likes": 57,
+          "retweets": 2,
+          "replies": 23,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039257286548639861",
+          "text": "Also fixed design-html to work without having done design-shotgun which seems like a no-brainer if you want to skip directly to really great wireframes. https://t.co/t5KQ2q9Oou",
+          "createdAt": "2026-04-01T08:23:19.000Z",
+          "url": "https://x.com/garrytan/status/2039257286548639861",
+          "likes": 3,
+          "retweets": 1,
+          "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039244581431284010",
+          "text": "OK, here goes https://t.co/E4oo7GwOr4",
+          "createdAt": "2026-04-01T07:32:50.000Z",
+          "url": "https://x.com/garrytan/status/2039244581431284010",
+          "likes": 6,
+          "retweets": 0,
+          "replies": 5,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "tweets": [
+        {
+          "id": "2039075455387480520",
+          "text": "YES YOU ARE STILL RELEVANT AS A VC EVEN THOUGH CLAUDE PROVIDES BETTER FOUNDER ADVICE AND DOES BETTER DEAL ANALYSIS AND AI AUTOMATES EVEN YOUR SILLY LITTLE MEMES, BECAUSE YOU HAVE TASTE, YOU UNDERSTAND? YOU. HAVE. TASTE. NOW GO WIN THAT 1000x ARR DEAL. https://t.co/MeoXEIA1T2",
+          "createdAt": "2026-03-31T20:20:47.000Z",
+          "url": "https://x.com/mattturck/status/2039075455387480520",
+          "likes": 239,
+          "retweets": 11,
+          "replies": 14,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2038969194960622040",
+          "text": "Vibe coding prototypes is cool\n\nBuilding production-grade, secure apps with AI you can actually run a business on… that’s a different ballgame \n\nHuge launch day for @softr_io, crazy shipping velocity over the last year 🔥@mariam_hakobyan @mkrtchyanartur \n\nhttps://t.co/SOYs964grJ",
+          "createdAt": "2026-03-31T13:18:32.000Z",
+          "url": "https://x.com/mattturck/status/2038969194960622040",
+          "likes": 32,
+          "retweets": 6,
+          "replies": 10,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "tweets": [
+        {
+          "id": "2039143855602499629",
+          "text": "Be default fundable. \n\nSome founders think that’s a sign of weakness because they’ll continue to crush it and why should they NOT optimize for valuation. \n\nBut, our memories are SO short - look at the 2021-2022 vintage of companies and the sheer number of zombiecorns right now. \n\nVery very few of them have managed to navigate that and grow into the valuations that they commanded back then. \n\nFew have sold for under the pref stack and a lot of them are in no man’s valley. \n\nNow, those companies are unable to raise even with recaps and >1x liq prefs. And unable to be acquired because no one wants to buy a bloated cap table / non AI native talent.",
+          "createdAt": "2026-04-01T00:52:35.000Z",
+          "url": "https://x.com/nikunj/status/2039143855602499629",
+          "likes": 119,
+          "retweets": 4,
+          "replies": 5,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
     }
   ],
   "stats": {
-    "xBuilders": 8,
-    "totalTweets": 16
+    "xBuilders": 11,
+    "totalTweets": 22
   }
 }
