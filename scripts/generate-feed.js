@@ -639,8 +639,8 @@ async function main() {
   const supadataKey = process.env.SUPADATA_API_KEY;
 
   if (runPodcasts && !supadataKey) {
-    console.error('SUPADATA_API_KEY not set');
-    process.exit(1);
+    console.error('Warning: SUPADATA_API_KEY not set, skipping podcast fetching');
+    runPodcasts = false;
   }
   if (runTweets && !xBearerToken) {
     console.error('X_BEARER_TOKEN not set');
