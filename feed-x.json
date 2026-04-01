@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T19:44:38.820Z",
+  "generatedAt": "2026-04-01T20:39:21.610Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -787,10 +787,81 @@
           "quotedTweetId": null
         }
       ]
+    },
+    {
+      "source": "x",
+      "name": "Brian Armstrong",
+      "handle": "brian_armstrong",
+      "bio": "Co-founder & CEO at @Coinbase. Creating more economic freedom in the world. ENS: barmstrong.eth Co-founder @researchhub @newlimit",
+      "tweets": [
+        {
+          "id": "2039370282629029956",
+          "text": "Base is powering a new global economy with:\n- 24/7 markets for all kinds of assets\n- Cheap, instant, private, global stablecoin payments\n- The best builder ecosystem for humans and agents\n\nMore details on how we'll get there in the blog. https://t.co/Bm5rrJ1JQl",
+          "createdAt": "2026-04-01T15:52:19.000Z",
+          "url": "https://x.com/brian_armstrong/status/2039370282629029956",
+          "likes": 437,
+          "retweets": 63,
+          "replies": 171,
+          "isQuote": true,
+          "quotedTweetId": "2039010588811202807"
+        },
+        {
+          "id": "2039323623060570143",
+          "text": "Great update of the latest on x402 https://t.co/edAzJofUBy",
+          "createdAt": "2026-04-01T12:46:55.000Z",
+          "url": "https://x.com/brian_armstrong/status/2039323623060570143",
+          "likes": 279,
+          "retweets": 32,
+          "replies": 99,
+          "isQuote": true,
+          "quotedTweetId": "2036817562441585137"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Marc Andreessen",
+      "handle": "pmarca",
+      "bio": "Grand Theft Auto 6 (GTA 6) is officially scheduled to be released on November 19, 2026.",
+      "tweets": [
+        {
+          "id": "2039408505443246369",
+          "text": "https://t.co/At3V93tnje",
+          "createdAt": "2026-04-01T18:24:12.000Z",
+          "url": "https://x.com/pmarca/status/2039408505443246369",
+          "likes": 546,
+          "retweets": 72,
+          "replies": 41,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039408384747979190",
+          "text": "https://t.co/URAnsoJ20Q",
+          "createdAt": "2026-04-01T18:23:43.000Z",
+          "url": "https://x.com/pmarca/status/2039408384747979190",
+          "likes": 1632,
+          "retweets": 119,
+          "replies": 129,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039408226954031444",
+          "text": "https://t.co/dqqmDT0sNm",
+          "createdAt": "2026-04-01T18:23:06.000Z",
+          "url": "https://x.com/pmarca/status/2039408226954031444",
+          "likes": 976,
+          "retweets": 87,
+          "replies": 60,
+          "isQuote": false,
+          "quotedTweetId": null
+        }
+      ]
     }
   ],
   "stats": {
-    "xBuilders": 24,
-    "totalTweets": 54
+    "xBuilders": 26,
+    "totalTweets": 59
   }
 }
