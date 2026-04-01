@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T14:33:18.315Z",
+  "generatedAt": "2026-04-01T16:05:48.126Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -443,10 +443,81 @@
           "quotedTweetId": null
         }
       ]
+    },
+    {
+      "source": "x",
+      "name": "Elon Musk",
+      "handle": "elonmusk",
+      "bio": "https://t.co/dDtDyVssfm",
+      "tweets": [
+        {
+          "id": "2039368064463241399",
+          "text": "Such great content from Japan! 🇯🇵 https://t.co/3QBMcjls17",
+          "createdAt": "2026-04-01T15:43:30.000Z",
+          "url": "https://x.com/elonmusk/status/2039368064463241399",
+          "likes": 5833,
+          "retweets": 513,
+          "replies": 908,
+          "isQuote": true,
+          "quotedTweetId": "2039357286507012271"
+        },
+        {
+          "id": "2039363566755876893",
+          "text": "Try https://t.co/op5s4ZiSwh! https://t.co/SqCcqVk1IP",
+          "createdAt": "2026-04-01T15:25:38.000Z",
+          "url": "https://x.com/elonmusk/status/2039363566755876893",
+          "likes": 2669,
+          "retweets": 442,
+          "replies": 862,
+          "isQuote": true,
+          "quotedTweetId": "2039359187390730294"
+        },
+        {
+          "id": "2039357849080561735",
+          "text": "Tesla Supercharger energy delivered is growing exponentially https://t.co/6hEQ4FKDyN",
+          "createdAt": "2026-04-01T15:02:55.000Z",
+          "url": "https://x.com/elonmusk/status/2039357849080561735",
+          "likes": 10075,
+          "retweets": 1091,
+          "replies": 1409,
+          "isQuote": true,
+          "quotedTweetId": "2039342853302673860"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Virtuals Protocol",
+      "handle": "virtuals_io",
+      "bio": "Society of AI Agents",
+      "tweets": [
+        {
+          "id": "2039344088131256487",
+          "text": "Anyone can research with an agent and test it can trade. https://t.co/UnzrQT84Uw",
+          "createdAt": "2026-04-01T14:08:14.000Z",
+          "url": "https://x.com/virtuals_io/status/2039344088131256487",
+          "likes": 60,
+          "retweets": 5,
+          "replies": 15,
+          "isQuote": true,
+          "quotedTweetId": "2039260514002636884"
+        },
+        {
+          "id": "2039102454055555417",
+          "text": "Virtuals is excited to support the agent economy on Arc.\n\nUSDC settles 98.7% of all agent-to-agent payment volume today. @circle built @arc to be the settlement layer for that future: dollar-native gas, sub-second finality, nanopayments to six decimal places.\n\nVirtuals is building the layer on top: the infrastructure for agents to discover, negotiate, escrow, and settle every deal on Arc.\n\nNow live and available on Arc's testnet today.",
+          "createdAt": "2026-03-31T22:08:04.000Z",
+          "url": "https://x.com/virtuals_io/status/2039102454055555417",
+          "likes": 285,
+          "retweets": 42,
+          "replies": 37,
+          "isQuote": true,
+          "quotedTweetId": "2039100425551688117"
+        }
+      ]
     }
   ],
   "stats": {
-    "xBuilders": 14,
-    "totalTweets": 30
+    "xBuilders": 16,
+    "totalTweets": 35
   }
 }
