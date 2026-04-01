@@ -21,17 +21,12 @@ jobs:
       - name: Generate feed
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-          # SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}  # 可选：用于抓取 YouTube 播客
-        run: node scripts/generate-feed.js
+        run: node scripts/generate-feed.js --tweets-only
       
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Only add files that exist
-          [ -f feed-x.json ] && git add feed-x.json
-          [ -f feed-podcasts.json ] && git add feed-podcasts.json
-          [ -f feed-blogs.json ] && git add feed-blogs.json
-          git add state-feed.json
+          git add feed-x.json state-feed.json
           git diff --cached --quiet || git commit -m "Update feed [skip ci]"
           git push

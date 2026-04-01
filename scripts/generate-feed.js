@@ -638,10 +638,9 @@ async function main() {
   const xBearerToken = process.env.X_BEARER_TOKEN;
   const supadataKey = process.env.SUPADATA_API_KEY;
 
-  // Check API keys availability
-  const hasSupadataKey = !!supadataKey;
-  if (runPodcasts && !hasSupadataKey) {
-    console.error('Warning: SUPADATA_API_KEY not set, skipping podcast fetching');
+  if (runPodcasts && !supadataKey) {
+    console.error('SUPADATA_API_KEY not set');
+    process.exit(1);
   }
   if (runTweets && !xBearerToken) {
     console.error('X_BEARER_TOKEN not set');
@@ -672,7 +671,7 @@ async function main() {
   }
 
   // Fetch podcasts
-  if (runPodcasts && hasSupadataKey && sources.podcasts && sources.podcasts.length > 0) {
+  if (runPodcasts) {
     console.error('Fetching YouTube content...');
     const podcasts = await fetchYouTubeContent(sources.podcasts, supadataKey, state, errors);
     console.error(`  Found ${podcasts.length} new episodes`);
