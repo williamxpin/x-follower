@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T17:15:20.958Z",
+  "generatedAt": "2026-04-01T18:16:43.098Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -615,10 +615,92 @@
           "quotedTweetId": null
         }
       ]
+    },
+    {
+      "source": "x",
+      "name": "Shaw",
+      "handle": "shawmakesmagic",
+      "bio": "human written shitposts, mostly about ai",
+      "tweets": [
+        {
+          "id": "2039162778758656011",
+          "text": "the old interface was, well... https://t.co/FBVGl1odTr",
+          "createdAt": "2026-04-01T02:07:46.000Z",
+          "url": "https://x.com/shawmakesmagic/status/2039162778758656011",
+          "likes": 45,
+          "retweets": 1,
+          "replies": 19,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039161690294726850",
+          "text": "Just another day at the office https://t.co/xv7YznDFqp",
+          "createdAt": "2026-04-01T02:03:27.000Z",
+          "url": "https://x.com/shawmakesmagic/status/2039161690294726850",
+          "likes": 42,
+          "retweets": 6,
+          "replies": 12,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039047095437640132",
+          "text": "This is how they are training their models to detect failures btw https://t.co/dQrjnCDn4t",
+          "createdAt": "2026-03-31T18:28:05.000Z",
+          "url": "https://x.com/shawmakesmagic/status/2039047095437640132",
+          "likes": 45,
+          "retweets": 1,
+          "replies": 9,
+          "isQuote": true,
+          "quotedTweetId": "2039039854378459610"
+        }
+      ]
+    },
+    {
+      "source": "x",
+      "name": "Ansem",
+      "handle": "blknoiz06",
+      "bio": "coldest nigga breathing",
+      "tweets": [
+        {
+          "id": "2039188624382513316",
+          "text": "lmao https://t.co/c3cqOuenaH",
+          "createdAt": "2026-04-01T03:50:29.000Z",
+          "url": "https://x.com/blknoiz06/status/2039188624382513316",
+          "likes": 135,
+          "retweets": 2,
+          "replies": 44,
+          "isQuote": true,
+          "quotedTweetId": "2038972338868502731"
+        },
+        {
+          "id": "2039184870027469180",
+          "text": "only need 24 https://t.co/U18wcvjQ9e",
+          "createdAt": "2026-04-01T03:35:33.000Z",
+          "url": "https://x.com/blknoiz06/status/2039184870027469180",
+          "likes": 193,
+          "retweets": 7,
+          "replies": 42,
+          "isQuote": true,
+          "quotedTweetId": "2038808985210392993"
+        },
+        {
+          "id": "2039181737062695271",
+          "text": "niggas start having bedtimes https://t.co/uKu5aZCise",
+          "createdAt": "2026-04-01T03:23:06.000Z",
+          "url": "https://x.com/blknoiz06/status/2039181737062695271",
+          "likes": 216,
+          "retweets": 6,
+          "replies": 46,
+          "isQuote": true,
+          "quotedTweetId": "2039170620639113698"
+        }
+      ]
     }
   ],
   "stats": {
-    "xBuilders": 19,
-    "totalTweets": 42
+    "xBuilders": 21,
+    "totalTweets": 48
   }
 }
