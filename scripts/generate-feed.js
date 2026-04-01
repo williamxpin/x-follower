@@ -631,16 +631,17 @@ async function main() {
 
   // If a specific --*-only flag is set, only that feed type runs.
   // If no flag is set, all three run.
-  let runTweets = tweetsOnly || (!podcastsOnly && !blogsOnly);
-  let runPodcasts = podcastsOnly || (!tweetsOnly && !blogsOnly);
-  let runBlogs = blogsOnly || (!tweetsOnly && !podcastsOnly);
+  const runTweets = tweetsOnly || (!podcastsOnly && !blogsOnly);
+  const runPodcasts = podcastsOnly || (!tweetsOnly && !blogsOnly);
+  const runBlogs = blogsOnly || (!tweetsOnly && !podcastsOnly);
 
   const xBearerToken = process.env.X_BEARER_TOKEN;
   const supadataKey = process.env.SUPADATA_API_KEY;
 
-  if (runPodcasts && !supadataKey) {
+  // Check API keys availability
+  const hasSupadataKey = !!supadataKey;
+  if (runPodcasts && !hasSupadataKey) {
     console.error('Warning: SUPADATA_API_KEY not set, skipping podcast fetching');
-    runPodcasts = false;
   }
   if (runTweets && !xBearerToken) {
     console.error('X_BEARER_TOKEN not set');
@@ -671,7 +672,7 @@ async function main() {
   }
 
   // Fetch podcasts
-  if (runPodcasts) {
+  if (runPodcasts && hasSupadataKey) {
     console.error('Fetching YouTube content...');
     const podcasts = await fetchYouTubeContent(sources.podcasts, supadataKey, state, errors);
     console.error(`  Found ${podcasts.length} new episodes`);
