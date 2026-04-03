@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T03:40:33.846Z",
+  "generatedAt": "2026-04-03T05:36:04.414Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -189,26 +189,37 @@
       "bio": "ceo @replit. civilizationist",
       "tweets": [
         {
-          "id": "2039552681493336250",
-          "text": "We’re in an unprecedented era of rapid wealth creation. https://t.co/P6qoQrvTEn",
-          "createdAt": "2026-04-02T03:57:06.000Z",
-          "url": "https://x.com/amasad/status/2039552681493336250",
-          "likes": 373,
-          "retweets": 28,
-          "replies": 10,
+          "id": "2039838798671126728",
+          "text": "SEO audit your site. https://t.co/0fxrGa0dZ6",
+          "createdAt": "2026-04-02T22:54:02.000Z",
+          "url": "https://x.com/amasad/status/2039838798671126728",
+          "likes": 530,
+          "retweets": 23,
+          "replies": 23,
           "isQuote": true,
-          "quotedTweetId": "2039534473616703979"
+          "quotedTweetId": "2039821278635499834"
         },
         {
-          "id": "2039429759344730549",
-          "text": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills. https://t.co/xqEOEdHmEJ",
-          "createdAt": "2026-04-01T19:48:40.000Z",
-          "url": "https://x.com/amasad/status/2039429759344730549",
-          "likes": 136,
-          "retweets": 3,
-          "replies": 27,
+          "id": "2039777772701413396",
+          "text": "Started a sales office in Salt Lake City, Utah. If you’re based there, consider joining the team! https://t.co/vZw366XtEU",
+          "createdAt": "2026-04-02T18:51:32.000Z",
+          "url": "https://x.com/amasad/status/2039777772701413396",
+          "likes": 565,
+          "retweets": 12,
+          "replies": 68,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039774118443421887",
+          "text": "No-setup enterprise-grade auth solution for everyone. https://t.co/Udl430LVTR",
+          "createdAt": "2026-04-02T18:37:01.000Z",
+          "url": "https://x.com/amasad/status/2039774118443421887",
+          "likes": 185,
+          "retweets": 5,
+          "replies": 23,
           "isQuote": true,
-          "quotedTweetId": "2039415897056817280"
+          "quotedTweetId": "2039764682526134658"
         }
       ]
     },
@@ -219,15 +230,26 @@
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "tweets": [
         {
-          "id": "2039414479084278239",
-          "text": "My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon. https://t.co/zKY9KacBIb https://t.co/H6flCdU61B",
-          "createdAt": "2026-04-01T18:47:56.000Z",
-          "url": "https://x.com/levie/status/2039414479084278239",
-          "likes": 193,
-          "retweets": 8,
-          "replies": 17,
-          "isQuote": true,
-          "quotedTweetId": "2039112104913867263"
+          "id": "2039931799414194621",
+          "text": "One of the biggest lessons thus far in building AI agents is you have to be brutally unsentimental in your architecture. \n\nThe models get better and better at handling things you previously built scaffolding for, you need to ruthlessly jettison your prior tech to get those new performance gains. \n\nThe rough loop of building AI agents looks something like:\n\n1. Build a bunch of systems around the LLM to ensure that the agent can solve specific tasks very well\n\n2. The model capabilities dramatically improve, rendering many of those systems redundant or even harmful\n\n3. Remove prior scaffolding to get the new performance gains from the agent\n\n4. New capabilities emerge in the models that let you solve a new set of much harder problems\n\n5. Go back to step 1 \n\nFor instance, in our new Box Agent, from the moment we designed the original architecture to the ultimate release, we had to evolve multiple components of agent harness simply because some parts were creating unnecessary constraints for the agents as models improved. \n\nThe models continued to get insanely good at more complex reasoning, improvements in using search and other tools, writing code on the fly for new capabilities, improving context window performance for accuracy, and more. \n\nMany of the mitigations we put in place for the Box Agent (like to appropriately find data that users were looking for, or ways of chunking text to deal with context window limitations), eventually meat we got lower quality results or meant we were overfitting for specific use-cases, as soon as the models got better.\n\nThe main lesson is always make sure you’re taking advantage of the frontier capabilities and don’t become nostalgic around the tech you’ve already built.",
+          "createdAt": "2026-04-03T05:03:35.000Z",
+          "url": "https://x.com/levie/status/2039931799414194621",
+          "likes": 57,
+          "retweets": 5,
+          "replies": 14,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2039722279014432932",
+          "text": "Introducing the new Box Agent. The Box Agent works across your entire Box file system, maintaining all your security and access controls, and is hyper tuned for working with enterprise content.\n\nThis means you can now ask questions from all your enterprise content, search for files that were impossible to find before, deploy an agent on specific tasks on subsets of documents, analyze complex data sets, and generate or edit documents and spreadsheets via the agent.\n\nYou can have the Box Agent search across your Box account to prepare for a sales meeting, analyze customer sentiment reports, process a large set of contracts for legal risk, provide insights into product development, leverage existing knowledge to answer RFPs, and thousands of other use-cases.\n\n90% of enterprise data is unstructured data. This means most enterprise knowledge is sitting in inside of research reports, marketing assets, presentations, roadmap files, contracts, HR documents, and more. This is the critical context that agents need to be able to answer questions about a business, automate workflows, or serve up to other agents.\n\nWe’ve been grinding on this for a quite a bit, and due to recent AI model advancements we’re now ready to release it to customers. Previous model generations had a difficult time knowing when to give up or keep going on a search, when to browse for files vs. use queries, how to rank files appropriately to know which version of content to use, how to handle large amounts of context to comb through, and more.\n\nDue to recent breakthroughs from models like GPT-5.4, Opus 4.6, and Gemini 3, we’ve seen major gains in tool calling, code execution, advanced reasoning, and more. Combined with an agent harness tuned to Box context, now it’s finally possible to have an agent that can work across your file system on long running tasks and actually deliver high quality results.\n\nBest of all, because the Box Agent works with any leading AI model, you’ll quickly get the gains coming out of the major labs as major new models are released. Further, openness at Box is key, so you’ll be able to call up the Box Agent from Box’s APIs and MCP server, so you can interact with Box intelligently from any other AI system. We know work happens everywhere, and we want to ensure you can access to the content you need from those places.\n\nThe new Box Agent is available starting today, rolling out now for Enterprise Plus and Enterprise Advanced customers.",
+          "createdAt": "2026-04-02T15:11:02.000Z",
+          "url": "https://x.com/levie/status/2039722279014432932",
+          "likes": 133,
+          "retweets": 19,
+          "replies": 27,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -954,6 +976,6 @@
   ],
   "stats": {
     "xBuilders": 32,
-    "totalTweets": 63
+    "totalTweets": 65
   }
 }
