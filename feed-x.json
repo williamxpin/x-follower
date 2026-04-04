@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T03:29:03.903Z",
+  "generatedAt": "2026-04-04T05:21:48.019Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -230,26 +230,15 @@
       "bio": "ceo @box - your business lives in content. unleash it with AI",
       "tweets": [
         {
-          "id": "2039931799414194621",
-          "text": "One of the biggest lessons thus far in building AI agents is you have to be brutally unsentimental in your architecture. \n\nThe models get better and better at handling things you previously built scaffolding for, you need to ruthlessly jettison your prior tech to get those new performance gains. \n\nThe rough loop of building AI agents looks something like:\n\n1. Build a bunch of systems around the LLM to ensure that the agent can solve specific tasks very well\n\n2. The model capabilities dramatically improve, rendering many of those systems redundant or even harmful\n\n3. Remove prior scaffolding to get the new performance gains from the agent\n\n4. New capabilities emerge in the models that let you solve a new set of much harder problems\n\n5. Go back to step 1 \n\nFor instance, in our new Box Agent, from the moment we designed the original architecture to the ultimate release, we had to evolve multiple components of agent harness simply because some parts were creating unnecessary constraints for the agents as models improved. \n\nThe models continued to get insanely good at more complex reasoning, improvements in using search and other tools, writing code on the fly for new capabilities, improving context window performance for accuracy, and more. \n\nMany of the mitigations we put in place for the Box Agent (like to appropriately find data that users were looking for, or ways of chunking text to deal with context window limitations), eventually meat we got lower quality results or meant we were overfitting for specific use-cases, as soon as the models got better.\n\nThe main lesson is always make sure you’re taking advantage of the frontier capabilities and don’t become nostalgic around the tech you’ve already built.",
-          "createdAt": "2026-04-03T05:03:35.000Z",
-          "url": "https://x.com/levie/status/2039931799414194621",
-          "likes": 57,
-          "retweets": 5,
-          "replies": 14,
-          "isQuote": false,
-          "quotedTweetId": null
-        },
-        {
-          "id": "2039722279014432932",
-          "text": "Introducing the new Box Agent. The Box Agent works across your entire Box file system, maintaining all your security and access controls, and is hyper tuned for working with enterprise content.\n\nThis means you can now ask questions from all your enterprise content, search for files that were impossible to find before, deploy an agent on specific tasks on subsets of documents, analyze complex data sets, and generate or edit documents and spreadsheets via the agent.\n\nYou can have the Box Agent search across your Box account to prepare for a sales meeting, analyze customer sentiment reports, process a large set of contracts for legal risk, provide insights into product development, leverage existing knowledge to answer RFPs, and thousands of other use-cases.\n\n90% of enterprise data is unstructured data. This means most enterprise knowledge is sitting in inside of research reports, marketing assets, presentations, roadmap files, contracts, HR documents, and more. This is the critical context that agents need to be able to answer questions about a business, automate workflows, or serve up to other agents.\n\nWe’ve been grinding on this for a quite a bit, and due to recent AI model advancements we’re now ready to release it to customers. Previous model generations had a difficult time knowing when to give up or keep going on a search, when to browse for files vs. use queries, how to rank files appropriately to know which version of content to use, how to handle large amounts of context to comb through, and more.\n\nDue to recent breakthroughs from models like GPT-5.4, Opus 4.6, and Gemini 3, we’ve seen major gains in tool calling, code execution, advanced reasoning, and more. Combined with an agent harness tuned to Box context, now it’s finally possible to have an agent that can work across your file system on long running tasks and actually deliver high quality results.\n\nBest of all, because the Box Agent works with any leading AI model, you’ll quickly get the gains coming out of the major labs as major new models are released. Further, openness at Box is key, so you’ll be able to call up the Box Agent from Box’s APIs and MCP server, so you can interact with Box intelligently from any other AI system. We know work happens everywhere, and we want to ensure you can access to the content you need from those places.\n\nThe new Box Agent is available starting today, rolling out now for Enterprise Plus and Enterprise Advanced customers.",
-          "createdAt": "2026-04-02T15:11:02.000Z",
-          "url": "https://x.com/levie/status/2039722279014432932",
-          "likes": 133,
-          "retweets": 19,
-          "replies": 27,
-          "isQuote": false,
-          "quotedTweetId": null
+          "id": "2040264454982480138",
+          "text": "“There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time.”\n\nThere’s a reason that at a certain scale, teams of people have a manager, and then there are managers of many teams, and so on. Companies don’t inherently love being inefficient. It’s because eventually you run into the limits of how much context you can hold on to produce useful work, so you have to delegate parts to someone else who can track their sub-context.\n\nIn a world where agents don’t need to be prompted or have their work reviewed, or where the agent can know perfectly when to escalate when something is going wrong, then agents can completely break free of these context limits of humans. \n\nBut for now, agents are generally only as effective as the context they’re provided, the tools they have access to, the human’s ability to keep them on track or review their work, and incorporate that work into a broader system. \n\nFor now, that will continue to take real (mental) work from the people managing agents. This is also generally why the jobs arguments from those who think people go away will be wrong.",
+          "createdAt": "2026-04-04T03:05:27.000Z",
+          "url": "https://x.com/levie/status/2040264454982480138",
+          "likes": 97,
+          "retweets": 7,
+          "replies": 13,
+          "isQuote": true,
+          "quotedTweetId": "2039845666680176703"
         }
       ]
     },
@@ -1129,6 +1118,6 @@
   ],
   "stats": {
     "xBuilders": 36,
-    "totalTweets": 76
+    "totalTweets": 75
   }
 }
