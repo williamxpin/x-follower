@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T12:12:44.070Z",
+  "generatedAt": "2026-04-05T13:40:00.897Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -778,37 +778,37 @@
       "bio": "searching for patterns | AI @limitlessFT | @26cryptocapital | Prev. @coinbase @consensys",
       "tweets": [
         {
-          "id": "2040331715525427650",
-          "text": "china is not fucking around. new deepseek model will run on Huawei ai chips positioning them as an alternative to NVIDIA\n\n- deepseek is preparing to launch V4 model in < 2 weeks.\n\n- trained 2 variants to run on huawei’s latest chips. rewritten the entire software\n\n- 1,000,000s of huawei chips have been ordered by chinese companies ahead of launch to serve demand \n\n- this is why deepseek v4 launch has been delayed.\n\ni’m betting model weights will be closed source, US access restricted.\n\nthis plus qwen models closed source tells me china’s finally caught up to the u.s. ai labs",
-          "createdAt": "2026-04-04T07:32:43.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040331715525427650",
-          "likes": 29,
-          "retweets": 3,
-          "replies": 3,
+          "id": "2040586809311371413",
+          "text": "no fucking way lol\n\npeople in china are getting their colleagues fired by secretly training AI agents to replace them 😂\n\nthey secretly learn the role, write up a doc describing the tasks, train an AI to do it… then prove they’re fireable \n\nthey’re apparently doing it to prevent THEMSELVES from getting replaced by ai\n\nin response someone has created an “anti-distillation.skill” that’s gone viral on github to counter the attacks 😂",
+          "createdAt": "2026-04-05T00:26:22.000Z",
+          "url": "https://x.com/cryptopunk7213/status/2040586809311371413",
+          "likes": 900,
+          "retweets": 89,
+          "replies": 43,
           "isQuote": true,
-          "quotedTweetId": "2040242690999328981"
+          "quotedTweetId": "2040228565476585909"
         },
         {
-          "id": "2040216049635950861",
-          "text": "just realised the TBPN acquisition is an amazing talent funnel for openai \n\ntbpn turned an entire industry of nerds into rockstars\n\nnow aspiring ML engineers, researchers watch the show, see their idols featured on the platform and want to go and work for them.\n\nprobably worth way more than the $100+ mil \n\npretty genius",
-          "createdAt": "2026-04-03T23:53:06.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040216049635950861",
-          "likes": 61,
-          "retweets": 0,
-          "replies": 10,
+          "id": "2040494818359656791",
+          "text": "man andrej karpathy really is the fucking goat\n\nhe just dropped a guide to building a self-improving wikipedia-style knowledge base with your ai agent - literally just tell your ai to read it and it'll create it:\n\n> feeds your agent raw information (files, webpage, data base) about any topic.\n> agent ingests, structures and archives a library of information\n> ask your agent questions about the info and it gives you an expert-level answer backed by data \n\nyou can use this to learn anything:\n\n- reading a book, research, personal goals, business analysis.. anything.\n\nbest part: any extra info added makes the wiki smarter + the agent fills in any missing gaps.",
+          "createdAt": "2026-04-04T18:20:49.000Z",
+          "url": "https://x.com/cryptopunk7213/status/2040494818359656791",
+          "likes": 1285,
+          "retweets": 83,
+          "replies": 19,
           "isQuote": true,
-          "quotedTweetId": "2039756493621542915"
+          "quotedTweetId": "2040470801506541998"
         },
         {
-          "id": "2040170849198805353",
-          "text": "if scaling laws are intact, elon wins the ai model race but there’s something else working in his favor:\n\nworld models\n\nkarpathy has already said LLMs will not be the ultimate blueprint of agi, that we need something better that understands physical reality as humans do\n\nworld models solve this and Elon Musk has the ‘worlds best world model’ sitting in millions of tesla’s right now. it’s so good it’s 8x a better driver than humans\n\nworlds models are also the key to robotics\n\nDemis (google) is betting big on this with genie in 2026, yann lecun and fei-fei li just raised $1 billion+ rounds to build them.",
-          "createdAt": "2026-04-03T20:53:29.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040170849198805353",
-          "likes": 61,
-          "retweets": 2,
-          "replies": 13,
+          "id": "2040434869399138368",
+          "text": "whoa this is actually fucking sick, a self-improving ai you can use yourself right now (for any task)\n\ndude created an ai agent that autonomously upgraded itself to #1 across multiple domains in < 24 hours…. then open sourced the entire thing\n\nbut here’s why it actually works:\n\n- agents fucking suck, not because of the model, because of their harness (tools, system prompts etc)\n\n- Auto agent creates a Meta agent that tweaks your agents harness, runs tests, improves it again - until it’s #1 at its goal\n\n- best part: you can set this up for ANY task. in this article he uses it for terminal bench (code) and spreadsheets (financial modelling) - it topped rankings for both :)\n\n- secret sauce: he used THE SAME MODEL to evaluate the agent - claude managing claude = better understanding of why it failed and how to improve it\n\nhumans were the fucking bottleneck and this not only saves you a load of time, it’s just a better way to train them for domain specific tasks \n\nseriously check it out",
+          "createdAt": "2026-04-04T14:22:36.000Z",
+          "url": "https://x.com/cryptopunk7213/status/2040434869399138368",
+          "likes": 664,
+          "retweets": 43,
+          "replies": 31,
           "isQuote": true,
-          "quotedTweetId": "2040105055815426527"
+          "quotedTweetId": "2039843234760073341"
         }
       ]
     },
@@ -816,18 +816,40 @@
       "source": "x",
       "name": "Ivan on Tech",
       "handle": "IvanOnTech",
-      "bio": "📈 Elite trader ($BTC, stocks, commodities)\n📚 Best Selling Author of BIG PROFITS™\n🚀 Founder of @bullmania\n📫 Join my newsletter: https://t.co/1F5APL73H3",
+      "bio": "📈 Elite trader ($BTC, stocks, commodities)\n📚 Best Selling Author of BIG PROFITS™ (https://t.co/SfmhiMhRVw)\n🚀 Join free newsletter (https://t.co/1F5APL73H3)\n@bullmania",
       "tweets": [
         {
-          "id": "2040388322271318327",
-          "text": "Raoul Pal finally confirms that ISM is dead \n(after $SUI and most other coins lost 50-99% of their value)\n\nhttps://t.co/CqRhDtoDie",
-          "createdAt": "2026-04-04T11:17:39.000Z",
-          "url": "https://x.com/IvanOnTech/status/2040388322271318327",
-          "likes": 9,
+          "id": "2040784747891163208",
+          "text": "Reading Big Profits™️ is very smart to do during Easter Time indeed 🐥🐥🐥\n\nHE IS RISEN\nBITCOIN WILL RISE EVENTUALLY https://t.co/dFULTucB5V https://t.co/dx9vzyUnBi",
+          "createdAt": "2026-04-05T13:32:54.000Z",
+          "url": "https://x.com/IvanOnTech/status/2040784747891163208",
+          "likes": 7,
           "retweets": 0,
-          "replies": 1,
+          "replies": 3,
           "isQuote": true,
-          "quotedTweetId": "2040153780637913334"
+          "quotedTweetId": "2040757726033199596"
+        },
+        {
+          "id": "2040756123100176467",
+          "text": "Happy Easter to everyone in our community and all Christians around the world!\n\nTake today off. Close the charts. \nEat too much food with people you love. \nThe market will be there Monday.\nYour family won't always be.\n\nHE IS RISEN! 💛🥚🐣 https://t.co/Zs0CCcGi7H",
+          "createdAt": "2026-04-05T11:39:09.000Z",
+          "url": "https://x.com/IvanOnTech/status/2040756123100176467",
+          "likes": 314,
+          "retweets": 18,
+          "replies": 25,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2040717650960023648",
+          "text": "George Bush bullish on US economy fundamentals right before the big collapse of 2008 (from my book Big Profits™️) https://t.co/RadAVHXwjq",
+          "createdAt": "2026-04-05T09:06:17.000Z",
+          "url": "https://x.com/IvanOnTech/status/2040717650960023648",
+          "likes": 17,
+          "retweets": 1,
+          "replies": 2,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
@@ -1071,6 +1093,6 @@
   ],
   "stats": {
     "xBuilders": 37,
-    "totalTweets": 70
+    "totalTweets": 72
   }
 }
