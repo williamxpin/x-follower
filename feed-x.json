@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T15:19:19.639Z",
+  "generatedAt": "2026-04-06T16:11:34.097Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -767,37 +767,26 @@
       "bio": "searching for patterns | AI @limitlessFT | @26cryptocapital | Prev. @coinbase @consensys",
       "tweets": [
         {
-          "id": "2040586809311371413",
-          "text": "no fucking way lol\n\npeople in china are getting their colleagues fired by secretly training AI agents to replace them 😂\n\nthey secretly learn the role, write up a doc describing the tasks, train an AI to do it… then prove they’re fireable \n\nthey’re apparently doing it to prevent THEMSELVES from getting replaced by ai\n\nin response someone has created an “anti-distillation.skill” that’s gone viral on github to counter the attacks 😂",
-          "createdAt": "2026-04-05T00:26:22.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040586809311371413",
-          "likes": 900,
-          "retweets": 89,
-          "replies": 43,
-          "isQuote": true,
-          "quotedTweetId": "2040228565476585909"
+          "id": "2040964819537547655",
+          "text": "this week in ai felt like a year, so many fuck-ups but so much progress:\n\n- Openai raised $122 billion (largest ever private raise) then acquired tbpn\n\n- oracle fired 30,000 people (18% of workforce), stock is up on the news.\n\n- anthropic launched an ai software engineer (computer use claude code) but then… \n\n- fucked up by leaking their entire source code, restricting openclaw users from using claude AND capping usage limits ☠️\n\n- xai launched grok imagine “quality” a major leap in image-gen + updated their API to welcome AI agents on X\n\n- qwen (chinese) dropped 2 models that turn napkin drawings into apps + 3X faster than opus 4.6\n\n- google dropped 4 open-weight models allowing you to run frontier ai on your iphone\n\n- Meta ai glasses can now track calories of food you’re eating \n\n- someone took google’s turboquant algo and reduced memory consumption across multiple gpus without losing intelligence of the model \n\n- Apple is buying up all the ai memory chips to price out competitors. also launched carplay with chatgpt \n\n- microsoft launched a new #1 ai research tool powered by claude",
+          "createdAt": "2026-04-06T01:28:26.000Z",
+          "url": "https://x.com/cryptopunk7213/status/2040964819537547655",
+          "likes": 133,
+          "retweets": 8,
+          "replies": 30,
+          "isQuote": false,
+          "quotedTweetId": null
         },
         {
-          "id": "2040494818359656791",
-          "text": "man andrej karpathy really is the fucking goat\n\nhe just dropped a guide to building a self-improving wikipedia-style knowledge base with your ai agent - literally just tell your ai to read it and it'll create it:\n\n> feeds your agent raw information (files, webpage, data base) about any topic.\n> agent ingests, structures and archives a library of information\n> ask your agent questions about the info and it gives you an expert-level answer backed by data \n\nyou can use this to learn anything:\n\n- reading a book, research, personal goals, business analysis.. anything.\n\nbest part: any extra info added makes the wiki smarter + the agent fills in any missing gaps.",
-          "createdAt": "2026-04-04T18:20:49.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040494818359656791",
-          "likes": 1285,
-          "retweets": 83,
-          "replies": 19,
+          "id": "2040918146576757109",
+          "text": "google really pushed open source ai  forward this week, \n\n- new gemma 4 open weight models runs your phone / laptop. intelligent. runs privately, cheaply. quick af.\n\nthen there’s turboquant (new ai compression algo) that shrunk ai model memory requirements WITHOUT losing intelligence:\n\n- some solo devs took that algo and re-wired it to work with various GPUs meaning less compute needed to run big models \n\ntrend is pretty clear: the frontier models of tmrw will eventually be small enough to run on our personal devices and that’s fucking amazing",
+          "createdAt": "2026-04-05T22:22:59.000Z",
+          "url": "https://x.com/cryptopunk7213/status/2040918146576757109",
+          "likes": 49,
+          "retweets": 5,
+          "replies": 5,
           "isQuote": true,
-          "quotedTweetId": "2040470801506541998"
-        },
-        {
-          "id": "2040434869399138368",
-          "text": "whoa this is actually fucking sick, a self-improving ai you can use yourself right now (for any task)\n\ndude created an ai agent that autonomously upgraded itself to #1 across multiple domains in < 24 hours…. then open sourced the entire thing\n\nbut here’s why it actually works:\n\n- agents fucking suck, not because of the model, because of their harness (tools, system prompts etc)\n\n- Auto agent creates a Meta agent that tweaks your agents harness, runs tests, improves it again - until it’s #1 at its goal\n\n- best part: you can set this up for ANY task. in this article he uses it for terminal bench (code) and spreadsheets (financial modelling) - it topped rankings for both :)\n\n- secret sauce: he used THE SAME MODEL to evaluate the agent - claude managing claude = better understanding of why it failed and how to improve it\n\nhumans were the fucking bottleneck and this not only saves you a load of time, it’s just a better way to train them for domain specific tasks \n\nseriously check it out",
-          "createdAt": "2026-04-04T14:22:36.000Z",
-          "url": "https://x.com/cryptopunk7213/status/2040434869399138368",
-          "likes": 664,
-          "retweets": 43,
-          "replies": 31,
-          "isQuote": true,
-          "quotedTweetId": "2039843234760073341"
+          "quotedTweetId": "2040874853881004163"
         }
       ]
     },
@@ -808,35 +797,35 @@
       "bio": "📈 Elite trader ($BTC, stocks, commodities)\n📚 Best Selling Author of BIG PROFITS™ (https://t.co/SfmhiMhRVw)\n🚀 Join free newsletter (https://t.co/1F5APL73H3)\n@bullmania",
       "tweets": [
         {
-          "id": "2040784747891163208",
-          "text": "Reading Big Profits™️ is very smart to do during Easter Time indeed 🐥🐥🐥\n\nHE IS RISEN\nBITCOIN WILL RISE EVENTUALLY https://t.co/dFULTucB5V https://t.co/dx9vzyUnBi",
-          "createdAt": "2026-04-05T13:32:54.000Z",
-          "url": "https://x.com/IvanOnTech/status/2040784747891163208",
-          "likes": 7,
-          "retweets": 0,
-          "replies": 3,
-          "isQuote": true,
-          "quotedTweetId": "2040757726033199596"
-        },
-        {
-          "id": "2040756123100176467",
-          "text": "Happy Easter to everyone in our community and all Christians around the world!\n\nTake today off. Close the charts. \nEat too much food with people you love. \nThe market will be there Monday.\nYour family won't always be.\n\nHE IS RISEN! 💛🥚🐣 https://t.co/Zs0CCcGi7H",
-          "createdAt": "2026-04-05T11:39:09.000Z",
-          "url": "https://x.com/IvanOnTech/status/2040756123100176467",
-          "likes": 314,
-          "retweets": 18,
-          "replies": 25,
+          "id": "2041156199526125815",
+          "text": "A trader in my community told me his wife asked him to leave his phone in the car during their daughter's birthday party. \n\n\"She could see I wasn't there. I was sitting at a table full of kids and cake and all I could think about was whether ETH had bounced.\" \n\nTrading without rules doesn't just destroy your portfolio. It destroys your presence. You're never fully in the room.\n\nPart of you is always somewhere else, worrying, calculating, dreading.",
+          "createdAt": "2026-04-06T14:08:55.000Z",
+          "url": "https://x.com/IvanOnTech/status/2041156199526125815",
+          "likes": 87,
+          "retweets": 8,
+          "replies": 19,
           "isQuote": false,
           "quotedTweetId": null
         },
         {
-          "id": "2040717650960023648",
-          "text": "George Bush bullish on US economy fundamentals right before the big collapse of 2008 (from my book Big Profits™️) https://t.co/RadAVHXwjq",
-          "createdAt": "2026-04-05T09:06:17.000Z",
-          "url": "https://x.com/IvanOnTech/status/2040717650960023648",
-          "likes": 17,
-          "retweets": 1,
-          "replies": 2,
+          "id": "2041104074565668909",
+          "text": "Stages of a losing altcoin trader:\n📉-40%: \"I'm long term anyway\"\n📉-60%: can't sleep, checking phone at 3am\n📉-70%: bargaining with God\n📈Market bounces 8%: \"LET'S GO I KNEW IT, NEVER DOUBTED IT\"\n📉-85%: silence",
+          "createdAt": "2026-04-06T10:41:47.000Z",
+          "url": "https://x.com/IvanOnTech/status/2041104074565668909",
+          "likes": 187,
+          "retweets": 12,
+          "replies": 37,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2041061336281399411",
+          "text": "(I have been there many times - below is from my book BIG PROFITS) https://t.co/5IsGYS1N0g",
+          "createdAt": "2026-04-06T07:51:58.000Z",
+          "url": "https://x.com/IvanOnTech/status/2041061336281399411",
+          "likes": 31,
+          "retweets": 2,
+          "replies": 6,
           "isQuote": false,
           "quotedTweetId": null
         }
@@ -1082,6 +1071,6 @@
   ],
   "stats": {
     "xBuilders": 37,
-    "totalTweets": 71
+    "totalTweets": 70
   }
 }
