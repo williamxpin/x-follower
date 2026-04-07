@@ -38,7 +38,7 @@ const STATE_PATH = join(SCRIPT_DIR, '..', 'state-feed.json');
 
 async function loadState() {
   if (!existsSync(STATE_PATH)) {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {}, roundState: null };
   }
   try {
     const state = JSON.parse(await readFile(STATE_PATH, 'utf-8'));
@@ -46,9 +46,11 @@ async function loadState() {
     if (!state.seenArticles) state.seenArticles = {};
     // Ensure lastUserUpdate exists for older state files
     if (!state.lastUserUpdate) state.lastUserUpdate = {};
+    // Ensure roundState exists for older state files
+    if (!state.roundState) state.roundState = null;
     return state;
   } catch {
-    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {} };
+    return { seenTweets: {}, seenVideos: {}, seenArticles: {}, lastUserUpdate: {}, roundState: null };
   }
 }
 
@@ -64,6 +66,7 @@ async function saveState(state) {
   for (const [id, ts] of Object.entries(state.seenArticles || {})) {
     if (ts < cutoff) delete state.seenArticles[id];
   }
+  // roundState is not pruned - it tracks cross-day processing
   await writeFile(STATE_PATH, JSON.stringify(state, null, 2));
 }
 
@@ -254,55 +257,82 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
     }
   }
 
-  // Fetch recent tweets per user (batch processing: process all users in one run)
+  // Fetch recent tweets per user with round-based processing
   const today = new Date().toISOString().split('T')[0];
+  const TARGET_COUNT = xAccounts.length;  // Dynamic: current 54, future may change
   const BATCH_SIZE = 5;
+  const USER_DELAY = 180000;  // 180 seconds between users
   const BATCH_DELAY = 180000; // 180 seconds between batches
   
-  let usersProcessed = 0;
-  let totalUsers = 0;
+  // Initialize or reset roundState based on date
+  if (!state.roundState || state.roundState.lastRunDate !== today) {
+    // New day - reset round state
+    state.roundState = {
+      remainingUsers: [],
+      processedToday: 0,
+      lastRunDate: today,
+      targetCount: TARGET_COUNT
+    };
+    console.error(`New day started. Target: ${TARGET_COUNT} users`);
+  } else {
+    // Continue from previous run today
+    console.error(`Continuing run. Already processed: ${state.roundState.processedToday}/${TARGET_COUNT}`);
+  }
   
-  // Loop: process all users in batches until complete
-  while (true) {
-    // Filter users that haven't been updated today
-    const usersNeedUpdate = [];
-    for (const account of xAccounts) {
-      const lastUpdate = state.lastUserUpdate?.[account.handle];
-      const lastUpdateDate = lastUpdate ? lastUpdate.split('T')[0] : null;
-      if (!lastUpdateDate || lastUpdateDate !== today) {
-        usersNeedUpdate.push(account);
-      }
+  // Build processing queue: remaining from last round + new users
+  const processingQueue = [];
+  const processedHandles = new Set();
+  
+  // 1. First, add remaining users from previous round (if any)
+  for (const handle of (state.roundState.remainingUsers || [])) {
+    const account = xAccounts.find(a => a.handle.toLowerCase() === handle.toLowerCase());
+    if (account && !processedHandles.has(handle.toLowerCase())) {
+      processingQueue.push({ ...account, isCarryOver: true });
+      processedHandles.add(handle.toLowerCase());
     }
-    
-    if (usersNeedUpdate.length === 0) {
-      console.error(`\n✓ All ${totalUsers} users processed for today`);
-      break;  // All users processed, exit loop
+  }
+  
+  // 2. Then add new users from current list until we reach target
+  for (const account of xAccounts) {
+    if (processingQueue.length >= TARGET_COUNT) break;
+    if (!processedHandles.has(account.handle.toLowerCase())) {
+      processingQueue.push({ ...account, isCarryOver: false });
+      processedHandles.add(account.handle.toLowerCase());
     }
+  }
+  
+  const carryOverCount = processingQueue.filter(u => u.isCarryOver).length;
+  const newCount = processingQueue.filter(u => !u.isCarryOver).length;
+  console.error(`Processing queue: ${carryOverCount} carry-over + ${newCount} new = ${processingQueue.length} total`);
+  
+  // Process the queue in batches
+  let batchIndex = 0;
+  while (batchIndex < processingQueue.length) {
+    const batch = processingQueue.slice(batchIndex, batchIndex + BATCH_SIZE);
+    const overallProgress = state.roundState.processedToday + batchIndex;
     
-    if (totalUsers === 0) {
-      totalUsers = usersNeedUpdate.length;
-      console.error(`Found ${totalUsers} users need update today`);
-    }
+    console.error(`\n[Batch ${Math.floor(batchIndex/BATCH_SIZE) + 1}/${Math.ceil(processingQueue.length/BATCH_SIZE)}] Processing ${batch.length} users (${overallProgress}/${TARGET_COUNT})`);
     
-    // Take next batch of users
-    const batch = usersNeedUpdate.slice(0, BATCH_SIZE);
-    console.error(`\nProcessing batch: ${batch.length} users remaining (${usersProcessed}/${totalUsers} completed)`);
-    
-    // Process this batch
+    // Process each user in the batch
     for (let i = 0; i < batch.length; i++) {
       const account = batch[i];
       const userData = userMap[account.handle.toLowerCase()];
+      const userIndex = overallProgress + i + 1;
+      
       if (!userData) {
-        console.error(`  ✗ User not found: @${account.handle}`);
+        console.error(`  ✗ [${userIndex}/${TARGET_COUNT}] User not found: @${account.handle}`);
+        state.roundState.processedToday++;
+        await saveState(state);
         continue;
       }
       
       try {
-        console.error(`[${usersProcessed + i + 1}/${totalUsers}] Fetching @${account.handle}...`);
+        const userType = account.isCarryOver ? 'carry' : 'new';
+        console.error(`  [${userIndex}/${TARGET_COUNT}] (${userType}) Fetching @${account.handle}...`);
         
         const res = await fetch(
           `${X_API_BASE}/users/${userData.id}/tweets?` +
-          `max_results=5` +       // fetch 5, then filter to 3 new ones
+          `max_results=5` +
           `&tweet.fields=created_at,public_metrics,referenced_tweets,note_tweet` +
           `&exclude=retweets,replies` +
           `&start_time=${cutoff.toISOString()}`,
@@ -311,10 +341,10 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
         
         if (!res.ok) {
           errors.push(`X API: Failed to fetch tweets for @${account.handle}: HTTP ${res.status}`);
-          // Mark as updated even on failure to skip in next batch
           state.lastUserUpdate[account.handle] = new Date().toISOString();
+          state.roundState.processedToday++;
           await saveState(state);
-          console.error(`  ✗ Failed @${account.handle}, marked as updated to skip`);
+          console.error(`    ✗ Failed @${account.handle}`);
           continue;
         }
         
@@ -324,12 +354,11 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
         // Filter out already-seen tweets, cap at 3
         const newTweets = [];
         for (const t of allTweets) {
-          if (state.seenTweets[t.id]) continue; // dedup
+          if (state.seenTweets[t.id]) continue;
           if (newTweets.length >= MAX_TWEETS_PER_USER) break;
           
           newTweets.push({
             id: t.id,
-            // note_tweet.text has the full untruncated text for long tweets (>280 chars)
             text: t.note_tweet?.text || t.text,
             createdAt: t.created_at,
             url: `https://x.com/${account.handle}/status/${t.id}`,
@@ -340,7 +369,6 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
             quotedTweetId: t.referenced_tweets?.find(r => r.type === 'quoted')?.id || null
           });
           
-          // Mark as seen
           state.seenTweets[t.id] = Date.now();
         }
         
@@ -351,40 +379,65 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
             handle: account.handle,
             category: account.category || 'Other',
             bio: userData.description,
+            isCarryOver: account.isCarryOver,
             tweets: newTweets
           });
         }
         
-        // Update timestamp immediately after processing each user
         state.lastUserUpdate[account.handle] = new Date().toISOString();
+        state.roundState.processedToday++;
         await saveState(state);
-        console.error(`  ✓ Updated @${account.handle} (${newTweets.length} new tweets)`);
         
-        // Wait 180 seconds between users within the same batch (not after the last one)
+        console.error(`    ✓ Updated @${account.handle} (${newTweets.length} new tweets)`);
+        
+        // Wait between users (except last in batch)
         if (i < batch.length - 1) {
-          console.error(`  Waiting 180 seconds before next user...`);
-          await new Promise(r => setTimeout(r, 180000));
+          console.error(`    Waiting ${USER_DELAY/1000}s before next user...`);
+          await new Promise(r => setTimeout(r, USER_DELAY));
         }
       } catch (err) {
         errors.push(`X API: Error fetching @${account.handle}: ${err.message}`);
-        // Mark as updated even on error to skip in next batch
         state.lastUserUpdate[account.handle] = new Date().toISOString();
+        state.roundState.processedToday++;
         await saveState(state);
-        console.error(`  ✗ Error @${account.handle}, marked as updated to skip`);
+        console.error(`    ✗ Error @${account.handle}`);
       }
     }
     
-    usersProcessed += batch.length;
+    batchIndex += BATCH_SIZE;
     
-    // Wait between batches (not after the last batch)
-    const remainingUsers = totalUsers - usersProcessed;
-    if (remainingUsers > 0) {
-      console.error(`\nCompleted batch. ${remainingUsers} users remaining.`);
-      console.error(`Waiting 180 seconds before next batch...`);
+    // Wait between batches (except last batch)
+    if (batchIndex < processingQueue.length) {
+      const remaining = TARGET_COUNT - state.roundState.processedToday;
+      console.error(`\nBatch complete. ${remaining} users remaining.`);
+      console.error(`Waiting ${BATCH_DELAY/1000}s before next batch...`);
       await new Promise(r => setTimeout(r, BATCH_DELAY));
     }
   }
   
+  // Calculate remaining users for next run
+  const processedHandlesToday = new Set();
+  for (const account of xAccounts) {
+    const lastUpdate = state.lastUserUpdate?.[account.handle];
+    const lastUpdateDate = lastUpdate ? lastUpdate.split('T')[0] : null;
+    if (lastUpdateDate === today) {
+      processedHandlesToday.add(account.handle.toLowerCase());
+    }
+  }
+  
+  const remainingUsers = xAccounts
+    .filter(a => !processedHandlesToday.has(a.handle.toLowerCase()))
+    .map(a => a.handle);
+  
+  state.roundState.remainingUsers = remainingUsers;
+  
+  const isComplete = state.roundState.processedToday >= TARGET_COUNT;
+  console.error(`\n${isComplete ? '✓' : '⚠'} Round ${isComplete ? 'complete' : 'incomplete'}: ${state.roundState.processedToday}/${TARGET_COUNT} processed`);
+  if (remainingUsers.length > 0) {
+    console.error(`  ${remainingUsers.length} users remaining for next run: ${remainingUsers.join(', ')}`);
+  }
+  
+  await saveState(state);
   return results;
 }
 
