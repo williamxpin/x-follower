@@ -254,110 +254,137 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
     }
   }
 
-  // Fetch recent tweets per user (batch processing: 5 users per run)
-  // Filter users that haven't been updated today
+  // Fetch recent tweets per user (batch processing: process all users in one run)
   const today = new Date().toISOString().split('T')[0];
-  const usersNeedUpdate = [];
-  for (const account of xAccounts) {
-    const lastUpdate = state.lastUserUpdate?.[account.handle];
-    const lastUpdateDate = lastUpdate ? lastUpdate.split('T')[0] : null;
-    if (!lastUpdateDate || lastUpdateDate !== today) {
-      usersNeedUpdate.push(account);
+  const BATCH_SIZE = 5;
+  const BATCH_DELAY = 180000; // 180 seconds between batches
+  
+  let usersProcessed = 0;
+  let totalUsers = 0;
+  
+  // Loop: process all users in batches until complete
+  while (true) {
+    // Filter users that haven't been updated today
+    const usersNeedUpdate = [];
+    for (const account of xAccounts) {
+      const lastUpdate = state.lastUserUpdate?.[account.handle];
+      const lastUpdateDate = lastUpdate ? lastUpdate.split('T')[0] : null;
+      if (!lastUpdateDate || lastUpdateDate !== today) {
+        usersNeedUpdate.push(account);
+      }
     }
-  }
-
-  console.error(`Found ${usersNeedUpdate.length} users need update today`);
-
-  // Take first 5 users for this batch
-  const batch = usersNeedUpdate.slice(0, 5);
-  console.error(`Processing batch of ${batch.length} users`);
-
-  // Process batch with 180s delay between users
-  for (let i = 0; i < batch.length; i++) {
-    const account = batch[i];
-    const userData = userMap[account.handle.toLowerCase()];
-    if (!userData) {
-      console.error(`  ✗ User not found: @${account.handle}`);
-      continue;
+    
+    if (usersNeedUpdate.length === 0) {
+      console.error(`\n✓ All ${totalUsers} users processed for today`);
+      break;  // All users processed, exit loop
     }
-
-    try {
-      console.error(`[${i + 1}/${batch.length}] Fetching @${account.handle}...`);
-
-      const res = await fetch(
-        `${X_API_BASE}/users/${userData.id}/tweets?` +
-        `max_results=5` +       // fetch 5, then filter to 3 new ones
-        `&tweet.fields=created_at,public_metrics,referenced_tweets,note_tweet` +
-        `&exclude=retweets,replies` +
-        `&start_time=${cutoff.toISOString()}`,
-        { headers: { 'Authorization': `Bearer ${bearerToken}` } }
-      );
-
-      if (!res.ok) {
-        errors.push(`X API: Failed to fetch tweets for @${account.handle}: HTTP ${res.status}`);
-        // Mark as updated even on failure to skip in next batch
-        state.lastUserUpdate[account.handle] = new Date().toISOString();
-        await saveState(state);
-        console.error(`  ✗ Failed @${account.handle}, marked as updated to skip`);
+    
+    if (totalUsers === 0) {
+      totalUsers = usersNeedUpdate.length;
+      console.error(`Found ${totalUsers} users need update today`);
+    }
+    
+    // Take next batch of users
+    const batch = usersNeedUpdate.slice(0, BATCH_SIZE);
+    console.error(`\nProcessing batch: ${batch.length} users remaining (${usersProcessed}/${totalUsers} completed)`);
+    
+    // Process this batch
+    for (let i = 0; i < batch.length; i++) {
+      const account = batch[i];
+      const userData = userMap[account.handle.toLowerCase()];
+      if (!userData) {
+        console.error(`  ✗ User not found: @${account.handle}`);
         continue;
       }
-
-      const data = await res.json();
-      const allTweets = data.data || [];
-
-      // Filter out already-seen tweets, cap at 3
-      const newTweets = [];
-      for (const t of allTweets) {
-        if (state.seenTweets[t.id]) continue; // dedup
-        if (newTweets.length >= MAX_TWEETS_PER_USER) break;
-
-        newTweets.push({
-          id: t.id,
-          // note_tweet.text has the full untruncated text for long tweets (>280 chars)
-          text: t.note_tweet?.text || t.text,
-          createdAt: t.created_at,
-          url: `https://x.com/${account.handle}/status/${t.id}`,
-          likes: t.public_metrics?.like_count || 0,
-          retweets: t.public_metrics?.retweet_count || 0,
-          replies: t.public_metrics?.reply_count || 0,
-          isQuote: t.referenced_tweets?.some(r => r.type === 'quoted') || false,
-          quotedTweetId: t.referenced_tweets?.find(r => r.type === 'quoted')?.id || null
-        });
-
-        // Mark as seen
-        state.seenTweets[t.id] = Date.now();
+      
+      try {
+        console.error(`[${usersProcessed + i + 1}/${totalUsers}] Fetching @${account.handle}...`);
+        
+        const res = await fetch(
+          `${X_API_BASE}/users/${userData.id}/tweets?` +
+          `max_results=5` +       // fetch 5, then filter to 3 new ones
+          `&tweet.fields=created_at,public_metrics,referenced_tweets,note_tweet` +
+          `&exclude=retweets,replies` +
+          `&start_time=${cutoff.toISOString()}`,
+          { headers: { 'Authorization': `Bearer ${bearerToken}` } }
+        );
+        
+        if (!res.ok) {
+          errors.push(`X API: Failed to fetch tweets for @${account.handle}: HTTP ${res.status}`);
+          // Mark as updated even on failure to skip in next batch
+          state.lastUserUpdate[account.handle] = new Date().toISOString();
+          await saveState(state);
+          console.error(`  ✗ Failed @${account.handle}, marked as updated to skip`);
+          continue;
+        }
+        
+        const data = await res.json();
+        const allTweets = data.data || [];
+        
+        // Filter out already-seen tweets, cap at 3
+        const newTweets = [];
+        for (const t of allTweets) {
+          if (state.seenTweets[t.id]) continue; // dedup
+          if (newTweets.length >= MAX_TWEETS_PER_USER) break;
+          
+          newTweets.push({
+            id: t.id,
+            // note_tweet.text has the full untruncated text for long tweets (>280 chars)
+            text: t.note_tweet?.text || t.text,
+            createdAt: t.created_at,
+            url: `https://x.com/${account.handle}/status/${t.id}`,
+            likes: t.public_metrics?.like_count || 0,
+            retweets: t.public_metrics?.retweet_count || 0,
+            replies: t.public_metrics?.reply_count || 0,
+            isQuote: t.referenced_tweets?.some(r => r.type === 'quoted') || false,
+            quotedTweetId: t.referenced_tweets?.find(r => r.type === 'quoted')?.id || null
+          });
+          
+          // Mark as seen
+          state.seenTweets[t.id] = Date.now();
+        }
+        
+        if (newTweets.length > 0) {
+          results.push({
+            source: 'x',
+            name: account.name,
+            handle: account.handle,
+            category: account.category || 'Other',
+            bio: userData.description,
+            tweets: newTweets
+          });
+        }
+        
+        // Update timestamp immediately after processing each user
+        state.lastUserUpdate[account.handle] = new Date().toISOString();
+        await saveState(state);
+        console.error(`  ✓ Updated @${account.handle} (${newTweets.length} new tweets)`);
+        
+        // Wait 180 seconds between users within the same batch (not after the last one)
+        if (i < batch.length - 1) {
+          console.error(`  Waiting 180 seconds before next user...`);
+          await new Promise(r => setTimeout(r, 180000));
+        }
+      } catch (err) {
+        errors.push(`X API: Error fetching @${account.handle}: ${err.message}`);
+        // Mark as updated even on error to skip in next batch
+        state.lastUserUpdate[account.handle] = new Date().toISOString();
+        await saveState(state);
+        console.error(`  ✗ Error @${account.handle}, marked as updated to skip`);
       }
-
-      if (newTweets.length > 0) {
-        results.push({
-          source: 'x',
-          name: account.name,
-          handle: account.handle,
-          category: account.category || 'Other',
-          bio: userData.description,
-          tweets: newTweets
-        });
-      }
-
-      // Update timestamp immediately after processing each user
-      state.lastUserUpdate[account.handle] = new Date().toISOString();
-      await saveState(state);
-      console.error(`  ✓ Updated @${account.handle} (${newTweets.length} new tweets)`);
-
-      // Wait 180 seconds between users (not after the last one)
-      if (i < batch.length - 1) {
-        console.error(`  Waiting 180 seconds before next user...`);
-        await new Promise(r => setTimeout(r, 180000));
-      }
-    } catch (err) {
-      errors.push(`X API: Error fetching @${account.handle}: ${err.message}`);
-      // Mark as updated even on error to skip in next batch
-      state.lastUserUpdate[account.handle] = new Date().toISOString();
-      await saveState(state);
-      console.error(`  ✗ Error @${account.handle}, marked as updated to skip`);
+    }
+    
+    usersProcessed += batch.length;
+    
+    // Wait between batches (not after the last batch)
+    const remainingUsers = totalUsers - usersProcessed;
+    if (remainingUsers > 0) {
+      console.error(`\nCompleted batch. ${remainingUsers} users remaining.`);
+      console.error(`Waiting 180 seconds before next batch...`);
+      await new Promise(r => setTimeout(r, BATCH_DELAY));
     }
   }
-
+  
   return results;
 }
 
