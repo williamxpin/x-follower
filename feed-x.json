@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T23:22:10.946Z",
+  "generatedAt": "2026-04-07T00:12:49.961Z",
   "lookbackHours": 24,
   "x": [
     {
@@ -47,37 +47,37 @@
       "bio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "tweets": [
         {
-          "id": "2040943889822232790",
-          "text": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead):\n\n\"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult.\n\nNear-term is up to eight weeks from now. What is a concrete thing you can rally a team to ship? [Long-term] is having a vibe that's like, a year from now on how the models will be smarter.\n\nThe product roadmap is an in-between thing that's just kind of awkward. We basically don't have a roadmap.\n\nWe have a combination of a long-term direction and short term bets that we think bring us in that direction.\"\n\n📌 Watch the full interview here: https://t.co/2lbvdTiQUl",
-          "createdAt": "2026-04-06T00:05:16.000Z",
-          "url": "https://x.com/petergyang/status/2040943889822232790",
-          "likes": 6,
+          "id": "2041161557930029406",
+          "text": "More takeaways in this post: https://t.co/MKMwlTQZ54",
+          "createdAt": "2026-04-06T14:30:13.000Z",
+          "url": "https://x.com/petergyang/status/2041161557930029406",
+          "likes": 0,
           "retweets": 0,
           "replies": 0,
+          "isQuote": false,
+          "quotedTweetId": null
+        },
+        {
+          "id": "2041161545175203850",
+          "text": "Codex is @OpenAI's fastest growing product today.\n\nHere are my top 5 takeaways from @embirico and @romainhuet on how the Codex team operates:\n\n1. Plan near or long-term, never medium-term.\n\nNear-term is a concrete thing you can rally a team to ship in 8 weeks. Long-term is a directional vision for where models are heading. Medium-term roadmaps are awkward because this space evolves too fast to plan 6-12 months out.\n\n2. The Codex app almost didn't get built.\n\nThe IDE extension was already popular and the CLI had momentum. Building the app was \"actually quite contentious.\" The bet was to make the simplest interface to manage multiple AI agents at the same time.\n\n3. Observe what power users do, then simplify it for everyone.\n\nSince the Codex harness is open source, cutting-edge devs fork it and experiment with unreleased features. The team watches how they use it, learns from their patterns, then packages it into something simple for all users.\n\n4. Every role on the Codex team is blurring together.\n\nDesigners write more code than engineers did six months ago. Engineers talk to users. PMs send pull requests. Alex himself uses Codex to summarize Slack feedback, post follow-ups to Linear, and explore the codebase. \"It's often faster to send a PR [as a PM] than to get someone else to prioritize that task.\"\n\n5. When hiring, Alex ignores credentials and wants to see what you've built.\n\nWhen someone DMs him about joining Codex, he looks for a link to something they've built. If it's just a resume, he's much less likely to engage. \"I have no idea where applicants went to college. Just show me what you've built.\"\n\n📌 Watch the full episode here: https://t.co/2lbvdTiQUl",
+          "createdAt": "2026-04-06T14:30:09.000Z",
+          "url": "https://x.com/petergyang/status/2041161545175203850",
+          "likes": 39,
+          "retweets": 2,
+          "replies": 7,
           "isQuote": true,
           "quotedTweetId": "2040783271123136750"
         },
         {
-          "id": "2040925261236203804",
-          "text": "More observations from Shanghai:\n\n1. A full-time, live-in nanny costs only $1,500/month  and a personal chef costs $7/hour. There's alot of support for professional working couples here.\n\n2. Didi (Chinese Uber) rides are $3-5 for most trips and you can order delivery for anything for a few bucks.  Things are super convenient.\n\n3. Speaking of cars, every Didi I've been in has been a Chinese EV. Feels like China has adopted EVs much faster than the US. Tesla has <5% market share here.\n\n4. The best food is inside the high-end malls, which are everywhere. Service is outstanding at most places and you don't have to tip.\n\n5. Now the tradeoffs - there are ALOT of people. Traffic is everywhere and motorbikes have no qualms about riding on the sidewalks. Have to be on the lookout for my kids.\n\n6. I haven't seen a single blue sky day since I've been here. The air does feel a bit cleaner now thanks to the EVs.\n\nOverall, if you make anywhere close to US tech salary here you can live very well.",
-          "createdAt": "2026-04-05T22:51:15.000Z",
-          "url": "https://x.com/petergyang/status/2040925261236203804",
-          "likes": 206,
-          "retweets": 11,
-          "replies": 29,
-          "isQuote": true,
-          "quotedTweetId": "2039109117084856454"
-        },
-        {
-          "id": "2040844991116030193",
-          "text": "I think the Codex app is the best AI coding app in the market. But it almost didn't get built.\n\nFrom the Codex team:\n\n\"We knew we needed to get to a point where it feels really natural to be talking to multiple agents.\n\nBut [the app] was actually quite contentious. The IDE extension was super popular. Should we just focus on that? What about CLI?\n\nThere was no specific spec for the app. We had a bunch of prototypes that engineers had built during hack week.\n\nThe decision to build the app was basically it's the best beginner-friendly interface to manage multiple agents at the same time.\"\n\n📌 Watch my full episode with the Codex team: https://t.co/r8VPzmo9EY",
-          "createdAt": "2026-04-05T17:32:17.000Z",
-          "url": "https://x.com/petergyang/status/2040844991116030193",
-          "likes": 113,
-          "retweets": 9,
-          "replies": 21,
-          "isQuote": true,
-          "quotedTweetId": "2040783271123136750"
+          "id": "2041136008130121794",
+          "text": "Can’t beat these Shanghai staples https://t.co/HWPO60pwa1",
+          "createdAt": "2026-04-06T12:48:41.000Z",
+          "url": "https://x.com/petergyang/status/2041136008130121794",
+          "likes": 161,
+          "retweets": 0,
+          "replies": 14,
+          "isQuote": false,
+          "quotedTweetId": null
         }
       ]
     },
