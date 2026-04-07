@@ -67,11 +67,19 @@ async function saveState(state) {
   await writeFile(STATE_PATH, JSON.stringify(state, null, 2));
 }
 
+const DATA_RETENTION_HOURS = 36;  // 推文数据保留时长，超过此时间的用户将被清理
+
 // -- Load Sources ------------------------------------------------------------
 
 async function loadSources() {
   const sourcesPath = join(SCRIPT_DIR, '..', 'config', 'default-sources.json');
-  return JSON.parse(await readFile(sourcesPath, 'utf-8'));
+  const data = JSON.parse(await readFile(sourcesPath, 'utf-8'));
+  return {
+    x_accounts: data.x_accounts || [],
+    categories: data.categories || {},
+    podcasts: data.podcasts || [],
+    blogs: data.blogs || []
+  };
 }
 
 // -- YouTube Fetching (Supadata API) -----------------------------------------
@@ -325,6 +333,7 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
           source: 'x',
           name: account.name,
           handle: account.handle,
+          category: account.category || 'Other',
           bio: userData.description,
           tweets: newTweets
         });
@@ -696,34 +705,112 @@ async function main() {
     const xContent = await fetchXContent(sources.x_accounts, xBearerToken, state, errors);
     console.error(`  Found ${xContent.length} builders with new tweets in this batch`);
 
-    // Merge with existing feed (accumulative mode)
-    let existingFeed = { x: [] };
+    // Merge with existing feed by category (accumulative mode)
+    const categoryBuilders = {};
+    
+    // Initialize categories from config
+    for (const [catId, catConfig] of Object.entries(sources.categories || {})) {
+      categoryBuilders[catId] = new Map();
+    }
+    
+    // Try to load existing feed and populate category maps
     try {
       const existingData = await readFile(join(SCRIPT_DIR, '..', 'feed-x.json'), 'utf-8');
-      existingFeed = JSON.parse(existingData);
+      const existingFeed = JSON.parse(existingData);
+      
+      // Handle old format (flat x array) and new format (categories object)
+      if (existingFeed.x && Array.isArray(existingFeed.x)) {
+        // Old format: migrate to new structure
+        for (const user of existingFeed.x) {
+          const cat = user.category || 'Other';
+          if (!categoryBuilders[cat]) categoryBuilders[cat] = new Map();
+          categoryBuilders[cat].set(user.handle, user);
+        }
+      } else if (existingFeed.categories) {
+        // New format: populate from categories
+        for (const [catId, catData] of Object.entries(existingFeed.categories)) {
+          if (!categoryBuilders[catId]) categoryBuilders[catId] = new Map();
+          for (const user of (catData.builders || [])) {
+            categoryBuilders[catId].set(user.handle, user);
+          }
+        }
+      }
     } catch {
-      // File doesn't exist, use default
+      // File doesn't exist, use initialized empty maps
     }
 
-    // Merge: use Map to deduplicate by handle, new data overwrites old
-    const userMap = new Map(existingFeed.x.map(u => [u.handle, u]));
+    // Merge new content into category maps
     for (const newUser of xContent) {
-      userMap.set(newUser.handle, newUser);
+      const cat = newUser.category || 'Other';
+      if (!categoryBuilders[cat]) categoryBuilders[cat] = new Map();
+      categoryBuilders[cat].set(newUser.handle, newUser);
     }
 
-    const mergedX = Array.from(userMap.values());
-    const totalTweets = mergedX.reduce((sum, a) => sum + a.tweets.length, 0);
+    // Apply 36-hour retention filter and build final categories object
+    const retentionCutoff = Date.now() - DATA_RETENTION_HOURS * 60 * 60 * 1000;
+    const finalCategories = {};
+    let totalBuilders = 0;
+    let totalTweets = 0;
+    const categoryStats = {};
+
+    for (const [catId, builderMap] of Object.entries(categoryBuilders)) {
+      // Filter builders by latest tweet time
+      const filteredBuilders = Array.from(builderMap.values()).filter(user => {
+        if (!user.tweets || user.tweets.length === 0) return false;
+        const latestTweetTime = new Date(user.tweets[0].createdAt).getTime();
+        return latestTweetTime >= retentionCutoff;
+      });
+
+      const removedCount = builderMap.size - filteredBuilders.length;
+      if (removedCount > 0) {
+        console.error(`  [${catId}] Cleaned ${removedCount} users with tweets older than ${DATA_RETENTION_HOURS}h`);
+      }
+
+      const catTweetCount = filteredBuilders.reduce((sum, u) => sum + u.tweets.length, 0);
+      
+      finalCategories[catId] = {
+        builders: filteredBuilders,
+        stats: {
+          builderCount: filteredBuilders.length,
+          tweetCount: catTweetCount
+        }
+      };
+
+      totalBuilders += filteredBuilders.length;
+      totalTweets += catTweetCount;
+      categoryStats[catId] = {
+        builderCount: filteredBuilders.length,
+        tweetCount: catTweetCount
+      };
+    }
+
+    // Remove empty categories
+    for (const catId of Object.keys(finalCategories)) {
+      if (finalCategories[catId].stats.builderCount === 0) {
+        delete finalCategories[catId];
+      }
+    }
 
     const xFeed = {
       generatedAt: new Date().toISOString(),
       lookbackHours: TWEET_LOOKBACK_HOURS,
-      x: mergedX,
-      stats: { xBuilders: mergedX.length, totalTweets },
+      categories: finalCategories,
+      totalStats: {
+        totalBuilders,
+        totalTweets,
+        byCategory: categoryStats
+      },
       errors: errors.filter(e => e.startsWith('X API')).length > 0
         ? errors.filter(e => e.startsWith('X API')) : undefined
     };
+    
     await writeFile(join(SCRIPT_DIR, '..', 'feed-x.json'), JSON.stringify(xFeed, null, 2));
-    console.error(`  feed-x.json: ${mergedX.length} builders total, ${totalTweets} tweets`);
+    console.error(`  feed-x.json: ${totalBuilders} builders total, ${totalTweets} tweets`);
+    for (const [catId, stats] of Object.entries(categoryStats)) {
+      if (stats.builderCount > 0) {
+        console.error(`    - ${catId}: ${stats.builderCount} builders, ${stats.tweetCount} tweets`);
+      }
+    }
   }
 
   // Fetch podcasts
