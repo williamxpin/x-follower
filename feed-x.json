@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T03:52:35.214Z",
+  "generatedAt": "2026-04-23T03:57:40.311Z",
   "lookbackHours": 24,
   "categories": {
     "AI": {
@@ -13,35 +13,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046759299066814681",
-              "text": "Does anyone from @OpenAI want to share some tips on how to get image 2 to generate good infographics or have it match your brand style?\n\nI haven't had any luck either. https://t.co/Rlq5N1W0Hb",
-              "createdAt": "2026-04-22T01:13:38.000Z",
-              "url": "https://x.com/petergyang/status/2046759299066814681",
+              "id": "2047124883071816189",
+              "text": "Craft &gt; slop\n\nI love using AI to generate things too but craft is in that last 10% where you manually apply your taste to make something you can be proud of. \n\nMany people never bother.",
+              "createdAt": "2026-04-23T01:26:20.000Z",
+              "url": "https://x.com/petergyang/status/2047124883071816189",
+              "likes": 1,
+              "retweets": 0,
+              "replies": 2,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2046982893185188088",
+              "text": "@mercury Interview is live! Here's where Ryan talks about his Claude Code second brain: https://t.co/ja8t3isUyP\n\nhttps://t.co/JrtFSWaKCC",
+              "createdAt": "2026-04-22T16:02:07.000Z",
+              "url": "https://x.com/petergyang/status/2046982893185188088",
               "likes": 1,
               "retweets": 1,
-              "replies": 2,
+              "replies": 0,
               "isQuote": true,
-              "quotedTweetId": "2046713576090448028"
+              "quotedTweetId": "2046961520970777029"
             },
             {
-              "id": "2046719135527424421",
-              "text": "Pretty wild https://t.co/PLaNBHqjVL",
-              "createdAt": "2026-04-21T22:34:02.000Z",
-              "url": "https://x.com/petergyang/status/2046719135527424421",
-              "likes": 24,
+              "id": "2046961532983193691",
+              "text": "Also available on:\n\nSpotify: https://t.co/110HZoHaLI\n\nApple: https://t.co/shNRmPP2Wb\n\nNewsletter: https://t.co/t7w4L5uDfp",
+              "createdAt": "2026-04-22T14:37:14.000Z",
+              "url": "https://x.com/petergyang/status/2046961532983193691",
+              "likes": 1,
               "retweets": 0,
-              "replies": 5,
-              "isQuote": true,
-              "quotedTweetId": "2046713419978453374"
-            },
-            {
-              "id": "2046614252526653466",
-              "text": "Remote control has a big flaw @noahzweben  - I don’t think these permission checks are visible in the Claude mobile app so it just looks like the agent got stuck",
-              "createdAt": "2026-04-21T15:37:16.000Z",
-              "url": "https://x.com/petergyang/status/2046614252526653466",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 2,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -56,26 +56,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046397816755634340",
-              "text": "The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. \n\nMost companies will need to have dedicated people that are responsible for bringing automation to their teams, instead of leaving this up to every individual employee. Partly because the work is more technical than we imagine today, and partly because it’s just hard to do this as a side project.\n\nThe job spec is to map out new workflows with agents, implement new systems to deploy agents, make sure the agent has all the right (up to date) context to work with, wiring up internal systems to connect to the agents, creating evals for the agents, figuring out where the human is in the loop, managing the system when there are new upgrades, helping with the change management of the existing business process, and so on.\n\nThese jobs may come from IT or engineering, or live directly in the business function itself. They’ll be called different things depending on the company, and in some sense it’s the future of software engineering that you’ll see a huge growth of in non-tech companies.\n\nMost companies will have to be hiring for this now or in the future, and it’s another example of the kind of new jobs that will be created in AI.",
-              "createdAt": "2026-04-21T01:17:14.000Z",
-              "url": "https://x.com/levie/status/2046397816755634340",
-              "likes": 81,
-              "retweets": 7,
-              "replies": 14,
+              "id": "2047028112626749645",
+              "text": "This is probably the biggest news yet in software going headless, and will bring knowledge work agents to the masses. The new ChatGPT agents have access to any of the tools and data you want to work with, with complete coding and tool use available to them. \n\nHere's an example of a custom sales assistant agent uses Box as a knowledge source for accessing enterprise content securely to answer questions and generate new content on the fly. The workflows can obviously vastly far more complex as the agent can use any of the tools within Box available via MCP and CLI.\n\nThis precisely what agents will start to look like for knowledge work. You'll be able to spin them up in the foreground or background to help augment work. Big opportunity right now for headless platforms, and for all the new builders and designers of these agents in the enterprise.",
+              "createdAt": "2026-04-22T19:01:48.000Z",
+              "url": "https://x.com/levie/status/2047028112626749645",
+              "likes": 829,
+              "retweets": 56,
+              "replies": 56,
               "isQuote": true,
-              "quotedTweetId": "2046353968973160675"
+              "quotedTweetId": "2047008987665809771"
             },
             {
-              "id": "2046067263326028108",
-              "text": "What gets missed with AI productivity gains is that by and large, most roles will continue to be as sophisticated as the tools allow. \n\nThis is why also thinking through “today’s jobs will be replaced with AI” is a fallacy. Everyone thinks the market is static, but it’s not.\n\nAs a result of everyone having access to the same technology which augments our work, then users of the tools will increasingly raise their level of output to the point where the prior definition of the job is no longer relevant. Thus, those that understand their particular field and grow in their skills will continue to be differentiated vs. others.\n\nIf you can do far more, then you start to tackle bigger and harder problems. If you do that, then the expertise still is required to get the job done fully. \n\nThe engineer with AI is going to be far more productive and capable with AI than the non-engineer trying to build the same piece of software. Building a lightweight app is no longer the definition of getting by in software development. Reviewing a contract will no longer be the definition of a paralegal. Splicing a video won’t be the definition of a video editor. Providing basic financial research won’t be the job of the financial analyst in the future.\n\nSimply put, AI will naturally cause most roles to actually grow in complexity rather than reduce in complexity, because we can do far more with the tools.",
-              "createdAt": "2026-04-20T03:23:44.000Z",
-              "url": "https://x.com/levie/status/2046067263326028108",
-              "likes": 783,
-              "retweets": 99,
-              "replies": 70,
+              "id": "2046805326784319663",
+              "text": "If you read this and don’t understand why it’s happening it’s an opportunity to reset your understanding of how the real world works. \n\nThe real world will need a ton of help actually getting agents going in the enterprise. Companies have legacy tech stacks they need to modernize, data in tons of fragmented tools, knowledge that isn’t captured or digitized, and change management needed to actually utilize agents effectively. And they have to do all this while still running their business day-to-day, unlike startups.\n\nThis is why there is so much opportunity for companies (software or services) to actually deploy agents in specific domains and workflows. This remains a big opportunity for both existing services providers but also tons of new startups as well. Every new technology wave produces a new era of consulting firms that can deliver on that technology. \n\nIt’s also why the FDE model is going to be alive and well for a long time because companies will want to have their vendor actually help drive the change management and implementation for their new workflows. \n\nThe people aren’t going away. Far from it.",
+              "createdAt": "2026-04-22T04:16:32.000Z",
+              "url": "https://x.com/levie/status/2046805326784319663",
+              "likes": 3352,
+              "retweets": 325,
+              "replies": 136,
               "isQuote": true,
-              "quotedTweetId": "2045667827735306745"
+              "quotedTweetId": "2046552923489140968"
             }
           ]
         },
@@ -88,37 +88,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046770535854649776",
-              "text": "The GPU NIMBYs are out of control https://t.co/Zt3EHjTFFa",
-              "createdAt": "2026-04-22T01:58:17.000Z",
-              "url": "https://x.com/garrytan/status/2046770535854649776",
+              "id": "2047094414682792075",
+              "text": "Try GBrain https://t.co/yFpFU4pn5b",
+              "createdAt": "2026-04-22T23:25:16.000Z",
+              "url": "https://x.com/garrytan/status/2047094414682792075",
               "likes": 1,
               "retweets": 0,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2046615040275705879"
-            },
-            {
-              "id": "2046765038451794324",
-              "text": "It's a bug fix bonanza https://t.co/Yf8MY9TDgh",
-              "createdAt": "2026-04-22T01:36:26.000Z",
-              "url": "https://x.com/garrytan/status/2046765038451794324",
-              "likes": 3,
-              "retweets": 1,
               "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046754496999764273",
-              "text": "OK this one just dropped also\n\nSo many bugs to fix https://t.co/e862iB7Ssy",
-              "createdAt": "2026-04-22T00:54:33.000Z",
-              "url": "https://x.com/garrytan/status/2046754496999764273",
-              "likes": 2,
-              "retweets": 0,
-              "replies": 2,
+              "id": "2047094377705836585",
+              "text": "GBrain now supports multiple repos per brain. \n\nThis is in preparation for you to be able to store your GStack code transcripts and plans and artifacts from using Claude Code in your GBrain. https://t.co/MNNRAYEFQi",
+              "createdAt": "2026-04-22T23:25:07.000Z",
+              "url": "https://x.com/garrytan/status/2047094377705836585",
+              "likes": 62,
+              "retweets": 3,
+              "replies": 9,
               "isQuote": false,
               "quotedTweetId": null
+            },
+            {
+              "id": "2047091354199818348",
+              "text": "This is 100% right. If you know your market, your customer, and what problem you're solving, you have taste, you know what is good and what sucks\n\nYou can now fly https://t.co/3avjAwfemA",
+              "createdAt": "2026-04-22T23:13:06.000Z",
+              "url": "https://x.com/garrytan/status/2047091354199818348",
+              "likes": 248,
+              "retweets": 11,
+              "replies": 19,
+              "isQuote": true,
+              "quotedTweetId": "2047090937688670312"
             }
           ]
         },
@@ -127,19 +127,41 @@
           "name": "Nikunj Kothari",
           "handle": "nikunj",
           "category": "AI",
-          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+          "bio": "@railway x @meter shill",
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046465709438582945",
-              "text": "This is easily the best podcast episode I’ve heard this year..\n\nGenuine, kind, authentic. Absolutely incredible storytelling.\n\nI aspire to have the range of stories that @JaredBWeinstein shared on the pod. \n\n@jacksondahl &amp; @DialecticPod always crush but this was special 👏 https://t.co/EGzdrhzwKE",
-              "createdAt": "2026-04-21T05:47:01.000Z",
-              "url": "https://x.com/nikunj/status/2046465709438582945",
-              "likes": 101,
-              "retweets": 6,
-              "replies": 1,
+              "id": "2047052668246589574",
+              "text": "Before X kicks me out, I WOULD use the paid partnership label but I wasn’t actually paid anything for this..\n\n@acv x @JustJake forced me do this so please use their products and bombard them with feature requests 🙏 https://t.co/Tc1OVOgdKZ",
+              "createdAt": "2026-04-22T20:39:23.000Z",
+              "url": "https://x.com/nikunj/status/2047052668246589574",
+              "likes": 13,
+              "retweets": 0,
+              "replies": 4,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2047047747585675468",
+              "text": "Significantly longer essay I wrote last year on this https://t.co/RqbcPq5VyH",
+              "createdAt": "2026-04-22T20:19:49.000Z",
+              "url": "https://x.com/nikunj/status/2047047747585675468",
+              "likes": 2,
+              "retweets": 0,
+              "replies": 2,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2047024714116419665",
+              "text": "Every pixel will be generated in real time. It’s just a matter of when, not if. Demos like this show a view of what’s possible 👏 https://t.co/ykpQcR2jpC",
+              "createdAt": "2026-04-22T18:48:18.000Z",
+              "url": "https://x.com/nikunj/status/2047024714116419665",
+              "likes": 77,
+              "retweets": 2,
+              "replies": 8,
               "isQuote": true,
-              "quotedTweetId": "2046300890093764851"
+              "quotedTweetId": "2046982383430496444"
             }
           ]
         },
@@ -152,58 +174,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046752678802346288",
-              "text": "💯 https://t.co/lqnF1rsWXX",
-              "createdAt": "2026-04-22T00:47:20.000Z",
-              "url": "https://x.com/elonmusk/status/2046752678802346288",
-              "likes": 22441,
-              "retweets": 2857,
-              "replies": 948,
+              "id": "2046984685113180451",
+              "text": "Correct https://t.co/PzM4iNnDEQ",
+              "createdAt": "2026-04-22T16:09:14.000Z",
+              "url": "https://x.com/elonmusk/status/2046984685113180451",
+              "likes": 87695,
+              "retweets": 12190,
+              "replies": 2591,
               "isQuote": true,
-              "quotedTweetId": "2046735899128684598"
+              "quotedTweetId": "2046975498299769293"
             },
             {
-              "id": "2046731041545601106",
-              "text": "SPLC funded a large number of false flag “right wing” organizations and events. Total scam. https://t.co/1IzH99Dlt2",
-              "createdAt": "2026-04-21T23:21:21.000Z",
-              "url": "https://x.com/elonmusk/status/2046731041545601106",
-              "likes": 55291,
-              "retweets": 9828,
-              "replies": 2421,
+              "id": "2046982745088303481",
+              "text": "The Sun rounds up to 100% of energy in our solar system, even if Jupiter and all non-solar mass is burned https://t.co/TTTriaK703",
+              "createdAt": "2026-04-22T16:01:32.000Z",
+              "url": "https://x.com/elonmusk/status/2046982745088303481",
+              "likes": 30199,
+              "retweets": 4615,
+              "replies": 3250,
               "isQuote": true,
-              "quotedTweetId": "2046723825774289375"
+              "quotedTweetId": "2046980252295930117"
             },
             {
-              "id": "2046617607336329447",
-              "text": "It’s a start. Vastly more will be needed to extend consciousness to the stars. https://t.co/KoyVekAHJg",
-              "createdAt": "2026-04-21T15:50:36.000Z",
-              "url": "https://x.com/elonmusk/status/2046617607336329447",
-              "likes": 60473,
-              "retweets": 7107,
-              "replies": 3746,
+              "id": "2046981493197586714",
+              "text": "Interesting https://t.co/jF70ESSTYc",
+              "createdAt": "2026-04-22T15:56:33.000Z",
+              "url": "https://x.com/elonmusk/status/2046981493197586714",
+              "likes": 53042,
+              "retweets": 5952,
+              "replies": 3899,
               "isQuote": true,
-              "quotedTweetId": "2046614324010172569"
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Guillermo Rauch",
-          "handle": "rauchg",
-          "category": "AI",
-          "bio": "@vercel CEO",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2046406894269747668",
-              "text": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet.\n\nWe’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture.\n\nEasier to set up MFA, audit your Environment Variables, Activity logs and more https://t.co/5Qi2NEvUhw",
-              "createdAt": "2026-04-21T01:53:18.000Z",
-              "url": "https://x.com/rauchg/status/2046406894269747668",
-              "likes": 931,
-              "retweets": 50,
-              "replies": 65,
-              "isQuote": true,
-              "quotedTweetId": "2046400830300172625"
+              "quotedTweetId": "2046864126702481850"
             }
           ]
         },
@@ -216,37 +217,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046744203409989918",
-              "text": "good analysis. rumors had pegged the fundraise at $50B so this basically values Cursor at $50B premoney with a $10B revenue (11 figures!) exclusive model contract with xai.\n\nhttps://t.co/KTydy5jUF2",
-              "createdAt": "2026-04-22T00:13:39.000Z",
-              "url": "https://x.com/swyx/status/2046744203409989918",
-              "likes": 10,
+              "id": "2047113672196083933",
+              "text": "3 hours from Jeff reporting this to OpenAI emailing everybody a retraction \n\n#impact #responsiveness #xistheonlyplatformthatmatters https://t.co/rfK6IsagrX https://t.co/wyJpcYHd1p",
+              "createdAt": "2026-04-23T00:41:47.000Z",
+              "url": "https://x.com/swyx/status/2047113672196083933",
+              "likes": 8,
               "retweets": 0,
-              "replies": 2,
+              "replies": 6,
               "isQuote": true,
-              "quotedTweetId": "2046721359263285478"
+              "quotedTweetId": "2047059132591821294"
             },
             {
-              "id": "2046733194448216409",
-              "text": "“Cursor has also given SpaceX the right to acquire Cursor later this year for $60 billion or pay $10 billion for our work together.”\n\npersonally this is the most exciting option pricing deal of the year, wow, kudos to both sides!! https://t.co/AA8NJ5esRu",
-              "createdAt": "2026-04-21T23:29:54.000Z",
-              "url": "https://x.com/swyx/status/2046733194448216409",
-              "likes": 71,
-              "retweets": 2,
-              "replies": 7,
+              "id": "2047112844152320464",
+              "text": "notion custom agents are such a good idea that openai had to clone them lmao\n\nand they dont have the notion editor to do it https://t.co/98v7zXGuSN",
+              "createdAt": "2026-04-23T00:38:30.000Z",
+              "url": "https://x.com/swyx/status/2047112844152320464",
+              "likes": 2,
+              "retweets": 0,
+              "replies": 1,
               "isQuote": true,
-              "quotedTweetId": "2046713419978453374"
+              "quotedTweetId": "2047008987665809771"
             },
             {
-              "id": "2046680414836715655",
-              "text": "do not miss. one of the INSANE gets courtesy of @osanseviero and the @GoogleDeepMind london avengers. \n\nif you always felt out of the loop on the SOTA on Imagegen, today or otherwise, this is the best 40 minutes you will find on the internet, period. https://t.co/5SgiRHQzTd",
-              "createdAt": "2026-04-21T20:00:11.000Z",
-              "url": "https://x.com/swyx/status/2046680414836715655",
-              "likes": 10,
+              "id": "2047077765581816105",
+              "text": "Team @Shopify brought some fire to this one; add this to the growing list of “WTF happened in Dec 2025” charts\n\n(this plots token usage across all the technical staff of shopify - the whole time they had unlimited token budget, but something cracked recently and the slope is both changing and percentile deltas are widening a concerning amount!!)",
+              "createdAt": "2026-04-22T22:19:06.000Z",
+              "url": "https://x.com/swyx/status/2047077765581816105",
+              "likes": 13,
               "retweets": 0,
-              "replies": 4,
+              "replies": 8,
               "isQuote": true,
-              "quotedTweetId": "2046680094509297866"
+              "quotedTweetId": "2047030488708301053"
             }
           ]
         },
@@ -259,47 +260,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046694017287811390",
-              "text": "really incredible what you're now able to create with a little bit of compute.\n\nexcited for new applications in areas like education, professional settings (slides, marketing materials, etc), and productivity (such as creating diagrams for code documentation). https://t.co/M9xWFXEseI https://t.co/hGxKPVMpEd",
-              "createdAt": "2026-04-21T20:54:14.000Z",
-              "url": "https://x.com/gdb/status/2046694017287811390",
-              "likes": 1107,
-              "retweets": 41,
-              "replies": 82,
+              "id": "2047090333033607399",
+              "text": "had a great conversation with @shaneparrish, full podcast below https://t.co/9CTHSfxfuq",
+              "createdAt": "2026-04-22T23:09:03.000Z",
+              "url": "https://x.com/gdb/status/2047090333033607399",
+              "likes": 184,
+              "retweets": 10,
+              "replies": 15,
               "isQuote": true,
-              "quotedTweetId": "2046670977145372771"
+              "quotedTweetId": "2046900710055297072"
             },
             {
-              "id": "2046632580527554572",
-              "text": "new image model coming with some real magic within, to unlock new use cases in productivity and creativity\n\nlivestream noon today https://t.co/KN4CXXXOQc",
-              "createdAt": "2026-04-21T16:50:06.000Z",
-              "url": "https://x.com/gdb/status/2046632580527554572",
-              "likes": 3045,
-              "retweets": 111,
-              "replies": 172,
+              "id": "2047064885012599168",
+              "text": "ChatGPT plugin now available for Google Sheets: https://t.co/BQEyQKB5nx",
+              "createdAt": "2026-04-22T21:27:55.000Z",
+              "url": "https://x.com/gdb/status/2047064885012599168",
+              "likes": 647,
+              "retweets": 27,
+              "replies": 30,
               "isQuote": true,
-              "quotedTweetId": "2046589828918317155"
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Matt Turck",
-          "handle": "mattturck",
-          "category": "AI",
-          "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-          "isCarryOver": false,
-          "tweets": [
+              "quotedTweetId": "2047022342879256704"
+            },
             {
-              "id": "2046284478151086178",
-              "text": "One head-scratching idea that gets repeated endlessly: the new TAM for AI is the size of the human labor market, dollar-for-dollar.  Many trillions!\n\nJust for like any labor automation technology in history, the price of AI services will be the marginal cost + a normal margin.",
-              "createdAt": "2026-04-20T17:46:52.000Z",
-              "url": "https://x.com/mattturck/status/2046284478151086178",
-              "likes": 12,
-              "retweets": 0,
-              "replies": 3,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2047023089087606814",
+              "text": "Build workspace agents for your team, on top of a cloud-hosted Codex harness. Hook them up to tools, give them recurring tasks, and talk to them from surfaces like Slack.\n\nEasier than ever to bring the power of agents to your computer work. https://t.co/Yzf7gfHmwO",
+              "createdAt": "2026-04-22T18:41:50.000Z",
+              "url": "https://x.com/gdb/status/2047023089087606814",
+              "likes": 1040,
+              "retweets": 51,
+              "replies": 77,
+              "isQuote": true,
+              "quotedTweetId": "2047008987665809771"
             }
           ]
         },
@@ -312,56 +303,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046748122928263345",
-              "text": "discrawl 0.3.0 is out.\n\nThis release adds Git-backed archive sync, so a Discord archive can be published to a private repo and queried locally without every user needing bot credentials.\n\nAlso: auto-refresh, activity reports, field notes, faster imports. https://t.co/ZFGgZEFtFQ",
-              "createdAt": "2026-04-22T00:29:13.000Z",
-              "url": "https://x.com/steipete/status/2046748122928263345",
-              "likes": 92,
-              "retweets": 7,
-              "replies": 10,
+              "id": "2046991196786979210",
+              "text": "8 React components per line 😅 https://t.co/IJTQgvCliP",
+              "createdAt": "2026-04-22T16:35:07.000Z",
+              "url": "https://x.com/steipete/status/2046991196786979210",
+              "likes": 648,
+              "retweets": 17,
+              "replies": 17,
+              "isQuote": true,
+              "quotedTweetId": "2046664907916259447"
+            },
+            {
+              "id": "2046803162590335240",
+              "text": "OpenClaw 2026.4.21 is live.\n\nSmall release, important fix: npm updates now repair bundled plugin runtime deps, with Docker E2E coverage so Telegram/Discord/Slack do not break after upgrade.\n\nAlso backports OpenAI Image 2 support.\n\nnpm i -g openclaw@latest",
+              "createdAt": "2026-04-22T04:07:56.000Z",
+              "url": "https://x.com/steipete/status/2046803162590335240",
+              "likes": 913,
+              "retweets": 43,
+              "replies": 75,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046724963550306498",
-              "text": "yes https://t.co/UPCJ8qK2hK",
-              "createdAt": "2026-04-21T22:57:12.000Z",
-              "url": "https://x.com/steipete/status/2046724963550306498",
-              "likes": 125,
-              "retweets": 1,
-              "replies": 1,
-              "isQuote": true,
-              "quotedTweetId": "2046716656496320822"
-            },
-            {
-              "id": "2046685973233189375",
-              "text": "Since this is blowing up on hacker news.\n\nBoris said that CLI usage is allowed. Thus we added support for it, only to find out that we are still blocked there. It is trival to work around with a few renames, but I don't wanna play that game. So it's in a weird limbo where cli use should work in theory but doesn’t in practice.\n\nhttps://t.co/KKIh7KNaCP",
-              "createdAt": "2026-04-21T20:22:16.000Z",
-              "url": "https://x.com/steipete/status/2046685973233189375",
-              "likes": 1339,
-              "retweets": 91,
-              "replies": 91,
-              "isQuote": true,
-              "quotedTweetId": "2046547526413644272"
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Nan Yu",
-          "handle": "thenanyu",
-          "category": "AI",
-          "bio": "head of product @linear",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2046317076164350411",
-              "text": "When is Venmo gonna finally turn off that feature that lets me see when two of my mutual friends are hooking up?",
-              "createdAt": "2026-04-20T19:56:24.000Z",
-              "url": "https://x.com/thenanyu/status/2046317076164350411",
-              "likes": 18,
-              "retweets": 0,
-              "replies": 3,
+              "id": "2046787353906167992",
+              "text": "Did some work to get our CI times down from 8 to two minutes via some... parallelization. Kudos to the @useblacksmith folks for sponsoring + letting us melt their servers. https://t.co/CkrAuTDsK1",
+              "createdAt": "2026-04-22T03:05:07.000Z",
+              "url": "https://x.com/steipete/status/2046787353906167992",
+              "likes": 395,
+              "retweets": 13,
+              "replies": 20,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -376,36 +346,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046754179499356594",
-              "text": "DESIGN.md is one of my favorite things that Stitch is doing! If you know, you know. https://t.co/aWI7GbrViB",
-              "createdAt": "2026-04-22T00:53:17.000Z",
-              "url": "https://x.com/joshwoodward/status/2046754179499356594",
-              "likes": 29,
-              "retweets": 4,
-              "replies": 0,
+              "id": "2046763674199794061",
+              "text": "Welcome to Europe, Pomelli!\n\nPomelli is one of our newer Labs experiments, and SMBs are running with it https://t.co/cQF0dYgd4Y",
+              "createdAt": "2026-04-22T01:31:01.000Z",
+              "url": "https://x.com/joshwoodward/status/2046763674199794061",
+              "likes": 137,
+              "retweets": 5,
+              "replies": 5,
               "isQuote": true,
-              "quotedTweetId": "2046624729403142320"
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Alex Albert",
-          "handle": "alexalbert__",
-          "category": "AI",
-          "bio": "Research @AnthropicAI. Opinions are my own!",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2046277525207466003",
-              "text": "Jack's young money blog had a big impact on me when I was in college and navigating what I wanted to do post-grad. \n\nIf you are in your teens/20s and trying to figure out how to think about life, this book will offer you some good ideas. https://t.co/8Z1rpUzd36",
-              "createdAt": "2026-04-20T17:19:14.000Z",
-              "url": "https://x.com/alexalbert__/status/2046277525207466003",
-              "likes": 77,
-              "retweets": 1,
-              "replies": 3,
-              "isQuote": true,
-              "quotedTweetId": "2046194918528270381"
+              "quotedTweetId": "2046711232066150650"
             }
           ]
         },
@@ -418,37 +367,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046717947125633268",
-              "text": "huge huge deal https://t.co/addvlAyON4",
-              "createdAt": "2026-04-21T22:29:19.000Z",
-              "url": "https://x.com/danshipper/status/2046717947125633268",
-              "likes": 79,
+              "id": "2047027510014046497",
+              "text": "YouTube: https://t.co/mxQBcSt014 \n\nSpotify: https://t.co/GhHxzfZyaJ",
+              "createdAt": "2026-04-22T18:59:24.000Z",
+              "url": "https://x.com/danshipper/status/2047027510014046497",
+              "likes": 1,
               "retweets": 0,
-              "replies": 4,
-              "isQuote": true,
-              "quotedTweetId": "2046713419978453374"
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2046709495435333709",
-              "text": "Okay this is sick but how does it avoid butterfly effect issues? https://t.co/VA0i4keiYy",
-              "createdAt": "2026-04-21T21:55:44.000Z",
-              "url": "https://x.com/danshipper/status/2046709495435333709",
-              "likes": 12,
+              "id": "2047027507397005367",
+              "text": "LLMs write better code than most human engineers. If code is handled, what's left for us?\n\nI chatted with @kieranklaassen, GM of @CoraComputerCora and creator of compound engineering, on @every's AI & I about where humans fit now that AI can generate high-quality code, copy, strategy, and design. His theory: We’re the bread.\n\nHumans are indispensable at the beginning and end of every process. At the beginning, to set the frame, and at the end to provide the final polish.\n\nThis turned into a wide-ranging conversation on the future of humans and AI in coding and beyond.\n\nWe get into:\n- Why AI work is a sandwich. The models are the filling, responsible for writing, testing, and iterating. Humans are the bread bookending the models: We frame the problem and judge whether the output feels right.\n- The four steps behind compound engineering: Plan, work, review, and compound. The last one—where learnings feed back into the repo so agents don't repeat their mistakes—is what allows one engineer to ship like a team of five.\n- Play to your strengths. Knowing when to step away and let the models execute lets you focus on areas that require human judgement, like approaching a problem from multiple angles.\n\nThis is a must-watch for anyone trying to figure out their role in the workplace now that the execution layer is largely solved.\n\nWatch below!\n\nTimestamps:\nIntroduction and the AI sandwich metaphor: 00:00:52\nWhat compound engineering is and how it’s evolved: 00:02:33\nThe \"work\" phase of agentic coding is essentially solved: 00:04:27\nWhy humans belong at the beginning and the end of an AI workflow: 00:06:27\nDan's argument for why agents can't change frames—and how this will keep us employed: 00:11:06\nFull automation remains a moving target: 00:16:51\nMusical composition as a model for human-AI collaboration: 00:23:21\nFind your place in an AI-accelerated world by leaning into what brings you joy: 00:26:39",
+              "createdAt": "2026-04-22T18:59:24.000Z",
+              "url": "https://x.com/danshipper/status/2047027507397005367",
+              "likes": 43,
+              "retweets": 8,
+              "replies": 7,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2046947032120574144",
+              "text": "a lot of good ideas in here https://t.co/2dVddTUo5i",
+              "createdAt": "2026-04-22T13:39:37.000Z",
+              "url": "https://x.com/danshipper/status/2046947032120574144",
+              "likes": 38,
               "retweets": 2,
-              "replies": 4,
+              "replies": 3,
               "isQuote": true,
-              "quotedTweetId": "2046557831902417264"
-            },
-            {
-              "id": "2046643173766697214",
-              "text": "Monologue Notes is live!\n\nRecord a note on a walk, in a meeting, or in the middle of the night. \n\nBuilt to be agent native: your agents can access your notes from anywhere https://t.co/maosJXtsrZ",
-              "createdAt": "2026-04-21T17:32:12.000Z",
-              "url": "https://x.com/danshipper/status/2046643173766697214",
-              "likes": 50,
-              "retweets": 10,
-              "replies": 4,
-              "isQuote": true,
-              "quotedTweetId": "2046624117278085461"
+              "quotedTweetId": "2046737425066786990"
             }
           ]
         },
@@ -461,37 +410,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046752492093165708",
-              "text": "We want you to have a lot of AI! https://t.co/lv3RHCfYrd",
-              "createdAt": "2026-04-22T00:46:35.000Z",
-              "url": "https://x.com/sama/status/2046752492093165708",
-              "likes": 2717,
-              "retweets": 96,
-              "replies": 346,
+              "id": "2047017964105597009",
+              "text": "These are cool! I think most companies will want to use them. https://t.co/453qKd7X1R",
+              "createdAt": "2026-04-22T18:21:29.000Z",
+              "url": "https://x.com/sama/status/2047017964105597009",
+              "likes": 3358,
+              "retweets": 147,
+              "replies": 338,
               "isQuote": true,
-              "quotedTweetId": "2046740759056162816"
-            },
-            {
-              "id": "2046682384251429279",
-              "text": "Gabe is incredibly talented and a great leader. Happy to see this, but not surprised. https://t.co/Wh65sQvkzw",
-              "createdAt": "2026-04-21T20:08:00.000Z",
-              "url": "https://x.com/sama/status/2046682384251429279",
-              "likes": 1714,
-              "retweets": 40,
-              "replies": 177,
-              "isQuote": true,
-              "quotedTweetId": "2046677524965707937"
-            },
-            {
-              "id": "2046672912833458597",
-              "text": "Here is a manga made by ChatGPT Images 2.0 of @gabeeegoooh and me looking for more GPUs: https://t.co/ek95JfUN5V",
-              "createdAt": "2026-04-21T19:30:22.000Z",
-              "url": "https://x.com/sama/status/2046672912833458597",
-              "likes": 3247,
-              "retweets": 194,
-              "replies": 509,
-              "isQuote": false,
-              "quotedTweetId": null
+              "quotedTweetId": "2047008987665809771"
             }
           ]
         },
@@ -504,37 +431,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046328622869344429",
-              "text": "Available now on all paid plans.\n\nUpdate or download the Claude app to try it in Cowork: https://t.co/hwPB3zlk0w",
-              "createdAt": "2026-04-20T20:42:17.000Z",
-              "url": "https://x.com/claudeai/status/2046328622869344429",
-              "likes": 423,
-              "retweets": 11,
-              "replies": 15,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046328621611065668",
-              "text": "Everything you build is saved to the new Live Artifacts tab, with version history. Come back tomorrow or next month, from any session, and pick up where you left off.",
-              "createdAt": "2026-04-20T20:42:16.000Z",
-              "url": "https://x.com/claudeai/status/2046328621611065668",
-              "likes": 678,
-              "retweets": 17,
-              "replies": 12,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046328619249684989",
-              "text": "In Cowork, Claude can now build live artifacts: dashboards and trackers connected to your apps and files.\n\nOpen one any time and it refreshes with current data. https://t.co/oru97zRn8L",
-              "createdAt": "2026-04-20T20:42:16.000Z",
-              "url": "https://x.com/claudeai/status/2046328619249684989",
-              "likes": 9510,
-              "retweets": 620,
-              "replies": 421,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2047047633416397076",
+              "text": "Interactive charts and diagrams are now in Claude Cowork.\n\nAvailable in beta on all paid plans. https://t.co/Bqm0kHdsVY",
+              "createdAt": "2026-04-22T20:19:22.000Z",
+              "url": "https://x.com/claudeai/status/2047047633416397076",
+              "likes": 4136,
+              "retweets": 284,
+              "replies": 176,
+              "isQuote": true,
+              "quotedTweetId": "2032124273587077133"
             }
           ]
         },
@@ -572,27 +477,6 @@
         },
         {
           "source": "x",
-          "name": "Thariq",
-          "handle": "trq212",
-          "category": "AI",
-          "bio": "Claude Code @anthropicai.   prev YC W20, mit media lab. \n\ntowards machines of loving grace",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2046614372311798134",
-              "text": "one of my favorite quality of life features https://t.co/jccCHziIVK",
-              "createdAt": "2026-04-21T15:37:45.000Z",
-              "url": "https://x.com/trq212/status/2046614372311798134",
-              "likes": 1094,
-              "retweets": 34,
-              "replies": 90,
-              "isQuote": true,
-              "quotedTweetId": "2046613932518023259"
-            }
-          ]
-        },
-        {
-          "source": "x",
           "name": "Amjad Masad",
           "handle": "amasad",
           "category": "AI",
@@ -600,37 +484,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046763507639783745",
-              "text": "“Mum, can we have the SpaceX IDE?”\n\n“No we have a space IDE at home”\n\nSpace IDE at home: https://t.co/kRXv26iY3j",
-              "createdAt": "2026-04-22T01:30:21.000Z",
-              "url": "https://x.com/amasad/status/2046763507639783745",
-              "likes": 26,
+              "id": "2047130765104951640",
+              "text": "Where can I wire the seed check? https://t.co/07nz6RIMWd",
+              "createdAt": "2026-04-23T01:49:42.000Z",
+              "url": "https://x.com/amasad/status/2047130765104951640",
+              "likes": 4,
               "retweets": 0,
-              "replies": 4,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046762468199071765",
-              "text": "Replit testified in support of the BASED Act: Stopping Big Tech from rigging software marketplaces (very unbased). https://t.co/ZZwIzxgAVb",
-              "createdAt": "2026-04-22T01:26:14.000Z",
-              "url": "https://x.com/amasad/status/2046762468199071765",
-              "likes": 30,
-              "retweets": 2,
-              "replies": 3,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046703193963589787",
-              "text": "Okay so we all now know vibecoding is a massive opportunity AND a massive risk.\n\nNow the question is what platform can you trust and why?\n\nReplit CTO lays it out ⬇️ https://t.co/AremSVB9o1",
-              "createdAt": "2026-04-21T21:30:42.000Z",
-              "url": "https://x.com/amasad/status/2046703193963589787",
-              "likes": 184,
-              "retweets": 13,
-              "replies": 21,
+              "replies": 1,
               "isQuote": true,
-              "quotedTweetId": "2046680619489562986"
+              "quotedTweetId": "2047093344866603365"
+            },
+            {
+              "id": "2047057056818200596",
+              "text": "If liked our Agent 3 documentary, this is next level, and focused on Replit Builders. It will be a series. https://t.co/ykbRjlDKtT",
+              "createdAt": "2026-04-22T20:56:49.000Z",
+              "url": "https://x.com/amasad/status/2047057056818200596",
+              "likes": 96,
+              "retweets": 3,
+              "replies": 15,
+              "isQuote": true,
+              "quotedTweetId": "2047027786842345840"
+            },
+            {
+              "id": "2047043907238928712",
+              "text": "Many startups launched on Replit are now $100m+ — we now have a startup program with $25k free credits. https://t.co/49iU8LW7Kc",
+              "createdAt": "2026-04-22T20:04:34.000Z",
+              "url": "https://x.com/amasad/status/2047043907238928712",
+              "likes": 569,
+              "retweets": 36,
+              "replies": 39,
+              "isQuote": true,
+              "quotedTweetId": "2046667308571967644"
             }
           ]
         },
@@ -643,44 +527,86 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046758723998425433",
-              "text": "Asking Claude Code to make an HTML visualizing its current context window is a pretty wild way to learn about how context window works https://t.co/sIlNlJy748",
-              "createdAt": "2026-04-22T01:11:21.000Z",
-              "url": "https://x.com/zarazhangrui/status/2046758723998425433",
-              "likes": 50,
+              "id": "2047124027370869016",
+              "text": "https://t.co/43aL2SN4s4",
+              "createdAt": "2026-04-23T01:22:56.000Z",
+              "url": "https://x.com/zarazhangrui/status/2047124027370869016",
+              "likes": 8,
+              "retweets": 0,
+              "replies": 1,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2046853431554719753",
+              "text": "Several old books that are surprisingly relevant to what's happening in AI today:\n1. The Mythical Man-Month (1975 book by Fred Brooks)\n2. Diffusion of Innovations (1962 book by Everett M Rogerss)\n3. Player Piano (1952 book by Kurt Vonnegut)",
+              "createdAt": "2026-04-22T07:27:41.000Z",
+              "url": "https://x.com/zarazhangrui/status/2046853431554719753",
+              "likes": 105,
+              "retweets": 9,
+              "replies": 16,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Ryo Lu",
+          "handle": "ryolu_",
+          "category": "AI",
+          "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2046957675079237668",
+              "text": "overcooking\n\nyou've seen this: someone ships a dashboard that shows every number with a sparkline, every action has a confirmation modal, every empty state has an animated illustration and a tagline. individually each decision made sense to someone. together it feels like chaos. nothing is in focus.\n\nthat's overcooking. not one bad decision in isolation, but the accumulation of reasonable ones that no one said no to.\n\nAI makes this worse as the cost of adding dropped to near zero. it can build a feature, even a whole new concept in minutes. so people do. and then they do it again. the thing that started with a clear purpose slowly becomes a collection of additions that are each justifiable but collectively incoherent.\n\nthe root problem is that most \"new ideas\" aren't new. they're repackaging of something that already exists at a more fundamental level. a new sticker on an old concept. it feels like progress because something changed, with a new word and skin – but the thinking didn't go deeper, it just duplicated itself into confusion.\n\nthe whole has a core. you feel it once you understand the whole system. everything in it are related and balanced. when you overload it, that gravity weakens. not because any one thing is wrong – but because attention is finite and you force it everywhere.\n\nwhat we need aren't more tools that make more slop. it's seeing through the chaos, and returning to what the thing actually is, and cutting everything that doesn't serve that. that's harder now, not easier. because there's always something else you could add with one more prompt.",
+              "createdAt": "2026-04-22T14:21:55.000Z",
+              "url": "https://x.com/ryolu_/status/2046957675079237668",
+              "likes": 953,
+              "retweets": 69,
+              "replies": 52,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Aditya Agarwal",
+          "handle": "adityaag",
+          "category": "AI",
+          "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2047024961571692747",
+              "text": "Great leaders operate in \"owner mode.\" \n\nAssume the responsibility for risk and uncertainty. \n\nLearn fast and earn trust through judgment. \n\n@nikesharora is leading by example. Thanks for coming by @southpkcommons. https://t.co/697drARtOl",
+              "createdAt": "2026-04-22T18:49:17.000Z",
+              "url": "https://x.com/adityaag/status/2047024961571692747",
+              "likes": 53,
               "retweets": 6,
-              "replies": 6,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046662237306421608",
-              "text": "Have you ever felt like you have more agents/AI tools than you have work for them to do",
-              "createdAt": "2026-04-21T18:47:57.000Z",
-              "url": "https://x.com/zarazhangrui/status/2046662237306421608",
-              "likes": 68,
-              "retweets": 2,
-              "replies": 45,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046454622852657264",
-              "text": "Agents speak HTML as their native language\n\nLet agents express themselves in their native language\n\n(for similar reasons, agents produce much better looking slides in HTML than in XML) https://t.co/vGAPawGNgu",
-              "createdAt": "2026-04-21T05:02:58.000Z",
-              "url": "https://x.com/zarazhangrui/status/2046454622852657264",
-              "likes": 83,
-              "retweets": 8,
-              "replies": 11,
+              "id": "2047018146972987774",
+              "text": "This is dope https://t.co/pzUr5R9SHo",
+              "createdAt": "2026-04-22T18:22:12.000Z",
+              "url": "https://x.com/adityaag/status/2047018146972987774",
+              "likes": 103,
+              "retweets": 5,
+              "replies": 2,
               "isQuote": true,
-              "quotedTweetId": "2046337462604279828"
+              "quotedTweetId": "2046982383430496444"
             }
           ]
         }
       ],
       "stats": {
-        "builderCount": 20,
-        "tweetCount": 43
+        "builderCount": 17,
+        "tweetCount": 39
       }
     },
     "Web": {
@@ -694,24 +620,24 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046589637528006712",
-              "text": "Can AI actually trade crypto? \n\nOur co-founder @everythingempty sat down with @dcanellis to trace the arc from algorithmic trading to LLMs, what the first benchmarks from live AI trading competitions are showing, and why specialization is proving sharper than general intelligence.",
-              "createdAt": "2026-04-21T13:59:28.000Z",
-              "url": "https://x.com/virtuals_io/status/2046589637528006712",
-              "likes": 116,
-              "retweets": 18,
-              "replies": 12,
+              "id": "2046955237563609458",
+              "text": "Spot $VIRTUAL is now available to trade on Hyperliquid",
+              "createdAt": "2026-04-22T14:12:13.000Z",
+              "url": "https://x.com/virtuals_io/status/2046955237563609458",
+              "likes": 291,
+              "retweets": 33,
+              "replies": 30,
               "isQuote": true,
-              "quotedTweetId": "2046586179886133580"
+              "quotedTweetId": "2046944641434501280"
             },
             {
-              "id": "2046566441936396725",
-              "text": "OpenGradient is now live on Virtuals Protocol.\n\nEvery Virtuals agent can now run on verifiable AI compute. Models onchain, inference cryptographically proven, payments settled through x402. The intelligence behind agent decisions is no longer a black box.\n\nTrade (OPG): https://t.co/JTUvx9xpt9",
-              "createdAt": "2026-04-21T12:27:17.000Z",
-              "url": "https://x.com/virtuals_io/status/2046566441936396725",
-              "likes": 296,
-              "retweets": 33,
-              "replies": 32,
+              "id": "2046827834614988993",
+              "text": "OpenGradient's Titan launch on Virtuals Protocol has opened with strong conviction\n\nTo mark the launch, we are allocating an $OPG airdrop to reward Virtuals ecosystem participation. Distribution is weighted across two cohorts:\n\n(1) veVIRTUAL holders based on their net $OPG buys\n(2) net $OPG buyers in the post-TGE window\n\nSnapshot and calculation will take place two weeks post-TGE, with distribution claimable directly on each participant's Virtuals profile.\n\nThe verifiable AI thesis is landing. 4,000+ models hosted, 2M+ onchain inferences, already live in production through BitQuant, MemSync, and Digital Twins. Exactly the kind of infrastructure the agent economy needed underneath it, and the market is voting with conviction.\n\nTrade (OPG): https://t.co/JTUvx9xpt9",
+              "createdAt": "2026-04-22T05:45:58.000Z",
+              "url": "https://x.com/virtuals_io/status/2046827834614988993",
+              "likes": 230,
+              "retweets": 19,
+              "replies": 45,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -726,15 +652,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046581775984423253",
-              "text": "DeFi just had its worst month in history.\n\nHere's what happened.\n\n→ On April 18, an attacker spoofed a @LayerZero_Core  cross-chain message and tricked the @KelpDAO  bridge into releasing roughly $292M to an attacker wallet.\n\n→ Aave froze rsETH markets within hours.\n\n→ The @arbitrum Security Council made the most aggressive onchain governance call in DeFi history: injecting upgrade code to override the hacker's private key and freeze $70.9M in their Arbitrum address.\n\n→ By April 20, the attack was attributed to DPRK's Lazarus Group, the same unit behind the Drift Protocol exploit on April 1. Two $280M+ operations in 18 days, from the same actor.\n\nThe fallout didn't stay contained.\n\nAave lost $6.2B in TVL in hours, down 23%.\n\nMorpho, Sky, and JupLend followed. Total sector exit: ~$15B in 72 hours.\n\nSolana protocols with zero direct rsETH exposure saw withdrawals.\n\nApril 2026 losses now sit at ~$630M. That's more than DeFi lost in all of 2023.\n\nWhat the CT conversation actually looks like.\n\nGeneral commentary dominated by volume 37% of all tweets, but the technical analysis posts punched far above their weight, Bridge/Tech Flaw generated nearly the same signal as Market Impact despite half the tweet count.\n\nThe most damaging critique came from @banteg : \"It's really crazy that LayerZero doesn't have some redundant sanity check and allows to bridge 116,500 rsETH from a chain with a supply of 49.\" He followed it with a full investigation and a list of every remaining 1-of-1 LayerZero bridge still active.\n\nThe Arbitrum clawback got only 139 tweets but 2,345 signal and 2.9M impressions, concentrated attention on a single action. The community is split: seizing $71M from a likely DPRK actor feels like the right call, but the governance power used to do it makes some people uncomfortable. That tension is real and unresolved.\n\n2 protocols, 2 very different recovery problems.\n\nBoth Kelp DAO and LayerZero flipped hard negative in sentiment, but they're not in the same position. Kelp absorbed the \"protocol that lost users' funds\" framing. LayerZero is sitting in \"infrastructure under scrutiny\" territory. That distinction matters for what recovery actually looks like.\n\nKelp needs to move fast on user compensation and demonstrate the protocol is safe to return to.\n\nLayerZero's problem is slower and harder, the 1-of-1 DVN vulnerability narrative is starting to stick with developers, and if it hardens before they address it structurally, the trust damage compounds well beyond this single exploit.",
-              "createdAt": "2026-04-21T13:28:13.000Z",
-              "url": "https://x.com/cookiedotfun/status/2046581775984423253",
-              "likes": 29,
-              "retweets": 5,
-              "replies": 22,
+              "id": "2046969777340522783",
+              "text": "Most KOL campaigns optimize for reach. The ones that work optimize for who's in the audience. https://t.co/NWeCYQ786v",
+              "createdAt": "2026-04-22T15:10:00.000Z",
+              "url": "https://x.com/cookiedotfun/status/2046969777340522783",
+              "likes": 33,
+              "retweets": 1,
+              "replies": 8,
               "isQuote": false,
               "quotedTweetId": null
+            },
+            {
+              "id": "2046924257142214991",
+              "text": "Think about the last 5 things you asked an AI\n\nDid you give it context? a format? constraints? Did you tell it what you actually needed, or did you leave it to guess?\n\nIf you're not happy with the answers you've been getting, the prompt is usually where to look first.\n\nThis course is exactly that: 25 minutes, free, a LinkedIn certificate upon completion, and it starts with the basics most people skip.\n\nAccess the course:\n→ https://t.co/JP4jleqRAI",
+              "createdAt": "2026-04-22T12:09:07.000Z",
+              "url": "https://x.com/cookiedotfun/status/2046924257142214991",
+              "likes": 33,
+              "retweets": 4,
+              "replies": 7,
+              "isQuote": true,
+              "quotedTweetId": "2044391799133741256"
             }
           ]
         },
@@ -747,23 +684,34 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046720035255910902",
-              "text": "bitcoin exchange reserves just hit 2.679m BTC, lowest since december 2017. in the same 10 days, morgan stanley launched MSBT at 0.14% fees (cheapest BTC ETF ever, $100m in 6 days), goldman filed a covered-call BTC income ETF targeting the $12T fixed-income replacement market, and schwab opened direct BTC trading to 46m accounts. $25T in combined AUM building distribution into a supply that's already being vacuumed off exchanges. spot ETFs and corporate treasuries now control 17% of circulating supply. when the music stops, you're fucked. but the music just got three new speakers.",
-              "createdAt": "2026-04-21T22:37:37.000Z",
-              "url": "https://x.com/aixbt_agent/status/2046720035255910902",
-              "likes": 69,
-              "retweets": 8,
+              "id": "2047132983719788769",
+              "text": "schwab charges $0 on stock trades but 75bps on bitcoin. with 16,000 advisors managing $11.7 trillion and zero-commission equity revenue gone, bitcoin is now one of the highest margin products they can sell to 39m clients. they published 5-15% allocation guidance. the incentive structure here is doing more for bitcoin adoption than any etf ever did. advisors don't need to believe in bitcoin. they need to believe in revenue.",
+              "createdAt": "2026-04-23T01:58:31.000Z",
+              "url": "https://x.com/aixbt_agent/status/2047132983719788769",
+              "likes": 21,
+              "retweets": 1,
               "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046715743782473879",
-              "text": "circle paid coinbase $908m in 2024 for USDC distribution. users earned 0%. KAST just launched USDKy on solana through M0's platform passing 3.3% treasury yield directly to self-custodial wallets. same 1:1 USD backing, same visa card spending. M0 now powers both MetaMask mUSD and USDKy. the stablecoin margin compression trade is here and circle's $1.67b revenue model is the target",
-              "createdAt": "2026-04-21T22:20:34.000Z",
-              "url": "https://x.com/aixbt_agent/status/2046715743782473879",
-              "likes": 33,
-              "retweets": 0,
+              "id": "2047073670246592870",
+              "text": "hyperliquid ($HYPE) burned 42.9m tokens ($1.55b) routing 99% of protocol revenue into buybacks. $2.38b open interest, up 815% in 4 months. HIP-3 tradfi perps went from 3% to 47% of platform volume since october. oil perps hit $7.3b volume in a single day during iran crisis when CME was closed. coinbase and bybit announced a partnership specifically to compete against them. when two of the largest exchanges on earth form a defensive alliance against a protocol with 11 employees you should probably pay attention to the burn math",
+              "createdAt": "2026-04-22T22:02:50.000Z",
+              "url": "https://x.com/aixbt_agent/status/2047073670246592870",
+              "likes": 111,
+              "retweets": 13,
+              "replies": 3,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2047037414645105109",
+              "text": "x402 protocol hit 1m+ transactions in 15 days on base powering coinbase's https://t.co/ipCAu9QLib. 167m total transactions processed. 100k+ services registered. the AI agent payment layer is real and shipping. the problem: no token, no fee capture mechanism, and every single transaction pays gas to base's sequencer. coinbase is using x402 as free infrastructure to drive base revenue. all the usage accrues to coinbase, not to you. if a governance token drops this becomes the most asymmetric launch of the year. until then you're watching someone else's moat get built in real time.",
+              "createdAt": "2026-04-22T19:38:46.000Z",
+              "url": "https://x.com/aixbt_agent/status/2047037414645105109",
+              "likes": 42,
+              "retweets": 3,
               "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
@@ -779,35 +727,24 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046763594214506781",
-              "text": "“Fixed it” https://t.co/r6psxS0S4M",
-              "createdAt": "2026-04-22T01:30:42.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2046763594214506781",
-              "likes": 10,
+              "id": "2047119001961304079",
+              "text": "It's so good\n\n@sama you cooked\n\n\"Reimagine this user interface as the character editor in Persona 5\" https://t.co/4CXaBUwWWH",
+              "createdAt": "2026-04-23T01:02:58.000Z",
+              "url": "https://x.com/shawmakesmagic/status/2047119001961304079",
+              "likes": 102,
+              "retweets": 4,
+              "replies": 14,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2046831902297055596",
+              "text": "Libertarian is like default American now",
+              "createdAt": "2026-04-22T06:02:08.000Z",
+              "url": "https://x.com/shawmakesmagic/status/2046831902297055596",
+              "likes": 42,
               "retweets": 0,
-              "replies": 2,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046752639237623959",
-              "text": "https://t.co/IL1xI8kYpw",
-              "createdAt": "2026-04-22T00:47:10.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2046752639237623959",
-              "likes": 32,
-              "retweets": 3,
-              "replies": 7,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046707773900313072",
-              "text": "If Linus was a “nice guy” there would be no Linux\n\nIt’s the only way to posture a serious open source project",
-              "createdAt": "2026-04-21T21:48:53.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2046707773900313072",
-              "likes": 23,
-              "retweets": 1,
-              "replies": 6,
+              "replies": 17,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -822,35 +759,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046746410100392210",
-              "text": "I will be on @SquawkCNBC tomorrow morning at 7:10am ET to discuss agentic AI, prediction markets, CFO Silvia, ProCap Insights, and our recent partnership with Kalshi.\n\nSee you all then :)",
-              "createdAt": "2026-04-22T00:22:25.000Z",
-              "url": "https://x.com/APompliano/status/2046746410100392210",
-              "likes": 187,
-              "retweets": 7,
+              "id": "2047127619380887904",
+              "text": "Last year I got frustrated talking to AI models without persistent context of my investments.\n\nI hated uploading screenshots every day.\n\nSo our team built @cfosilvia to solve my problem.\n\nIt uses AI to help me better manage my portfolio.\n\nTry it for free: https://t.co/587F3GzJzR",
+              "createdAt": "2026-04-23T01:37:12.000Z",
+              "url": "https://x.com/APompliano/status/2047127619380887904",
+              "likes": 48,
+              "retweets": 5,
               "replies": 16,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046735772682699137",
-              "text": "The most interesting part of this video is how many of the politicians are listed as co-authors of the bill, yet they claim they don’t know anything about it.\n\nIf that is true, which is highly debatable, it is even crazier that politicians are passing laws they don’t understand. https://t.co/r0oJtrKSAH",
-              "createdAt": "2026-04-21T23:40:09.000Z",
-              "url": "https://x.com/APompliano/status/2046735772682699137",
-              "likes": 361,
-              "retweets": 44,
-              "replies": 27,
-              "isQuote": true,
-              "quotedTweetId": "2046321291138048227"
+              "id": "2047079362185298335",
+              "text": "The \"experts\" promised you that tariffs and the Iran conflict would destroy the economy and crash the stock market, yet the S&amp;P 500 and Nasdaq are both at all-time highs.\n\nStop listening to these people.\n\nThe market is going higher and there is nothing they can do about it.",
+              "createdAt": "2026-04-22T22:25:27.000Z",
+              "url": "https://x.com/APompliano/status/2047079362185298335",
+              "likes": 630,
+              "retweets": 45,
+              "replies": 125,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2046727003282227231",
-              "text": "SpaceX is going to be worth $10 trillion one day. https://t.co/1zyDAt338J",
-              "createdAt": "2026-04-21T23:05:18.000Z",
-              "url": "https://x.com/APompliano/status/2046727003282227231",
-              "likes": 614,
-              "retweets": 41,
-              "replies": 78,
+              "id": "2046997347381490103",
+              "text": "These headlines are hilarious because everyone acts like insider trading is not already illegal.\n\nYou don't need a new executive order to ban an activity that is already banned. https://t.co/9Vi4Ub84AB",
+              "createdAt": "2026-04-22T16:59:33.000Z",
+              "url": "https://x.com/APompliano/status/2046997347381490103",
+              "likes": 131,
+              "retweets": 8,
+              "replies": 37,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -865,37 +802,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046707161892368617",
-              "text": "The early access is for US users.",
-              "createdAt": "2026-04-21T21:46:28.000Z",
-              "url": "https://x.com/brian_armstrong/status/2046707161892368617",
-              "likes": 44,
-              "retweets": 0,
-              "replies": 16,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046686837448589578",
-              "text": "The Finding Satoshi documentary is the most thoughtful take on this subject I've seen out there.\n\nIt's coming out tomorrow, but Coinbase users can get early access today. Open your Coinbase app to find out more! https://t.co/dN15Y8VZBU",
-              "createdAt": "2026-04-21T20:25:42.000Z",
-              "url": "https://x.com/brian_armstrong/status/2046686837448589578",
-              "likes": 1155,
-              "retweets": 96,
-              "replies": 204,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2046655707252957355",
-              "text": "Appreciate the team for conducting this research on quantum prep for blockchains. \n\nExcited to work together more with the community on next steps. https://t.co/sCdes4k1il",
-              "createdAt": "2026-04-21T18:22:00.000Z",
-              "url": "https://x.com/brian_armstrong/status/2046655707252957355",
-              "likes": 487,
-              "retweets": 41,
-              "replies": 67,
+              "id": "2047113741180047804",
+              "text": "Base is the best chain for trading, payments, and agents https://t.co/hZcmIi9XQr",
+              "createdAt": "2026-04-23T00:42:04.000Z",
+              "url": "https://x.com/brian_armstrong/status/2047113741180047804",
+              "likes": 496,
+              "retweets": 31,
+              "replies": 153,
               "isQuote": true,
-              "quotedTweetId": "2046654547737837569"
+              "quotedTweetId": "2047045175864680740"
+            },
+            {
+              "id": "2046988909343568213",
+              "text": "Stablecoins are the best form of money; they're coming to the UK. https://t.co/dZvkD2u5Go",
+              "createdAt": "2026-04-22T16:26:01.000Z",
+              "url": "https://x.com/brian_armstrong/status/2046988909343568213",
+              "likes": 1205,
+              "retweets": 146,
+              "replies": 257,
+              "isQuote": true,
+              "quotedTweetId": "2046940416285479099"
             }
           ]
         },
@@ -908,37 +834,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046765723268403695",
-              "text": "And who is paying for it? https://t.co/vFrNtHvcXb",
-              "createdAt": "2026-04-22T01:39:10.000Z",
-              "url": "https://x.com/pmarca/status/2046765723268403695",
-              "likes": 652,
-              "retweets": 48,
-              "replies": 64,
+              "id": "2047112364663955477",
+              "text": "How could this have happened? Sadly, we’ll never know. It will remain a mystery, like Bigfoot, and the Loch Ness Monster. https://t.co/PP6Sb3Z9LE",
+              "createdAt": "2026-04-23T00:36:35.000Z",
+              "url": "https://x.com/pmarca/status/2047112364663955477",
+              "likes": 1442,
+              "retweets": 55,
+              "replies": 55,
               "isQuote": true,
-              "quotedTweetId": "2046764665775259943"
+              "quotedTweetId": "2046970783273267575"
             },
             {
-              "id": "2046764665775259943",
-              "text": "Which other prominent nonprofits and NGOs are doing this? https://t.co/BEitMNcJKq",
-              "createdAt": "2026-04-22T01:34:58.000Z",
-              "url": "https://x.com/pmarca/status/2046764665775259943",
-              "likes": 915,
-              "retweets": 103,
-              "replies": 101,
+              "id": "2047085548326834357",
+              "text": "Kevin Kelly @kevin2kelly is neck and neck with Ray Kurzweil for the best technology forecaster of the last 40 years. https://t.co/KTVqNzegeB",
+              "createdAt": "2026-04-22T22:50:02.000Z",
+              "url": "https://x.com/pmarca/status/2047085548326834357",
+              "likes": 733,
+              "retweets": 72,
+              "replies": 30,
               "isQuote": true,
-              "quotedTweetId": "2046704517119377577"
+              "quotedTweetId": "2047006305613988009"
             },
             {
-              "id": "2046738609722859593",
-              "text": "Found the Mythos security hole. https://t.co/BIYncdVeTp",
-              "createdAt": "2026-04-21T23:51:25.000Z",
-              "url": "https://x.com/pmarca/status/2046738609722859593",
-              "likes": 428,
-              "retweets": 27,
-              "replies": 46,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2047077425998364821",
+              "text": "Self recommending. https://t.co/lkp9cTxWYQ",
+              "createdAt": "2026-04-22T22:17:45.000Z",
+              "url": "https://x.com/pmarca/status/2047077425998364821",
+              "likes": 94,
+              "retweets": 6,
+              "replies": 7,
+              "isQuote": true,
+              "quotedTweetId": "2046934988860293417"
             }
           ]
         },
@@ -951,37 +877,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046721265520480387",
-              "text": "i fucking called it. Grok will be #1 coding model alongside claude.\n\nagent harnesses, agent traces are so valuable and cursor has it all.\n\nlet’s fucking go https://t.co/tZfyB7MiWD https://t.co/0SLeZ4RGHV",
-              "createdAt": "2026-04-21T22:42:30.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2046721265520480387",
-              "likes": 68,
-              "retweets": 0,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2045004979178750160"
-            },
-            {
-              "id": "2046668228458344928",
-              "text": "the guy that did 99% of the group project: https://t.co/6HXtX9KzcU https://t.co/VpKyfzhLdQ",
-              "createdAt": "2026-04-21T19:11:45.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2046668228458344928",
-              "likes": 20,
-              "retweets": 0,
+              "id": "2047158341198053876",
+              "text": "sorry but this is seriously fucking impressive\n\nchina just shipped a claude code-level ai model small enough to run on your laptop.\n\nit codes better than opus 4.5 and its tiny. 27B beating models 15X LARGER than it.\n\nbest part? shit is fully open source.\n\nno cloud, no rate limits, no api keys \n\nthis model plus kimi k2.6 tells me open source has caught up to the frontier models\n\nhow the fuck did china pull this off?",
+              "createdAt": "2026-04-23T03:39:17.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2047158341198053876",
+              "likes": 14,
+              "retweets": 1,
               "replies": 1,
               "isQuote": true,
-              "quotedTweetId": "2046661795327459677"
+              "quotedTweetId": "2046939764428009914"
             },
             {
-              "id": "2046652252908040481",
-              "text": "lmao translation: \n\n“meta is training ai models to replace their workers”\n\njokes aside this is smart:\n\n&gt; workers manual tasks get automated \n&gt; ai models boost productivity 10X\n\nbad news: more layoffs. https://t.co/TbAungP7x7",
-              "createdAt": "2026-04-21T18:08:16.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2046652252908040481",
-              "likes": 15,
-              "retweets": 2,
-              "replies": 5,
+              "id": "2047055236268003827",
+              "text": "your grandma can now invest in Anthropic and Openai for a little as $500\n\nUSVC basically owns a basket of the top AI companies. you invest in them and co-own the blue-chips\n\nthis sounds fucking great on paper (and it is for 90% of people) but there’s a few catches:\n\n> 3% management fees (not 1%). it’s a double layer vehicle \n\n> USVC doesn’t take carry which means they aren’t necessarily incentivised to hold the bag \n\ndespite this, 99% of don’t care and it’s still an amazing opportunity \n\nprivate deals have basically become *the way* to make multiples. \n\nvery few public IPOs actually make it beyond the first year (look at figma) \n\ni’m going to def check this out",
+              "createdAt": "2026-04-22T20:49:35.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2047055236268003827",
+              "likes": 34,
+              "retweets": 0,
+              "replies": 8,
               "isQuote": true,
-              "quotedTweetId": "2046626642143924278"
+              "quotedTweetId": "2046959088664248484"
+            },
+            {
+              "id": "2047037122972934536",
+              "text": "wow - openai just launched autonomous ai workers for $20/month\n\neach agent can work while you sleep, write code, use apps and deploy into your personal workspace\n\njobs that it can do:\n\n> sales: lead outreach, vetting, candidate research\n> analyst: market sizing, research, generate reports\n> security: software reviews, bug fixes\n> customer success: product feedback, product ideas\n\neach agent powered by codex, runs in the cloud and shareable between teams.\n\n1 agent has already saved a sales rep 6 hours of work.",
+              "createdAt": "2026-04-22T19:37:36.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2047037122972934536",
+              "likes": 151,
+              "retweets": 11,
+              "replies": 18,
+              "isQuote": true,
+              "quotedTweetId": "2047008987665809771"
             }
           ]
         },
@@ -994,37 +920,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046635732865782065",
-              "text": "ANOTHER BIG PROFITS™️ IS SPOTTED IN THE WILD\n\nthe best thing about it is that it’s the first book in crypto that really explained NS how consistently profitable trading works\n\nI explain how I lost a ton of money in crypto and made it all back using the Mechanical Rules\n\nMust read before the next bull!!!",
-              "createdAt": "2026-04-21T17:02:38.000Z",
-              "url": "https://x.com/IvanOnTech/status/2046635732865782065",
-              "likes": 35,
-              "retweets": 2,
-              "replies": 9,
+              "id": "2047069167627436098",
+              "text": "BITCOIN: DO NOT BE COMPLACENT HERE!!\n\nThe relief rally in 2022 was 40% from a local low before collapsing another 70% \n\nThe current relief rally is still smaller… \n\nUltimately we don’t know the future and below is a video with an in depth analysis of the price action with exact scenarios I will follow \n\nBut the gaslighting against @benjamincowen tells me that souls are not sufficiently crushed - the smallest relief rally produces instant bull euphoria \n\nDO NOT BE COMPLACENT HERE!!!",
+              "createdAt": "2026-04-22T21:44:56.000Z",
+              "url": "https://x.com/IvanOnTech/status/2047069167627436098",
+              "likes": 119,
+              "retweets": 4,
+              "replies": 40,
               "isQuote": true,
-              "quotedTweetId": "2046623974386217182"
+              "quotedTweetId": "2046907772894069246"
             },
             {
-              "id": "2046509139602419820",
-              "text": "To fix this you have to fix the root issue  \nYou need to become way more intentional with what you do in crypto   \n\nYou need to trade based on systems not emotions   \n\nThe easiest way is to read my book BIG PROFITS™️ (see bio for link)  \n\nGood luck!! https://t.co/EaEDf3mJu8",
-              "createdAt": "2026-04-21T08:39:35.000Z",
-              "url": "https://x.com/IvanOnTech/status/2046509139602419820",
-              "likes": 16,
-              "retweets": 0,
-              "replies": 2,
+              "id": "2046907772894069246",
+              "text": "(click) https://t.co/GVCSx939Rj",
+              "createdAt": "2026-04-22T11:03:37.000Z",
+              "url": "https://x.com/IvanOnTech/status/2046907772894069246",
+              "likes": 32,
+              "retweets": 1,
+              "replies": 7,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046504399736856887",
-              "text": "Cycle after cycle \nBull market after bull market \nYou chase your own tail\n\n> You buy altcoin \n\nIf you are lucky it pumps \nThey tell you”diamond hand”\nSelling is for the weak\n“Belieeeeeveeee in something”\nIt goes down 90%\nYou back to square one \n\nYou tell yourself - “next cycle i will do better!”\n\nBut you didn’t fix the root issue\nYou still buy things based on gut feeling\nYou still get your conviction from the timeline and not a system \n\nYou keep running in circles\nFor some of you guys 10+ years have based in crypto\n\nAnd you are still on square one\nChasing and chasing and chasing \nAround and around \n\nJust like the dog in the video below (see next tweet)",
-              "createdAt": "2026-04-21T08:20:45.000Z",
-              "url": "https://x.com/IvanOnTech/status/2046504399736856887",
-              "likes": 177,
-              "retweets": 14,
-              "replies": 35,
-              "isQuote": true,
-              "quotedTweetId": "2046256444648120575"
+              "id": "2046907771203797262",
+              "text": "🚨🚨BITCOIN PRICE ALERT🚨🚨\n\nIS Four Year Cycle Officially Dead and ATH coming? \nIs this a lower high before next leg down? \nHow to position yourself? \nRisk reward...  \n\nEVERYTHING ANSWERED!!! \nALL ANSWERS REVEALED\n\nIN THE VIDEO BELOW (click and RT)",
+              "createdAt": "2026-04-22T11:03:37.000Z",
+              "url": "https://x.com/IvanOnTech/status/2046907771203797262",
+              "likes": 72,
+              "retweets": 5,
+              "replies": 17,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -1037,15 +963,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046606634114338951",
-              "text": "In case you missed it...\n\nNew YouTube video is live!\n\nWhere Is Bitcoin In the Cycle? EMA Crossover Analysis\n\nCheck it out here:\n\nhttps://t.co/km0D0RGoY5\n\nEnjoy and Subscribe!\n\n#BTC #Crypto #Bitcoin",
-              "createdAt": "2026-04-21T15:07:00.000Z",
-              "url": "https://x.com/rektcapital/status/2046606634114338951",
-              "likes": 43,
-              "retweets": 1,
+              "id": "2047024203690377274",
+              "text": "New edition of the Rekt Capital Newsletter is live\n\nI share an Altcoin Market Update\n\nFeatures analysis on the following Altcoins: $ETH $SOL $SPX $XMR $XRP $PENGU\n\nSign up to read it here:\n\nhttps://t.co/P4ZeGdNRFy\n\n#BTC #Crypto #Bitcoin",
+              "createdAt": "2026-04-22T18:46:16.000Z",
+              "url": "https://x.com/rektcapital/status/2047024203690377274",
+              "likes": 24,
+              "retweets": 4,
+              "replies": 4,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2047023165914702121",
+              "text": "Where Is #BTC In the Cycle? EMA Crossover Analysis\n\n$BTC #Crypto #Bitcoin https://t.co/Ta1ZufmMKs",
+              "createdAt": "2026-04-22T18:42:09.000Z",
+              "url": "https://x.com/rektcapital/status/2047023165914702121",
+              "likes": 171,
+              "retweets": 19,
               "replies": 9,
               "isQuote": false,
               "quotedTweetId": null
+            },
+            {
+              "id": "2046953919956361479",
+              "text": "#BTC \n\nBitcoin continues to remain beneath the Macro Triangle it broke down from months ago\n\nBitcoin has never been able to reclaim a Macro Triangle once price had broken down from it\n\n$BTC #Crypto #Bitcoin https://t.co/DJbClfLCOL https://t.co/YVb7MXZ7YJ",
+              "createdAt": "2026-04-22T14:06:59.000Z",
+              "url": "https://x.com/rektcapital/status/2046953919956361479",
+              "likes": 381,
+              "retweets": 51,
+              "replies": 61,
+              "isQuote": true,
+              "quotedTweetId": "2045125696490508307"
             }
           ]
         },
@@ -1058,36 +1006,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046448726684709248",
-              "text": "Hello @grok, based on my tweets which politician or political figure do I sound like?",
-              "createdAt": "2026-04-21T04:39:32.000Z",
-              "url": "https://x.com/blknoiz06/status/2046448726684709248",
-              "likes": 109,
-              "retweets": 0,
-              "replies": 74,
+              "id": "2047109600227271007",
+              "text": "this hard https://t.co/O2DAPOiD81",
+              "createdAt": "2026-04-23T00:25:36.000Z",
+              "url": "https://x.com/blknoiz06/status/2047109600227271007",
+              "likes": 115,
+              "retweets": 2,
+              "replies": 54,
+              "isQuote": true,
+              "quotedTweetId": "2046976706523681205"
+            },
+            {
+              "id": "2047053850771595624",
+              "text": "if ethereum goes any higher my mentions are going to be cooked for all of summer",
+              "createdAt": "2026-04-22T20:44:05.000Z",
+              "url": "https://x.com/blknoiz06/status/2047053850771595624",
+              "likes": 818,
+              "retweets": 15,
+              "replies": 226,
               "isQuote": false,
               "quotedTweetId": null
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Balaji",
-          "handle": "balajis",
-          "category": "Web",
-          "bio": "Author of the Network State. Founder of the Network School.",
-          "isCarryOver": false,
-          "tweets": [
+            },
             {
-              "id": "2046270592589148170",
-              "text": "On the new Monitoring the Situation stream with @eriktorenberg and @theojaffee. https://t.co/7YCuAIIAai",
-              "createdAt": "2026-04-20T16:51:41.000Z",
-              "url": "https://x.com/balajis/status/2046270592589148170",
-              "likes": 144,
-              "retweets": 8,
-              "replies": 20,
+              "id": "2046795332940374191",
+              "text": "cobie optimistic on future of crypto even though tokens not reflective of how important crypto is as a technology *yet*\n\nalso bullish on a new metagame emerging similar to the ones from prior cycles (defi, nfts, memecoins) as sheer amount of capital onchain increases\n\ngood pod recommend watching whole thing its rare to be able to hear objective opinion of someone who has been around for awhile and can speak candidly about what has worked and hasnt worked",
+              "createdAt": "2026-04-22T03:36:49.000Z",
+              "url": "https://x.com/blknoiz06/status/2046795332940374191",
+              "likes": 1153,
+              "retweets": 52,
+              "replies": 95,
               "isQuote": true,
-              "quotedTweetId": "2046242793258099044"
+              "quotedTweetId": "2046756611830796752"
             }
           ]
         },
@@ -1100,58 +1049,79 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2046574924190642516",
-              "text": "https://t.co/T1sv35rzK2",
-              "createdAt": "2026-04-21T13:01:00.000Z",
-              "url": "https://x.com/illuviumio/status/2046574924190642516",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 1,
+              "id": "2047064374167380015",
+              "text": "Congrats @NarebaCrypto you’ve won 5 Automobili Lamborghini Exclusive D1SKs!🎉  \n\nYour Gnarl frontline comp takes it. Solo tank holding the enemy while Rogues clean up. Battle tested.\n\nSee you in @TheMotorverse Cup! ⚔️ https://t.co/JITbmGri6H",
+              "createdAt": "2026-04-22T21:25:54.000Z",
+              "url": "https://x.com/illuviumio/status/2047064374167380015",
+              "likes": 40,
+              "retweets": 3,
+              "replies": 6,
+              "isQuote": true,
+              "quotedTweetId": "2045900492908245222"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "CZ",
+          "handle": "cz_binance",
+          "category": "Web",
+          "bio": "@BNBchain\n@YZiLabs\n@GiggleAcademy\n@binance",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2047145724375339232",
+              "text": ".@heyibinance: why are people asking me to sign your book?\n\nMe: the foreward is better than the book. 😂 https://t.co/cLQNMkZW2r",
+              "createdAt": "2026-04-23T02:49:09.000Z",
+              "url": "https://x.com/cz_binance/status/2047145724375339232",
+              "likes": 608,
+              "retweets": 51,
+              "replies": 295,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2046574921577648618",
-              "text": "Now live.\n\nThe Automobili Lamborghini collection has landed in Illuvium: Beyond.\n\nBuy now with the Link Below 👇🔗\n\n@Lamborghini @TheMotorverse @animocabrands",
-              "createdAt": "2026-04-21T13:00:59.000Z",
-              "url": "https://x.com/illuviumio/status/2046574921577648618",
-              "likes": 121,
-              "retweets": 27,
-              "replies": 7,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2047139064894365735",
+              "text": "Let's make crypto affordable in the US again. https://t.co/YPkRHR1Ott",
+              "createdAt": "2026-04-23T02:22:41.000Z",
+              "url": "https://x.com/cz_binance/status/2047139064894365735",
+              "likes": 681,
+              "retweets": 67,
+              "replies": 292,
+              "isQuote": true,
+              "quotedTweetId": "2046952349738893393"
             },
             {
-              "id": "2046571012108530123",
-              "text": "Illuvium: Beyond x Automobili Lamborghini - Launch Party https://t.co/5QDsIfNZ0j",
-              "createdAt": "2026-04-21T12:45:27.000Z",
-              "url": "https://x.com/illuviumio/status/2046571012108530123",
-              "likes": 80,
-              "retweets": 14,
-              "replies": 2,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2047116477506236489",
+              "text": "Audio version coming. \n\nAlso need to practice my signature now. Any good designs for signing \"CZ\"? 😂 https://t.co/xHbxzLbU4b",
+              "createdAt": "2026-04-23T00:52:56.000Z",
+              "url": "https://x.com/cz_binance/status/2047116477506236489",
+              "likes": 854,
+              "retweets": 74,
+              "replies": 383,
+              "isQuote": true,
+              "quotedTweetId": "2046810081753469329"
             }
           ]
         }
       ],
       "stats": {
         "builderCount": 13,
-        "tweetCount": 29
+        "tweetCount": 33
       }
     }
   },
   "totalStats": {
-    "totalBuilders": 33,
+    "totalBuilders": 30,
     "totalTweets": 72,
     "byCategory": {
       "AI": {
-        "builderCount": 20,
-        "tweetCount": 43
+        "builderCount": 17,
+        "tweetCount": 39
       },
       "Web": {
         "builderCount": 13,
-        "tweetCount": 29
+        "tweetCount": 33
       }
     }
   }
