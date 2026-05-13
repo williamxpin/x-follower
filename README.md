@@ -63,7 +63,7 @@
 
 ## ⚙️ 运行机制
 
-1. **每轮目标**: 处理全部名单用户（当前 54 人，动态适应名单变化）
+1. **每轮目标**: 处理全部名单用户（配置 54 人，实际产出会根据用户活跃度动态变化）
 2. **处理方式**: 每 5 人一批，批次间等待 3 分钟，用户间等待 3 分钟
 3. **续跑逻辑**: 
    - 如果某天未完成（如处理了 40 人）
@@ -82,16 +82,16 @@
   "categories": {
     "AI": {
       "builders": [...],
-      "stats": { "builderCount": 29, "tweetCount": 65 }
+      "stats": { "builderCount": 21, "tweetCount": 53 }
     },
     "Web": {
       "builders": [...],
-      "stats": { "builderCount": 25, "tweetCount": 55 }
+      "stats": { "builderCount": 13, "tweetCount": 33 }
     }
   },
   "totalStats": {
-    "totalBuilders": 54,
-    "totalTweets": 120
+    "totalBuilders": 34,
+    "totalTweets": 86
   }
 }
 ```
