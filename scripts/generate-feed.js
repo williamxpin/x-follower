@@ -70,7 +70,7 @@ async function saveState(state) {
   await writeFile(STATE_PATH, JSON.stringify(state, null, 2));
 }
 
-const DATA_RETENTION_HOURS = 36;  // 推文数据保留时长，超过此时间的用户将被清理
+const DATA_RETENTION_HOURS = 24;  // 推文数据保留时长，超过此时间的用户将被清理
 
 // -- Load Sources ------------------------------------------------------------
 
@@ -826,7 +826,7 @@ async function main() {
       categoryBuilders[cat].set(newUser.handle, newUser);
     }
 
-    // Apply 36-hour retention filter and build final categories object
+    // Apply 24-hour retention filter and build final categories object
     const retentionCutoff = Date.now() - DATA_RETENTION_HOURS * 60 * 60 * 1000;
     const finalCategories = {};
     let totalBuilders = 0;
