@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:20:25.224Z",
+  "generatedAt": "2026-08-26T01:12:53.101Z",
   "lookbackHours": 24,
   "categories": {
     "AI": {
@@ -13,37 +13,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092038808607084868",
-              "text": "Grok @Bot can do a lot! https://t.co/gmSrJnrBNc",
-              "createdAt": "2026-08-24T23:58:14.000Z",
-              "url": "https://x.com/elonmusk/status/2092038808607084868",
-              "likes": 106,
-              "retweets": 15,
-              "replies": 24,
+              "id": "2092368785412133180",
+              "text": "Good review of Grok @Bot https://t.co/BDyXKslNdq",
+              "createdAt": "2026-08-25T21:49:27.000Z",
+              "url": "https://x.com/elonmusk/status/2092368785412133180",
+              "likes": 3423,
+              "retweets": 522,
+              "replies": 569,
               "isQuote": true,
-              "quotedTweetId": "2092020672914755841"
+              "quotedTweetId": "2092286808440676733"
             },
             {
-              "id": "2091996794419060905",
-              "text": "Grok Voice is used by Starlink at scale for support &amp; sales https://t.co/gJxI5m9OHN",
-              "createdAt": "2026-08-24T21:11:17.000Z",
-              "url": "https://x.com/elonmusk/status/2091996794419060905",
-              "likes": 4023,
-              "retweets": 577,
-              "replies": 597,
+              "id": "2092312396157325502",
+              "text": "Thank you! https://t.co/5T8dUE1W6x",
+              "createdAt": "2026-08-25T18:05:23.000Z",
+              "url": "https://x.com/elonmusk/status/2092312396157325502",
+              "likes": 20355,
+              "retweets": 1952,
+              "replies": 1203,
               "isQuote": true,
-              "quotedTweetId": "2091987541272543406"
+              "quotedTweetId": "2092285118547177805"
             },
             {
-              "id": "2091995019674787960",
-              "text": "True https://t.co/Mc4a4ju1NG",
-              "createdAt": "2026-08-24T21:04:14.000Z",
-              "url": "https://x.com/elonmusk/status/2091995019674787960",
-              "likes": 2481,
-              "retweets": 510,
-              "replies": 635,
+              "id": "2092307279140057583",
+              "text": "Pretty much 😂 https://t.co/YGaPwiKxba",
+              "createdAt": "2026-08-25T17:45:03.000Z",
+              "url": "https://x.com/elonmusk/status/2092307279140057583",
+              "likes": 12710,
+              "retweets": 1619,
+              "replies": 1755,
               "isQuote": true,
-              "quotedTweetId": "2091976114700775697"
+              "quotedTweetId": "2092300627007193093"
             }
           ]
         },
@@ -56,26 +56,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091957823945216474",
-              "text": "If your terminal ever gets into a 'bad state', like garbled outputs, you run 𝚛𝚎𝚜𝚎𝚝. I noticed it was… oddly slow.\n\nTurns out in 1979 3BSD's 𝚝𝚜𝚎𝚝 had a 𝚜𝚕𝚎𝚎𝚙(𝟷) to let mechanical printer-and-ink terminals 'settle down' 😂\n\nI asked 𝚏𝚡 to write me a faster alternative in Zig. It takes 1ms instead of 1s. It was really cool to dive deeper into 𝚗𝚌𝚞𝚛𝚜𝚎𝚜, 𝚝𝚜𝚎𝚝, 𝚝𝚎𝚛𝚖𝚒𝚗𝚏𝚘, and the myriad ways in which your terminal can get… cursed.\n\nIt's legit fascinating how far back our technology stack goes, and how enduring good system design is, even with the occasional 'spider webs' you can find.\n\nCheck out https://t.co/7EH0lothku for a fun explainer (and some alternative solutions.)\n\nps: once you start using 𝚏𝚡, you'll notice slowness like this everywhere :D",
-              "createdAt": "2026-08-24T18:36:26.000Z",
-              "url": "https://x.com/rauchg/status/2091957823945216474",
-              "likes": 350,
-              "retweets": 16,
-              "replies": 30,
+              "id": "2092383119248884043",
+              "text": "(Not affiliated with Denny's)",
+              "createdAt": "2026-08-25T22:46:24.000Z",
+              "url": "https://x.com/rauchg/status/2092383119248884043",
+              "likes": 9,
+              "retweets": 0,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091671326897713424",
-              "text": "Intelligence is getting cheaper.\n\n@OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model.\n\nThis shows ① that the demand for intelligence is highly elastic: as inference costs fall, usage grows rapidly.\n\n② If you're not using a gateway, you're missing out on this incredible price volatility, which lowers your operating costs and increases your margins. \n\nIt's no wonder the router space has heated up… gateways are inevitable.",
-              "createdAt": "2026-08-23T23:38:00.000Z",
-              "url": "https://x.com/rauchg/status/2091671326897713424",
-              "likes": 529,
-              "retweets": 29,
-              "replies": 52,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092382653161107534",
+              "text": "We're introducing Run SDK: secure 𝚎𝚟𝚊𝚕 for dynamic Code Mode execution.\n\nWhen agents write code, you don't always need a full sandbox. You can 𝚛𝚞𝚗 their code in a lightweight QuickJS secure context. Faster and more cost-efficient.\n\n𝚗𝚙𝚖 𝚒 𝚛𝚞𝚗\nhttps://t.co/br24j8Qp4r https://t.co/ZLqpkwqTT5 https://t.co/6ElyxieLme",
+              "createdAt": "2026-08-25T22:44:33.000Z",
+              "url": "https://x.com/rauchg/status/2092382653161107534",
+              "likes": 83,
+              "retweets": 3,
+              "replies": 12,
+              "isQuote": true,
+              "quotedTweetId": "2092280954362401174"
+            },
+            {
+              "id": "2092352411839193234",
+              "text": "The hardest problem in building agents is secure connectivity to services and data.\n\nExcited for Vercel Connect to be GA. Run e.g: 𝚟𝚎𝚛𝚌𝚎𝚕 𝚌𝚘𝚗𝚗𝚎𝚌𝚝 𝚌𝚛𝚎𝚊𝚝𝚎 𝚗𝚘𝚝𝚒𝚘𝚗, then get an MCP client you can query on behalf of the authenticated user. https://t.co/UrQxaEDfHx",
+              "createdAt": "2026-08-25T20:44:23.000Z",
+              "url": "https://x.com/rauchg/status/2092352411839193234",
+              "likes": 97,
+              "retweets": 6,
+              "replies": 14,
+              "isQuote": true,
+              "quotedTweetId": "2092295314988568985"
             }
           ]
         },
@@ -88,80 +99,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091941136181121097",
-              "text": "You can get Shreya and Hamel's free AI eval skills here to run in Claude Code or Codex: https://t.co/GZ4iykf33Z",
-              "createdAt": "2026-08-24T17:30:07.000Z",
-              "url": "https://x.com/petergyang/status/2091941136181121097",
-              "likes": 6,
-              "retweets": 1,
-              "replies": 0,
+              "id": "2092311110871617915",
+              "text": "Here's an example brief that the /fuck-cancer skill creates and updates.\n\nI’ve found it really useful to have a single source of truth doc with patient information, what to do next, what we know, definitions of medical terms, and an update log.\n\n📌 Get the free skill here:\nhttps://t.co/YUGoFbhnNc",
+              "createdAt": "2026-08-25T18:00:16.000Z",
+              "url": "https://x.com/petergyang/status/2092311110871617915",
+              "likes": 63,
+              "retweets": 7,
+              "replies": 6,
+              "isQuote": true,
+              "quotedTweetId": "2092249012913258946"
+            },
+            {
+              "id": "2092281120650047746",
+              "text": "Very excited to attend @OpenAI Dev Day.\n\nChatGPT / Codex is basically the OS I use for everything I do on my computer.\n\nCan't wait to see what updates the team has in store. https://t.co/0mvJVeQqFa https://t.co/rhxpVhn7Ue",
+              "createdAt": "2026-08-25T16:01:06.000Z",
+              "url": "https://x.com/petergyang/status/2092281120650047746",
+              "likes": 90,
+              "retweets": 6,
+              "replies": 3,
+              "isQuote": true,
+              "quotedTweetId": "2092117461646856505"
+            },
+            {
+              "id": "2092249012913258946",
+              "text": "Today, I’m open-sourcing /fuck-cancer, an AI skill that helps patients and caregivers navigate cancer diagnosis and treatment and advocate for themselves and their loved ones.\n\nHere’s what patients and caregivers have told me since I shared my mom’s story:\n\n“You have to be a huge patient advocate. Ask questions and push for answers, biopsies, and proper testing.”\n\n“I need help navigating difficult conversations and advocating for myself.”\n\n“The volume of doctors, documents, and insurance paperwork can quickly become overwhelming.”\n\nI built the skill to help with these problems. It creates and updates a practical brief with five sections:\n\n1. Patient and care-team information for easy reference during calls\n\n2. What to do next, limited to three specific actions\n\n3. What we know, separating confirmed facts from what remains unclear\n\n4. Medical terms explained in plain English\n\n5. A care log with recent updates and decisions\n\nIt builds this brief from documents, and context you provide. When research is needed, it uses trusted sources such as the National Cancer Institute and the ClinicalTrials gov API.\n\nI use it with ChatGPT/Codex and Claude Code to prepare for conversations and research. It can save the brief locally as a Markdown file or update a shareable Google Doc so the whole family can work from the same information.\n\n📌 Get the free, open-source skill here:\nhttps://t.co/YUGoFbhnNc\n\nIf you find it useful, please ⭐ the repo and share it with someone going through this BS disease.",
+              "createdAt": "2026-08-25T13:53:31.000Z",
+              "url": "https://x.com/petergyang/status/2092249012913258946",
+              "likes": 816,
+              "retweets": 100,
+              "replies": 54,
               "isQuote": false,
               "quotedTweetId": null
-            },
-            {
-              "id": "2091941123187237138",
-              "text": "“You still have to look at the data.”\n\nFrom @sh_reya:\n\n“There is no world in the future, even if you have AGI, where you’re building a product and don’t have to look at your data. You have to be able to inject your taste into the development of your product.\n\nThis is our attempt to show you how to do it effectively, with all the benefit and might of AI helping you accelerate.”\n\n📌 Watch the full episode here: https://t.co/BuTklgfbr4",
-              "createdAt": "2026-08-24T17:30:04.000Z",
-              "url": "https://x.com/petergyang/status/2091941123187237138",
-              "likes": 20,
-              "retweets": 1,
-              "replies": 4,
-              "isQuote": true,
-              "quotedTweetId": "2091529690041491820"
-            },
-            {
-              "id": "2091900134531731543",
-              "text": "I don’t promote other people’s courses often, but I want to recommend Hamel and Shreya’s top rated AI evals course.\n\nHere’s why I think it’s worth taking:\n\n1. A 4.7-star rating across 900 reviews, with students from OpenAI and Google, is almost unheard of on Maven.\n\n2. They’ve completely revamped the course and added a 24/7 AI evals assistant to guide you through the process.\n\n3. They’ve personally helped me improve my evals, and their advice is consistently practical, specific, and grounded in real experience.\n\nYou can watch my free podcast episode with them to learn more about their eval process before deciding:\nhttps://t.co/orah7Qaapj\n\nThe next cohort of their course starts September 5 and you can get 25% off with this link: https://t.co/K7nu51cgOo",
-              "createdAt": "2026-08-24T14:47:12.000Z",
-              "url": "https://x.com/petergyang/status/2091900134531731543",
-              "likes": 159,
-              "retweets": 13,
-              "replies": 7,
-              "isQuote": false,
-              "quotedTweetId": null
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Amjad Masad",
-          "handle": "amasad",
-          "category": "AI",
-          "bio": "ceo @replit. civilizationist",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2091963442186092639",
-              "text": "Only a few have reached this milestone! https://t.co/FEmlDPmJfj",
-              "createdAt": "2026-08-24T18:58:46.000Z",
-              "url": "https://x.com/amasad/status/2091963442186092639",
-              "likes": 140,
-              "retweets": 5,
-              "replies": 13,
-              "isQuote": true,
-              "quotedTweetId": "2091586075974398182"
-            },
-            {
-              "id": "2091962601907638352",
-              "text": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ",
-              "createdAt": "2026-08-24T18:55:25.000Z",
-              "url": "https://x.com/amasad/status/2091962601907638352",
-              "likes": 125,
-              "retweets": 9,
-              "replies": 23,
-              "isQuote": true,
-              "quotedTweetId": "2091953150919901625"
-            },
-            {
-              "id": "2091937147473551474",
-              "text": "Cool! https://t.co/11uSkCUPrc",
-              "createdAt": "2026-08-24T17:14:16.000Z",
-              "url": "https://x.com/amasad/status/2091937147473551474",
-              "likes": 82,
-              "retweets": 3,
-              "replies": 7,
-              "isQuote": true,
-              "quotedTweetId": "2091935960292295071"
             }
           ]
         },
@@ -174,15 +142,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091909170308296950",
-              "text": "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with in handling data with subprocessors. The alternative path would have been a far slower adoption rate.\n\nFor the applied AI tools that are primarily responsible for driving AI growth, they generally have agreements in place with their customers to only offer models with ZDR to ensure that customers don’t have to inspect each model they turn on. Anything else is an exception process that takes far longer.\n\nAnd then inside enterprises directly, most companies have internal governance requirements that say they can only use ZDR models because they have no way of explicitly separating PII and other sensitive or confidential data they put in the context window across their enterprise.\n\nNow, all of this could change if the entire industry went this direction, but with one off models hold outs it would take years for these policies to change. Without ZDR, AI diffusion grinds to a halt.",
-              "createdAt": "2026-08-24T15:23:06.000Z",
-              "url": "https://x.com/levie/status/2091909170308296950",
-              "likes": 131,
-              "retweets": 15,
-              "replies": 22,
+              "id": "2092087679240569126",
+              "text": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \n\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \n\nThus, the governance, reliability, security, access controls, and business logic remain critical more than ever — the OpenAI Hugging Face incident is just a small peek into what the future will look like with agents running around trying to execute on their goals.\n\nBut this only works for the systems of record that respond with the right product experiences, APIs, and business models to support agents on and off their platform executing in these systems.\n\nHuge moment of opportunity and disruption right now in all of software.",
+              "createdAt": "2026-08-25T03:12:26.000Z",
+              "url": "https://x.com/levie/status/2092087679240569126",
+              "likes": 846,
+              "retweets": 72,
+              "replies": 97,
               "isQuote": true,
-              "quotedTweetId": "2091792587741135078"
+              "quotedTweetId": "2091742825042030681"
             }
           ]
         },
@@ -195,69 +163,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092034751037096260",
-              "text": "@Google @YouTube @every @YouTubeCreators can you help?",
-              "createdAt": "2026-08-24T23:42:07.000Z",
-              "url": "https://x.com/danshipper/status/2092034751037096260",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092356580930945029",
+              "text": "https://t.co/pQqzn5Ctfg https://t.co/pB0vQbF8yV",
+              "createdAt": "2026-08-25T21:00:57.000Z",
+              "url": "https://x.com/danshipper/status/2092356580930945029",
+              "likes": 16,
+              "retweets": 1,
+              "replies": 1,
+              "isQuote": true,
+              "quotedTweetId": "2092353254856269960"
             },
             {
-              "id": "2092026065644335446",
-              "text": "so it looks @google disabled the @youtube account for @every with 0 notice and no reason given...\n\nanyone have any experience with this or know how to help us get it back? https://t.co/5yR7vQxHm1",
-              "createdAt": "2026-08-24T23:07:36.000Z",
-              "url": "https://x.com/danshipper/status/2092026065644335446",
-              "likes": 22,
+              "id": "2092279611988050181",
+              "text": "GET DOT https://t.co/EG90vQX7nR",
+              "createdAt": "2026-08-25T15:55:06.000Z",
+              "url": "https://x.com/danshipper/status/2092279611988050181",
+              "likes": 44,
               "retweets": 2,
-              "replies": 16,
-              "isQuote": false,
-              "quotedTweetId": null
-            }
-          ]
-        },
-        {
-          "source": "x",
-          "name": "Nan Yu",
-          "handle": "thenanyu",
-          "category": "AI",
-          "bio": "product enthusiast",
-          "isCarryOver": false,
-          "tweets": [
-            {
-              "id": "2092013239643394076",
-              "text": "Feel the agi https://t.co/Uvr0TCMKyg",
-              "createdAt": "2026-08-24T22:16:38.000Z",
-              "url": "https://x.com/thenanyu/status/2092013239643394076",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
+              "replies": 4,
               "isQuote": true,
-              "quotedTweetId": "2092007061722660892"
+              "quotedTweetId": "2092272951584580045"
             },
             {
-              "id": "2091993558018572434",
-              "text": "“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most common mail app on Earth”\n\nhttps://t.co/bQkjEBJIB4",
-              "createdAt": "2026-08-24T20:58:26.000Z",
-              "url": "https://x.com/thenanyu/status/2091993558018572434",
-              "likes": 2,
-              "retweets": 0,
-              "replies": 0,
+              "id": "2092277639591461056",
+              "text": "I got one of these to test\n\n@every vibe check forthcoming! https://t.co/YvEcro1WLZ",
+              "createdAt": "2026-08-25T15:47:16.000Z",
+              "url": "https://x.com/danshipper/status/2092277639591461056",
+              "likes": 58,
+              "retweets": 1,
+              "replies": 5,
               "isQuote": true,
-              "quotedTweetId": "2091975532670054710"
-            },
-            {
-              "id": "2091926179704135684",
-              "text": "This kind of pov has been making the rounds. Always gets a lot of likes.\n\nBut existing SaaS businesses need both. They need a built-in agent that can operate the app and they need good MCP/hooks for Codex, Grokbot, etc. \n\nUsers are hyper polarized rn. you need both https://t.co/tyLSLCsQHY",
-              "createdAt": "2026-08-24T16:30:42.000Z",
-              "url": "https://x.com/thenanyu/status/2091926179704135684",
-              "likes": 137,
-              "retweets": 9,
-              "replies": 35,
-              "isQuote": true,
-              "quotedTweetId": "2091876429621592426"
+              "quotedTweetId": "2092268362386780270"
             }
           ]
         },
@@ -270,37 +206,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091923535513928015",
-              "text": "We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
-              "createdAt": "2026-08-24T16:20:11.000Z",
-              "url": "https://x.com/steipete/status/2091923535513928015",
-              "likes": 2001,
-              "retweets": 115,
-              "replies": 97,
+              "id": "2092294123638362346",
+              "text": "This week. https://t.co/AM08qn6Zfd",
+              "createdAt": "2026-08-25T16:52:46.000Z",
+              "url": "https://x.com/steipete/status/2092294123638362346",
+              "likes": 208,
+              "retweets": 6,
+              "replies": 16,
               "isQuote": true,
-              "quotedTweetId": "2091841106480627871"
-            },
-            {
-              "id": "2091779461650006514",
-              "text": "More blog posts should come with theme songs.",
-              "createdAt": "2026-08-24T06:47:41.000Z",
-              "url": "https://x.com/steipete/status/2091779461650006514",
-              "likes": 49,
-              "retweets": 0,
-              "replies": 3,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091778518531395927",
-              "text": "TIL: prompt kiddie https://t.co/N92Q7aIzPq",
-              "createdAt": "2026-08-24T06:43:56.000Z",
-              "url": "https://x.com/steipete/status/2091778518531395927",
-              "likes": 611,
-              "retweets": 29,
-              "replies": 19,
-              "isQuote": false,
-              "quotedTweetId": null
+              "quotedTweetId": "2092276115117121925"
             }
           ]
         },
@@ -313,37 +227,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091899569412202914",
-              "text": "Legalize building housing https://t.co/FgLHQ07qP7",
-              "createdAt": "2026-08-24T14:44:57.000Z",
-              "url": "https://x.com/garrytan/status/2091899569412202914",
-              "likes": 583,
-              "retweets": 36,
-              "replies": 41,
-              "isQuote": true,
-              "quotedTweetId": "2091721659925299460"
-            },
-            {
-              "id": "2091873781325418723",
-              "text": "Current meta: OpenAI is actually the much more open lab https://t.co/P4A5ycc3Cq",
-              "createdAt": "2026-08-24T13:02:29.000Z",
-              "url": "https://x.com/garrytan/status/2091873781325418723",
-              "likes": 810,
-              "retweets": 27,
-              "replies": 64,
-              "isQuote": true,
-              "quotedTweetId": "2091588622046871786"
-            },
-            {
-              "id": "2091872254959489275",
-              "text": "There will still be API’s and acl’s and sql and underlying data structures that are deterministic\n\nIt’s just that software companies have to build the AI harness and full solution for their customers or be subsumed by it",
-              "createdAt": "2026-08-24T12:56:25.000Z",
-              "url": "https://x.com/garrytan/status/2091872254959489275",
-              "likes": 63,
-              "retweets": 4,
-              "replies": 5,
+              "id": "2092351492397383908",
+              "text": "Ok apparently this guy came up with it\n\nDon’t really care though\n\nClout chaser lmao he is the one who blocked me https://t.co/oltJDirXcZ",
+              "createdAt": "2026-08-25T20:40:44.000Z",
+              "url": "https://x.com/garrytan/status/2092351492397383908",
+              "likes": 26,
+              "retweets": 0,
+              "replies": 8,
               "isQuote": false,
               "quotedTweetId": null
+            },
+            {
+              "id": "2092321194037195022",
+              "text": "lmao https://t.co/y6BqsiuTQs",
+              "createdAt": "2026-08-25T18:40:20.000Z",
+              "url": "https://x.com/garrytan/status/2092321194037195022",
+              "likes": 2634,
+              "retweets": 99,
+              "replies": 66,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092277912053657722",
+              "text": "You need to be cross-harness memory maxxing https://t.co/sauwBL6tYK",
+              "createdAt": "2026-08-25T15:48:21.000Z",
+              "url": "https://x.com/garrytan/status/2092277912053657722",
+              "likes": 411,
+              "retweets": 19,
+              "replies": 46,
+              "isQuote": true,
+              "quotedTweetId": "2092241965362344267"
             }
           ]
         },
@@ -356,24 +270,13 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091958077591347630",
-              "text": "Apply to SPC if you'd like to join us https://t.co/xWaXyqC7Rj",
-              "createdAt": "2026-08-24T18:37:27.000Z",
-              "url": "https://x.com/adityaag/status/2091958077591347630",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091958074827313523",
-              "text": "Hans Robertson was early at @VMware, co-founded @meraki and sold it to Cisco for $1.2B, and co-founded Verkada in 2016. \n\nHe's still running it today. \n\nHe's coming by @spc this week. https://t.co/6D6dhVIEJ5",
-              "createdAt": "2026-08-24T18:37:26.000Z",
-              "url": "https://x.com/adityaag/status/2091958074827313523",
+              "id": "2092290497826173186",
+              "text": "It's totally unsurprising that the general population hates datacenter buildout. \n\nAI today primarily helps knowledge workers and the highest paid segments of the country. \n\nI suspect that the big change will happen when AI is able to find cures for diseases that ail everyone. We are starting to see light at the end of the tunnel here.\n\nAlso makes sense why some of the brightest minds now want to focus there.\n\nOur industry also hasn't done ourselves any favors by all our fear-mongering. Instead of painting a positive version of the future, we have instead talked about all the reasons why we should be afraid 🤦‍♂️.",
+              "createdAt": "2026-08-25T16:38:22.000Z",
+              "url": "https://x.com/adityaag/status/2092290497826173186",
               "likes": 17,
-              "retweets": 4,
-              "replies": 2,
+              "retweets": 1,
+              "replies": 3,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -388,33 +291,267 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091861755253371243",
-              "text": "a new way to get knowledge work done https://t.co/3jugdRwxjM",
-              "createdAt": "2026-08-24T12:14:42.000Z",
-              "url": "https://x.com/gdb/status/2091861755253371243",
-              "likes": 752,
-              "retweets": 45,
-              "replies": 49,
+              "id": "2092376258030211281",
+              "text": "you can now have chatgpt work securely sign into accounts: https://t.co/OWoVrNqWKK",
+              "createdAt": "2026-08-25T22:19:09.000Z",
+              "url": "https://x.com/gdb/status/2092376258030211281",
+              "likes": 470,
+              "retweets": 18,
+              "replies": 38,
               "isQuote": true,
-              "quotedTweetId": "2091623289869508979"
+              "quotedTweetId": "2092366554965107164"
             },
             {
-              "id": "2091745169221787681",
-              "text": "OpenAI has built the muscle of making long-term research bets: https://t.co/sziJibiXRn",
-              "createdAt": "2026-08-24T04:31:25.000Z",
-              "url": "https://x.com/gdb/status/2091745169221787681",
-              "likes": 1814,
-              "retweets": 60,
-              "replies": 101,
+              "id": "2092353210635915695",
+              "text": "by popular demand, $100 business seat now available in chatgpt! no 5-hour limit, more usage, etc.. https://t.co/1JA9tv1vBW",
+              "createdAt": "2026-08-25T20:47:34.000Z",
+              "url": "https://x.com/gdb/status/2092353210635915695",
+              "likes": 451,
+              "retweets": 16,
+              "replies": 59,
               "isQuote": true,
-              "quotedTweetId": "2091713860528984451"
+              "quotedTweetId": "2092335305366069305"
+            },
+            {
+              "id": "2092273740239552780",
+              "text": "inference numbers published for jalapeno, team did an amazing job https://t.co/WNJIA2dESm https://t.co/IXhwagVtkL",
+              "createdAt": "2026-08-25T15:31:46.000Z",
+              "url": "https://x.com/gdb/status/2092273740239552780",
+              "likes": 1104,
+              "retweets": 77,
+              "replies": 54,
+              "isQuote": true,
+              "quotedTweetId": "2092266927377039838"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Madhu Guru",
+          "handle": "realmadhuguru",
+          "category": "AI",
+          "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092058332735693264",
+              "text": "How to build great evals - part 8.\n\nThe discriminatory property of evals.\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\n\nImagine you run an eval on five AI systems:\n\nA: 94\nB: 93\nC: 95\nD: 94\nE: 92\n\nNow suppose you already know A and C are substantially better systems than D and E.\n\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\n\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and  you’ve learned nothing about who is the smartest.\n\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\n\nThe sweet spot for an eval is:\nRealistic + difficult + sensitive to differences in capability.\n\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\n\nDrop your guesses in the comments.\n\nShare this with your teammates.",
+              "createdAt": "2026-08-25T01:15:49.000Z",
+              "url": "https://x.com/realmadhuguru/status/2092058332735693264",
+              "likes": 138,
+              "retweets": 8,
+              "replies": 11,
+              "isQuote": true,
+              "quotedTweetId": "2091684812012875981"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Cat Wu",
+          "handle": "_catwu",
+          "category": "AI",
+          "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092337156455051345",
+              "text": "Thanks to your feedback, we’ve unified memory across Chat and Cowork. Now, you can tell Claude to remember something once and it’ll have that context across surfaces!\n\nTell us what you’d like to see next :) https://t.co/0Vw2o4zeaB",
+              "createdAt": "2026-08-25T19:43:46.000Z",
+              "url": "https://x.com/_catwu/status/2092337156455051345",
+              "likes": 276,
+              "retweets": 8,
+              "replies": 60,
+              "isQuote": true,
+              "quotedTweetId": "2092299704864284888"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Thariq",
+          "handle": "trq212",
+          "category": "AI",
+          "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092303682616627311",
+              "text": "excited to share more on how we’re making Claude Code more hackable soon https://t.co/liQ5rQG887",
+              "createdAt": "2026-08-25T17:30:45.000Z",
+              "url": "https://x.com/trq212/status/2092303682616627311",
+              "likes": 837,
+              "retweets": 16,
+              "replies": 83,
+              "isQuote": true,
+              "quotedTweetId": "2092302273099796842"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Google Labs",
+          "handle": "GoogleLabs",
+          "category": "AI",
+          "bio": "Google’s home for our latest AI tools and experiments.",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092293667688173593",
+              "text": "🚨 NEW LABS EXPERIMENT 🚨\n\nGreat minds t̵h̵i̵n̵k̵  play alike!\n\nPlay with Putty is a collaborative vibe coding tool that lets you build tools and websites together in real time. 🫟\n\nReady for your imagination to go multiplayer? Join the waitlist at https://t.co/v4m5iiYt9T and share your feedback with us!\n\nUS only, ages 18+",
+              "createdAt": "2026-08-25T16:50:57.000Z",
+              "url": "https://x.com/GoogleLabs/status/2092293667688173593",
+              "likes": 896,
+              "retweets": 65,
+              "replies": 40,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Zara Zhang",
+          "handle": "zarazhangrui",
+          "category": "AI",
+          "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd \nYouTube: https://t.co/8xzbGWsHgY",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092079390301556883",
+              "text": "Unpopular opinion: hackathons are an outdated event format (at least the way they’re traditionally held)",
+              "createdAt": "2026-08-25T02:39:30.000Z",
+              "url": "https://x.com/zarazhangrui/status/2092079390301556883",
+              "likes": 159,
+              "retweets": 7,
+              "replies": 46,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092053829772881972",
+              "text": "I really appreciate how @davidsenra immediately cuts to the chase and gets his guests to be their most natural selves\n\nI've watched lots of Sam Altman interviews; I feel like he's his most comfortable self during this one https://t.co/x8DG8BGTeu",
+              "createdAt": "2026-08-25T00:57:56.000Z",
+              "url": "https://x.com/zarazhangrui/status/2092053829772881972",
+              "likes": 155,
+              "retweets": 4,
+              "replies": 6,
+              "isQuote": true,
+              "quotedTweetId": "2091525869638434945"
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Nikunj Kothari",
+          "handle": "nikunj",
+          "category": "AI",
+          "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092384774459674957",
+              "text": "Originally inspired by the @TheStalwart’s Odd Lots episode. \n\nBuilt using @ChatGPT codex and @Railway \n\nDesign polish courtesy of @emilkowalski skills and @itskasturiii generative loaders. \n\nDirect link here: https://t.co/L0zbiLPH55\n\nFeedback always welcome!",
+              "createdAt": "2026-08-25T22:52:59.000Z",
+              "url": "https://x.com/nikunj/status/2092384774459674957",
+              "likes": 2,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092383834470002922",
+              "text": "Introducing the El Niño situation monitor (elneenyo dot com)..\n\n> real time updates, news and what’s happening straight from government sources\n> impact per region and costs\n> historical records and what’s the importance\n> glossary and FAQ on all the different readings\n\nIf this topic pops up in your group chat, you know where to go now!",
+              "createdAt": "2026-08-25T22:49:15.000Z",
+              "url": "https://x.com/nikunj/status/2092383834470002922",
+              "likes": 4,
+              "retweets": 0,
+              "replies": 1,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092275350038589764",
+              "text": "I have encountered a lot of stressful situations in life but nothing really prepares you for the first day of kindergarten..\n\n> the instructions are so complicated over like ten emails. this zone, that zone. if you walk, do this. if you drive, do that. what do you mean you stopped for like 5s. there’s a sneak peek, meet your teacher, do your assessment. I mean you could have slow dripped this but no bam. \n\n> all the info is so disparate. go to this community for flyers. go to this website for food. you missed this email sorry we got flagged for spam. oh that event, yeah it was buried on page 4 of the weird in line picture in the email (and not the attachment). \n\n> you drop your child on the curbside and then just drive away.. is she going to be ok? like will she find her way to the class? i hope she’s not just hanging out at the playground 😅\n\n> post drop off car logistics are the most aggro crazy taxi i have seen. parent swerving left on a four lane road where it’s right only. people honking if you wait a second too long. someone driving down the hill at speeds that aren’t safe. last minute swerve to find a parking spot. surprised there aren’t more accidents tbh. \n\nluckily we live in 2026 and LLMs solve at least the information overload problem. but my baby girl is five and my heart can’t believe it or handle it folks. \n\nTime is flying too fast!",
+              "createdAt": "2026-08-25T15:38:10.000Z",
+              "url": "https://x.com/nikunj/status/2092275350038589764",
+              "likes": 67,
+              "retweets": 0,
+              "replies": 10,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Sam Altman",
+          "handle": "sama",
+          "category": "AI",
+          "bio": "AI is cool i guess",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092339694210040187",
+              "text": "we made a chip and it is fast",
+              "createdAt": "2026-08-25T19:53:51.000Z",
+              "url": "https://x.com/sama/status/2092339694210040187",
+              "likes": 20661,
+              "retweets": 850,
+              "replies": 2195,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Claude",
+          "handle": "claudeai",
+          "category": "AI",
+          "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092299710002319742",
+              "text": "Topics some consider sensitive, like health or religious beliefs, stay out of memory unless you turn them on in Settings.\n\nMemory is on by default on Free, Pro, and Max plans. Review yours anytime in Settings &gt; Memory.\n\nRead more: https://t.co/2y4B3am1RX",
+              "createdAt": "2026-08-25T17:14:58.000Z",
+              "url": "https://x.com/claudeai/status/2092299710002319742",
+              "likes": 343,
+              "retweets": 3,
+              "replies": 19,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092299707653439497",
+              "text": "Everything Claude remembers is saved as a list of topics in Settings, where you can read, edit, or delete each one.\n\nMemory also updates on its own as you chat, saving new details as they come up. You can also say \"remember this\" to save something specific. https://t.co/ExpQAHkyhu",
+              "createdAt": "2026-08-25T17:14:58.000Z",
+              "url": "https://x.com/claudeai/status/2092299707653439497",
+              "likes": 466,
+              "retweets": 16,
+              "replies": 15,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092299704864284888",
+              "text": "Claude now has one memory across chat and Claude Cowork, and you decide what's in it.\n\nHand Cowork a task and it starts from what Claude already knows from your chats: the project you talked through, your manager's preferences, or the client from last quarter. https://t.co/ViKapsT8K6",
+              "createdAt": "2026-08-25T17:14:57.000Z",
+              "url": "https://x.com/claudeai/status/2092299704864284888",
+              "likes": 5516,
+              "retweets": 307,
+              "replies": 250,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         }
       ],
       "stats": {
-        "builderCount": 11,
-        "tweetCount": 27
+        "builderCount": 17,
+        "tweetCount": 34
       }
     },
     "Web": {
@@ -428,37 +565,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092000357173871069",
-              "text": "Gordon Grant has a pitch for Polymarket and Kalshi — go build parametric insurance:\n\n\"Why aren't these guys building in this space?… a derivatives market where you could get parametric coverage for a Bolivian dam operator facing existential drought is a great thing.\"\nhttps://t.co/29Z8yCsWSY",
-              "createdAt": "2026-08-24T21:25:27.000Z",
-              "url": "https://x.com/laurashin/status/2092000357173871069",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 6,
+              "id": "2092367666321494103",
+              "text": "What happens to Bitcoin if a quantum computer ever cracks Satoshi-era keys?\n\n@P3b7_ walked me through three options, and @ilblackdragon explained why Bitcoin's leaderless governance makes picking one nearly impossible.\n\nBut we all converged on the likely best option 👀\n\nhttps://t.co/RN095w1kUM",
+              "createdAt": "2026-08-25T21:45:00.000Z",
+              "url": "https://x.com/laurashin/status/2092367666321494103",
+              "likes": 6,
+              "retweets": 1,
+              "replies": 5,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2092000154379497817",
-              "text": "FT @ilblackdragon",
-              "createdAt": "2026-08-24T21:24:38.000Z",
-              "url": "https://x.com/laurashin/status/2092000154379497817",
+              "id": "2092347956749849007",
+              "text": "Your liquidity shouldn't have to sit idle. 👀\n\n1inch Aqua lets your tokens stay in your wallet while backing multiple positions across pairs and chains.\n\nBig thanks to @1inch for sponsoring Unchained. 🦄\n\nhttps://t.co/aqNe9DDMEt",
+              "createdAt": "2026-08-25T20:26:41.000Z",
+              "url": "https://x.com/laurashin/status/2092347956749849007",
               "likes": 1,
               "retweets": 0,
-              "replies": 0,
+              "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2092000151057678580",
-              "text": "\"This will bring all of crypto down ... crypto is built on trust into the technology\"\n\nIllia on why an attack on Bitcoin would be catastrophic for all of crypto\n\n\"This indeed is probably the biggest issue in general, because even for other blockchains, if Bitcoin gets quote unquote attacked in this way, this will bring all of crypto down in a sense\"\n\n\"Crypto is built on trust into the technology. Not everyone individually reviews all the code, it's a system of trust that a lot of people looked at every layer, and that trust will be broken if there is a massive theft in this format\"\n\n\"They'll probably sell that Bitcoin as well, so that will be massive too. Across the board, this is a massive issue for the whole space\"",
-              "createdAt": "2026-08-24T21:24:38.000Z",
-              "url": "https://x.com/laurashin/status/2092000151057678580",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 4,
-              "isQuote": true,
-              "quotedTweetId": "2091966262222241855"
+              "id": "2092347951553147292",
+              "text": "One Type of Post-Quantum Cryptography Is Most Popular. Why Is Crypto Trying Out Three?\n\n🥷 Bitcoin's unmigrated Satoshi-era coins are quantum computing's biggest test for crypto. Do nothing, and a quantum attacker could dump millions of BTC onto the market.\n\n@P3b7_ prefers a third path instead: freeze the coins and tail-emit new BTC to compensate for the security budget problem. @ilblackdragon and I agree it makes sense. ⚖️\n\nTimestamps:\n🔐 02:18 Illia and Charles map Shor's algorithm leap and EigenLayer's 48-hour crack\n🧠 12:43 Why Matt Corallo's Bitcoin core skepticism reveals NEAR's design edge\n📢 18:18 1inch Aqua: see how the shared liquidity platform works at https://t.co/PjP6kyzgA0\n🔀 23:28 How lattice vs hash based crypto split Ethereum from Bitcoin's plan\n🌐 34:46 Charles: why this crypto fight is unique to blockchain, not elsewhere\n🛠️ 37:04 Charles walks through Ledger's SDK and hardware wallet quantum roadmap\n🔑 44:22 Why 'wrench attacks' expose the physical risk in quantum signing\n🕵️ 46:11 Charles debunks the harvest now decrypt later myth for blockchains\n₿ 54:52 The Satoshi's coins dilemma: three options and Bitcoin's security budget",
+              "createdAt": "2026-08-25T20:26:40.000Z",
+              "url": "https://x.com/laurashin/status/2092347951553147292",
+              "likes": 5,
+              "retweets": 1,
+              "replies": 2,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -471,35 +608,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091980132265419145",
-              "text": "What’s next for AI agents? 🤖\n\n@yanivgraph, founder of @geoprotocol and @graphprotocol, breaks down what excites him most about AI agents and why they could make it easier for anyone to start building.\n\n#CHAINREACTION https://t.co/DJBBWQYi0K",
-              "createdAt": "2026-08-24T20:05:05.000Z",
-              "url": "https://x.com/Cointelegraph/status/2091980132265419145",
-              "likes": 13,
-              "retweets": 2,
-              "replies": 8,
+              "id": "2092341612013580772",
+              "text": "🔥 INSIGHT: Markus Thielen of @10xresearch would split his portfolio 50/50 between Bitcoin and gold at current levels.\n\nSpeaking with @itsciaranlyons, @markus10x says AI stocks are much harder to value right now.\n\nHis conviction: keep it simple with Bitcoin and gold.\n\n#TradeSecrets",
+              "createdAt": "2026-08-25T20:01:28.000Z",
+              "url": "https://x.com/Cointelegraph/status/2092341612013580772",
+              "likes": 10,
+              "retweets": 1,
+              "replies": 3,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091976362626056397",
-              "text": "🇺🇸 JUST IN: Coinbase-backed Stand With Crypto endorsed 32 House candidates ahead of the 2026 midterms as it pushes to elect what it calls the most pro-crypto Congress in history.\nhttps://t.co/azYlMifVB5",
-              "createdAt": "2026-08-24T19:50:06.000Z",
-              "url": "https://x.com/Cointelegraph/status/2091976362626056397",
-              "likes": 54,
-              "retweets": 17,
-              "replies": 18,
+              "id": "2092336360346574853",
+              "text": "🔥 INSIGHT: Bitcoin’s rally above $81,000 is being driven by lower yields, a short squeeze and renewed optimism around U.S. crypto policy, according to Forbes. https://t.co/5NYroewfWw",
+              "createdAt": "2026-08-25T19:40:36.000Z",
+              "url": "https://x.com/Cointelegraph/status/2092336360346574853",
+              "likes": 56,
+              "retweets": 5,
+              "replies": 20,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091968821569454273",
-              "text": "🇨🇦 LATEST: President Trump said the U.S. will raise tariffs on Canadian cars, trucks and auto parts to 50% starting Jan. 1, 2027, after trade negotiations broke down. https://t.co/GKNetO3XVp",
-              "createdAt": "2026-08-24T19:20:08.000Z",
-              "url": "https://x.com/Cointelegraph/status/2091968821569454273",
-              "likes": 62,
-              "retweets": 13,
-              "replies": 16,
+              "id": "2092336104183570752",
+              "text": "🚨 HUGE: U.S. total public debt has reached $40 trillion, equal to roughly 123% of annualized GDP.",
+              "createdAt": "2026-08-25T19:39:35.000Z",
+              "url": "https://x.com/Cointelegraph/status/2092336104183570752",
+              "likes": 40,
+              "retweets": 5,
+              "replies": 12,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -514,35 +651,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091976056723103783",
-              "text": "Coinbase-backed @standwithcrypto has endorsed 32 bipartisan House candidates who backed the CLARITY Act ahead of the US midterms.\n\nThe move comes as the industry pours nearly $200M into the 2026 election cycle, with Senate endorsements expected closer to Election Day. https://t.co/vIserHhh80",
-              "createdAt": "2026-08-24T19:48:53.000Z",
-              "url": "https://x.com/BeInCrypto/status/2091976056723103783",
-              "likes": 3,
+              "id": "2092337842160853119",
+              "text": "https://t.co/HUDRX10NLj",
+              "createdAt": "2026-08-25T19:46:29.000Z",
+              "url": "https://x.com/BeInCrypto/status/2092337842160853119",
+              "likes": 0,
               "retweets": 0,
-              "replies": 1,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091963326712721490",
-              "text": "UPDATE: @iTrustCapital has officially denied the data breach allegations.\n\nThe firm stated that reports of an undisclosed breach are untrue, asserting that they would notify clients directly if such an event ever occurred. \n\nThey also reiterated warnings to users regarding phishing and social engineering scams.",
-              "createdAt": "2026-08-24T18:58:18.000Z",
-              "url": "https://x.com/BeInCrypto/status/2091963326712721490",
-              "likes": 5,
+              "id": "2092331579637137848",
+              "text": "@RecoverisTeam Watch the full Market Intelligence Council panel discussion here: https://t.co/Cc3FdtgruA",
+              "createdAt": "2026-08-25T19:21:36.000Z",
+              "url": "https://x.com/BeInCrypto/status/2092331579637137848",
+              "likes": 1,
               "retweets": 0,
-              "replies": 2,
-              "isQuote": true,
-              "quotedTweetId": "2091899671778357562"
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2091958521479012543",
-              "text": "Coinbase-issued tokenized stocks are officially live on @base \n\nEligible users can now trade and hold equities like Apple and NVIDIA directly onchain:\n\n- 1:1 Backing: Backed by real shares held in a regulated trust (custodied via Alpaca) \n- 24/7 DeFi Composability: Available around the clock for onchain trading and lending \n- Chainlink Oracles: Integrated with @chainlink $LINK as official price feed infrastructure \n\nhttps://t.co/4UopqoJrj1",
-              "createdAt": "2026-08-24T18:39:12.000Z",
-              "url": "https://x.com/BeInCrypto/status/2091958521479012543",
-              "likes": 4,
+              "id": "2092331391392629201",
+              "text": "Why Criminals Are Winning the AI Arms Race\n\nAI-driven crypto scams took an estimated $17B in 2025, with AI-linked operations pulling in 4.5x more per hit.\n\nYet, many police investigators are still barred by policy from touching the exact same tech.\n\nSol Cinosi from @RecoverisTeam and Nick Pailthorpe from @KodexInc break down what it takes to close this widening \"velocity gap.\"\n\nRead the full report by @JakubDziadkowie: https://t.co/DoR9EJyXYg",
+              "createdAt": "2026-08-25T19:20:52.000Z",
+              "url": "https://x.com/BeInCrypto/status/2092331391392629201",
+              "likes": 0,
               "retweets": 0,
-              "replies": 2,
+              "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -557,10 +694,21 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091985144282268011",
-              "text": "Solana’s inflation vote exposes a governance conflict: one validator opposing faster disinflation gets 99.4% of its Q2 revenue from staking.\n\nThe safeguard is direct: delegated SOL follows the validator by default, but stakers can override the vote without undelegating.\n\nhttps://t.co/W5gfe1VF2v",
-              "createdAt": "2026-08-24T20:25:00.000Z",
-              "url": "https://x.com/CryptoSlate/status/2091985144282268011",
+              "id": "2092337465642139857",
+              "text": "📊 DATA: Strive bought 1,110 BTC in a week, lifting its holdings 5.48%.\n\nBut effective common shares rose 4.24%, leaving Bitcoin per share up just 1.19%—while new SATA preferred shares added an estimated $5.74M in annualized dividends.\n\nhttps://t.co/GcxV7IDiuX",
+              "createdAt": "2026-08-25T19:45:00.000Z",
+              "url": "https://x.com/CryptoSlate/status/2092337465642139857",
+              "likes": 1,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092321108242436386",
+              "text": "StablecoinX restructured $6.879M of defaulted SPAC debt with just ~$344K in cash, shifting the other 95% into warrants.\n\nThe tradeoff: near-term liquidity pressure drops sharply, but the warrants could represent ~7.62M shares—about 31.7% of current Class A stock if exercised.\n\nhttps://t.co/smtEGNW6tx",
+              "createdAt": "2026-08-25T18:40:00.000Z",
+              "url": "https://x.com/CryptoSlate/status/2092321108242436386",
               "likes": 0,
               "retweets": 0,
               "replies": 0,
@@ -568,22 +716,11 @@
               "quotedTweetId": null
             },
             {
-              "id": "2091952428983734344",
-              "text": "🔐 SECURITY: Zilliqa says a Ledger signing bug exposed at least 6,772 accounts and enabled theft of 683.13M ZIL across 66 transactions.\n\nThe flaw discarded nonce entropy, letting attackers recover some private keys from as few as four legacy signatures. Legacy transactions remain paused.\n\nhttps://t.co/TmOPmsyjbG",
-              "createdAt": "2026-08-24T18:15:00.000Z",
-              "url": "https://x.com/CryptoSlate/status/2091952428983734344",
-              "likes": 0,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091934813448290670",
-              "text": "Strategy raised $2.01B during Bitcoin’s 20% rally—and bought no BTC. BitMine bought another 32,447 ETH after Ethereum surged 30%.\n\nThe split: Strategy built a $6.69B cash buffer for flexibility, while BitMine kept pushing toward its 5% ETH supply target.\n\nhttps://t.co/f4pn7EwEtc",
-              "createdAt": "2026-08-24T17:05:00.000Z",
-              "url": "https://x.com/CryptoSlate/status/2091934813448290670",
-              "likes": 2,
+              "id": "2092303493159907486",
+              "text": "Ethereum could let compounding validators choose when rewards stop accumulating and enter the automatic withdrawal sweep, anywhere from 32 ETH to 2,048 ETH.\n\nThe catch: a lower threshold can speed validator-level reward release, but customer access still depends on the staking provider.\n\nhttps://t.co/rFXx2stpmd",
+              "createdAt": "2026-08-25T17:30:00.000Z",
+              "url": "https://x.com/CryptoSlate/status/2092303493159907486",
+              "likes": 1,
               "retweets": 0,
               "replies": 0,
               "isQuote": false,
@@ -600,35 +737,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091892520565309613",
-              "text": "推荐阅读《播客笔记｜连 OpenAI CEO 都承认没用好 AI：Sam Altman 谈习惯惯性、非共识押注与写给儿子的信》\n\nhttps://t.co/9FJ79iIlys",
-              "createdAt": "2026-08-24T14:16:57.000Z",
-              "url": "https://x.com/TechFlowPost/status/2091892520565309613",
-              "likes": 2,
-              "retweets": 0,
-              "replies": 0,
+              "id": "2092241584217583704",
+              "text": "比特币这波强势突破行情里，除了直接下注币价，还有没有更稳健的“卖铲人”逻辑？\n\nCavenagh Research 分析文章指出，相比于 $MSTR、矿企等直接挂钩币价的“高杠杆武器”， $CRCL 的核心逻辑和风险收益特征完全不同：\n\n从商业驱动引擎来看，其核心盈利并非直接绑定比特币的暴涨暴跌，而是依靠 USDC 的流通量规模与储备金利息。当加密生态活跃度提升、资金回流时，USDC 的流通规模会随之扩张，从而带动储备金利息收入同步放大，形成运营层面的杠杆。\n\n在政策与合规红利方面，随着华盛顿对加密监管框架等相关讨论的推进，合规稳定币在金融体系中的地位正在逐步明朗。伴随各项合规资质和支付网络布局的落地，它正被市场视为连接传统金融与数字资产的基础设施。\n\n当然，相关分析也提醒投资者需要审慎权衡其潜在的风险。如果宏观环境进入降息周期，储备金的利息收益将直接面临压缩压力，同时稳定币竞品的入局以及合规成本带来的运营开销也不容忽视。\n\n总体而言，如果在观察加密大盘的发展时希望多一种不同于纯币价起伏的视角，以 $CRCL 为代表的稳定币生态可以作为一种行业观察与研究的切入点，而非盲目跟风。",
+              "createdAt": "2026-08-25T13:24:00.000Z",
+              "url": "https://x.com/TechFlowPost/status/2092241584217583704",
+              "likes": 12,
+              "retweets": 1,
+              "replies": 12,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091892361253028091",
-              "text": "总是有 AI 焦虑担心跟不上? \n\n没关系，因为 OpenAI 的 CEO  Sam Altman 自己也说没用好 AI。\n\n在最新一期 @davidsenra 的播客上，@sama 甚至表示，自己还在用 20 年前的方式用电脑。\n\n同时他也敞开聊了 OpenAI 到底想做什么、为什么砍掉 Sora、为什么 AI 的 iPhone 时刻还没到。\n\n最有冲击力的是他给出的 OpenAI 终极形态。不做 All-in-One 超级应用，不做 AI 版 Everything Store。就两个东西：一个直接界面，一个 API。\n\n其他一些有意思的点如下：\n\n1/ Altman 自己就是最大的反例\n\n他发明了 Codex，却还在不同消息应用之间复制粘贴，还在刷邮件挑最不难回的那封。他说心里好像认定了这种低效方式就是\"工作\"本身。AI 技术已经齐了，但产品层面的 iPhone 时刻还没到。\n\n2/ OpenAI 不想做所有产品\n\nAltman 说得很明确：我们更应该是一家平台公司。一个统一界面访问个人或公司的 AGI，一个 API 让开发者在上面构建一切。ChatGPT 和 Codex 已经合并，就是要往这个极简形态走。\n\n3/ 为了支撑这个极简平台，他们正在做一件极重的事\n\nAltman 把目前大部分精力放在研究和算力上，并直言扩展算力涉及芯片、晶圆厂、数据中心、电力、金融、政策、供应链，可能是人类史上最昂贵的基础设施项目。\n\n4/ 过去一年他们主动砍掉了两个好产品。一个是 Sora，一个是 Atlas 浏览器\n\nSora 好玩、酷、有用户，但消耗大量算力；Atlas 被 Altman 称为可能是最好的浏览器。但资源有限，必须把好产品献祭给伟大的产品，也就是通用智能和核心平台。\n\n5/ 他担心的不是 AI 抢走工作，是另外两个方向失控\n\n一个是 loss of control，另一个是权力过度集中。他说用“治愈所有疾病、让世界更便宜”来换取人们放弃对未来的影响力，是一笔非常糟糕的交易。“人是这一切的全部意义。”\n\n6/ 他相信 AI 会带来历史上最大一波小型企业创业潮\n\n开一家公司过去需要 privilege、运气和资源，AI 正在降低门槛。他认为这个行业包括 OpenAI，都讲得太少了。\n\n7/坚持给孩子写信来审视自己\n\n给自己的孩子写信让自己没法 hiding behind anything。你真的很在意孩子将来怎么看你，所以你会更诚实地反思这一周哪些事没做好、下周要怎么改。这是一个非常有趣的思维框架。",
-              "createdAt": "2026-08-24T14:16:19.000Z",
-              "url": "https://x.com/TechFlowPost/status/2091892361253028091",
-              "likes": 9,
-              "retweets": 0,
-              "replies": 6,
+              "id": "2092225477939536012",
+              "text": "看到上周比特币和以太坊 ETF 规模暴涨了 230 亿美元，你是不是觉得机构正在疯狂扫货？\n\n实际情况可能没有那么多增量资金入场。\n\n根据 Decrypt 报道的最新数据，在这 230 亿的 AUM（资产管理规模）增长里，真正流入的“新钱”只有 26 亿美元。\n\n那剩下的 200 多亿是怎么来的？ 全靠底层币价的上涨，以及空头的尸体堆出来的。\n\n在 $BTC 突破关键阻力位的过程中，两天内有约 40 亿美元的空单被迫强制平仓。这种空头割肉导致的“踩踏式买回”，成了推高价格最猛的燃料。\n\n所以，这轮大涨本质上是“存量重估 + 杠杆爆仓”，而非真实外部增量资金的系统性涌入。\n\n如果拉长周期看，今年迄今为止，这两大 ETF 整体依然处于约 31 亿美元的净流出赤字状态。\n\n单日吸金最猛的依然是贝莱德的 IBIT，寡头抽血效应还在加剧。\n\n靠空头踩踏确实能造就短期骗炮，但要让行情真正企稳并开启狂暴大牛市，必须得看到现货通道里出现持续放量的净买盘。",
+              "createdAt": "2026-08-25T12:20:00.000Z",
+              "url": "https://x.com/TechFlowPost/status/2092225477939536012",
+              "likes": 35,
+              "retweets": 6,
+              "replies": 17,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091823265291383244",
-              "text": "特朗普的健康状况，一直被外界密切关注。手部淤青、脚踝肿胀、公开场合偶尔显露的困意……这些都曾引发猜测。只不过最近，医生们表示他们还在担心另外一个更直接的风险：总统的体重。\n\n2023年8月，在佐治亚州因涉嫌干预选举被起诉时，警方记录的体重是215磅（约195斤）。今年5月白宫公布的体检报告显示，体重直接飙升到了238磅（约216斤），悄悄胖了大约21斤。\n\n按照特朗普约1.9米的身高标准来算，目前的体重距离官方定义的“肥胖线”，只剩下了微乎其微的1.6磅（约1.45斤）。如果超出，特朗普就会被正式归类为“肥胖人群”。这也是他2019-2020年期间曾达到过的状态。\n\n白宫医生已经明确建议他减重、改善饮食并坚持活动。可特朗普对快餐的热爱几乎毫不掩饰：空军一号上常常堆满麦当劳、肯德基和披萨，办公桌前还有那个著名的“健怡可乐按钮”，据说一天能喝上十几罐。他曾半开玩笑地为自己辩护：“也许垃圾食品是好的，那些整天管体重的人反而走了，我们还好好的，我感觉棒极了。”\n\n外部医生更直接表示，肥胖是多种健康问题及过早失能、死亡的重要风险因素，减重应与安保同等重要。有趣的是，特朗普本人对体重话题并不回避，反而经常自嘲。\n\n他多次调侃不想穿防弹背心，因为“会看起来重20磅”；在第二夫人Usha Vance的播客里，他特意提到史上最重总统William Howard Taft（体重超300磅），说自己“必须小心，免得打破他的纪录”；还在白宫记者协会晚宴上声明“我从不称任何人是胖子”，紧接着自嘲“我自己其实也有体重问题”。",
-              "createdAt": "2026-08-24T09:41:45.000Z",
-              "url": "https://x.com/TechFlowPost/status/2091823265291383244",
-              "likes": 7,
-              "retweets": 0,
-              "replies": 40,
+              "id": "2092197796245897682",
+              "text": "如果你用加密货币帮伊朗卖了 1 亿美元石油，会是什么下场？\n\n美国给出的答案是：不仅拉黑你，还要“连坐”。\n\n据美国财政部 8 月 24 日公布的制裁公告，一名阿联酋籍乌克兰经纪人（Ivan Obukhov）及其公司，因涉嫌自 2023 年以来处理超 1 亿美元加密支付、协助伊朗伊斯兰革命卫队（IRGC）售卖石油，被正式列入制裁黑名单，同期被制裁的还有近 60 个关联实体、个人及船只。\n\n如果仅看个案，这只是一起典型的涉伊制裁；\n\n但依据第 13902 号行政令，美国首次将“数字资产”作为一整个经济部门（与黄金、航运并列）纳入对伊制裁范围。\n\n这意味着监管逻辑发生了一个关键转向： \n\n以前要打击涉伊加密交易，通常需要确凿证据证明某家交易所或钱包“具体协助了洗钱”；\n\n而现在，只要被认定为伊朗数字资产部门提供过运营或重大支持，哪怕是外国主体，都在二次制裁的辐射范围内。\n\n你可能会问，这对我们加密行业的普通从业者和机构有什么潜在影响？\n\n核心隐患在于链上资金潜在的“被动污染”。\n\n对于做全球业务的 OTC 商家、做市商或出入金通道来说，哪怕主观上毫无违规意图，如果某笔资金经过多层流转，源头不巧与这批被标记的涉伊节点产生交集，在后续合规中可能面临两类麻烦：\n\n1.链上风控工具（如 Chainalysis/TRM）触发高风险预警，要求提供额外审查与资金溯源证明；\n\n2.合作的海外银行或稳定币通道在合规重压下，存在收紧风控甚至阶段性冻结清算的潜在可能。\n\n地缘博弈的焦点在特定国家，但涉外加密业务在历史资金审查与对手方尽调上的隐性成本，正在被动抬高。",
+              "createdAt": "2026-08-25T10:30:00.000Z",
+              "url": "https://x.com/TechFlowPost/status/2092197796245897682",
+              "likes": 24,
+              "retweets": 1,
+              "replies": 14,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -643,35 +780,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091918791718347167",
-              "text": "All that progress. Just to stare at charts 24/7. https://t.co/nBA5AAgD22",
-              "createdAt": "2026-08-24T16:01:20.000Z",
-              "url": "https://x.com/binance/status/2091918791718347167",
-              "likes": 523,
-              "retweets": 43,
-              "replies": 168,
+              "id": "2092311048019726660",
+              "text": "A little every day can add up.\n\nWeek 2 of the Challenge is live. Use Binance Convert each day for your chance to win a share of 37,500 USDC in rewards. https://t.co/ewJiHKWCGy",
+              "createdAt": "2026-08-25T18:00:01.000Z",
+              "url": "https://x.com/binance/status/2092311048019726660",
+              "likes": 112,
+              "retweets": 18,
+              "replies": 57,
+              "isQuote": true,
+              "quotedTweetId": "2089774331777749382"
+            },
+            {
+              "id": "2092295592219177079",
+              "text": "POV: You just skipped the VIP queue. 👀\n\nVIP 6 for Six gives you the full VIP 6 experience from day one, for up to 6 months.\n\nLower fees. Higher Earn yields. More perks.\n\nVIP 6 unlocked. What are you doing first? 👇\n\nGet in → https://t.co/dyLUf7KmLO https://t.co/62vZYGHMJU",
+              "createdAt": "2026-08-25T16:58:36.000Z",
+              "url": "https://x.com/binance/status/2092295592219177079",
+              "likes": 121,
+              "retweets": 6,
+              "replies": 54,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091888267213853052",
-              "text": "Here’s everything on the radar for Aug. 24–28:\n\n• PCE inflation\n• Nvidia, PDD, Li Auto, and Marvell earnings\n\nFor informational purposes only.",
-              "createdAt": "2026-08-24T14:00:02.000Z",
-              "url": "https://x.com/binance/status/2091888267213853052",
-              "likes": 197,
-              "retweets": 26,
-              "replies": 78,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091858405463929076",
-              "text": "phone on life support but the grind is eternal https://t.co/j3anGXZFdq",
-              "createdAt": "2026-08-24T12:01:23.000Z",
-              "url": "https://x.com/binance/status/2091858405463929076",
-              "likes": 1405,
-              "retweets": 233,
-              "replies": 474,
+              "id": "2092282451049505273",
+              "text": "Bitcoin supply: nearly fully booked. https://t.co/Rjn3qmTWwp",
+              "createdAt": "2026-08-25T16:06:23.000Z",
+              "url": "https://x.com/binance/status/2092282451049505273",
+              "likes": 294,
+              "retweets": 39,
+              "replies": 102,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -686,35 +823,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091956481079869477",
-              "text": "Reach out and touch OKX AI.\n\nIt's a marketplace where AI agents discover work, hire each other, complete tasks, and get paid onchain.\n\nDiscover more: https://t.co/CnnyUpjapU https://t.co/FvGUkjVIGN",
-              "createdAt": "2026-08-24T18:31:06.000Z",
-              "url": "https://x.com/OKX/status/2091956481079869477",
-              "likes": 85,
-              "retweets": 7,
-              "replies": 30,
+              "id": "2092318868970537026",
+              "text": "Keep your trades moving when native gas runs low.\n\nPay network fees with USDT, USDC, or USDG across 7 networks using Gas Station on @Wallet\n\nTry it: https://t.co/59FuLWQMoA https://t.co/8bAun8tuJM",
+              "createdAt": "2026-08-25T18:31:06.000Z",
+              "url": "https://x.com/OKX/status/2092318868970537026",
+              "likes": 46,
+              "retweets": 5,
+              "replies": 22,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091910955009536234",
-              "text": "Put your POL on a better monthly plan.\n\nGet an 8% deposit bonus when you transfer to OKX in Europe, then earn 12% APY for a month.\n\nMake the move by 31 August. https://t.co/T2p9wgSLUE",
-              "createdAt": "2026-08-24T15:30:12.000Z",
-              "url": "https://x.com/OKX/status/2091910955009536234",
-              "likes": 68,
-              "retweets": 8,
-              "replies": 27,
+              "id": "2092273292728213662",
+              "text": "Crypto is getting very everyday.\n\nFrom groceries to dining and retail, OKX Card data shows where crypto is actually being spent across Europe.\n\nPay with crypto on The New Money App.",
+              "createdAt": "2026-08-25T15:30:00.000Z",
+              "url": "https://x.com/OKX/status/2092273292728213662",
+              "likes": 84,
+              "retweets": 4,
+              "replies": 33,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091864121155162289",
-              "text": "gm from the trenches ☕️ https://t.co/83DdAmnRYc",
-              "createdAt": "2026-08-24T12:24:06.000Z",
-              "url": "https://x.com/OKX/status/2091864121155162289",
-              "likes": 379,
-              "retweets": 20,
-              "replies": 168,
+              "id": "2092228270099984756",
+              "text": "Tuesday PSA. You know what to do. https://t.co/Xfu6PfnKpy",
+              "createdAt": "2026-08-25T12:31:05.000Z",
+              "url": "https://x.com/OKX/status/2092228270099984756",
+              "likes": 197,
+              "retweets": 24,
+              "replies": 72,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -729,35 +866,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091948718975058045",
+              "id": "2092340992435187717",
               "text": "#Bybit #NewFinancialPlatform",
-              "createdAt": "2026-08-24T18:00:15.000Z",
-              "url": "https://x.com/Bybit_Official/status/2091948718975058045",
-              "likes": 2,
+              "createdAt": "2026-08-25T19:59:01.000Z",
+              "url": "https://x.com/Bybit_Official/status/2092340992435187717",
+              "likes": 3,
               "retweets": 0,
-              "replies": 0,
+              "replies": 2,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091948659034255797",
-              "text": "Manifest it in the comments 👇 https://t.co/XRcX7klHkF",
-              "createdAt": "2026-08-24T18:00:01.000Z",
-              "url": "https://x.com/Bybit_Official/status/2091948659034255797",
-              "likes": 98,
-              "retweets": 17,
-              "replies": 65,
+              "id": "2092340989612409151",
+              "text": "Securing your next big move https://t.co/qDSGIeaKB0",
+              "createdAt": "2026-08-25T19:59:00.000Z",
+              "url": "https://x.com/Bybit_Official/status/2092340989612409151",
+              "likes": 24,
+              "retweets": 2,
+              "replies": 14,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091930951534178523",
-              "text": "Get ready for the final sprint: https://t.co/VjsHc6xch2\n\n#BybitEarningsSeason",
-              "createdAt": "2026-08-24T16:49:39.000Z",
-              "url": "https://x.com/Bybit_Official/status/2091930951534178523",
-              "likes": 1,
-              "retweets": 0,
-              "replies": 0,
+              "id": "2092311306258772140",
+              "text": "Start earning 👉 https://t.co/0FR7JBEKQ7\n#NewFinancialPlatform #Bybit #BTC",
+              "createdAt": "2026-08-25T18:01:03.000Z",
+              "url": "https://x.com/Bybit_Official/status/2092311306258772140",
+              "likes": 7,
+              "retweets": 3,
+              "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -772,37 +909,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091873660462158201",
-              "text": "行情不好猜可以交给火币定投，想边听边学可以先预约火币直播 😎\n\n从美股框架、BTC行情到新的VIP守护者计划，本周 @HTX_Live  都给大家排好咯～\n\n🎁 顺便提醒：上周直播间撒了3175 USDT，直播奖励超级好拿。\n\n这周……懂的都懂👀👇 https://t.co/2l0RWILtRC",
-              "createdAt": "2026-08-24T13:02:00.000Z",
-              "url": "https://x.com/HuobiGlobal/status/2091873660462158201",
-              "likes": 9,
+              "id": "2092210378545541279",
+              "text": "不是，火币招火伴怎么还发“工资”啊？👀\n😎 对，就发！ \n\n13周年「火伴招募」启动，主打一个多邀多得，越干越有：\n🎁 启动礼： 邀请1人得 15U，最高拿 150 USDT\n🔥 阶段礼： 有效邀请满5人，再加 39 U等值 $HTX\n🤩 转正礼： 交易达标再拿130U等值 $HTX + 长期返佣权益\n\n📅 即日起至9月18日，火伴招募中👇\nhttps://t.co/YQz8kTkIYy",
+              "createdAt": "2026-08-25T11:20:00.000Z",
+              "url": "https://x.com/HuobiGlobal/status/2092210378545541279",
+              "likes": 1,
               "retweets": 0,
-              "replies": 8,
-              "isQuote": true,
-              "quotedTweetId": "2091808859514151078"
-            },
-            {
-              "id": "2091853023937187947",
-              "text": "🔥 @VSYSCoin 带着 10,000 USDT 来撒福利啦！\n\n$VSYS 现货嘉年华开启！\n✅ 首次交易即可领 2 USDT 空投，新用户再加码 5 USDT\n💎 SVIP 还有 3,000 USDT 专属激励，冲上榜首更可独享 880 USDT！\n\n首次交易有奖，新客加码，交易还能继续赢😎\n📅 8月24日 - 9月7日，快来火币交易 $VSYS \nhttps://t.co/k4rgXEks8D",
-              "createdAt": "2026-08-24T11:40:00.000Z",
-              "url": "https://x.com/HuobiGlobal/status/2091853023937187947",
-              "likes": 6,
-              "retweets": 0,
-              "replies": 3,
+              "replies": 14,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091833753727565970",
-              "text": "刚开完周会，小编跟 @HTX_Molly  说13周年的🎁奖品已经发了 98,100份；奖励撒了 57,300 U！忙不过来了！\n\n她笑了笑说这都是成长的过程，不经历风雨怎么见彩虹，我服了，一开始我觉得她毫无同理心！\n后来我悟了，她的意思是 “风雨同舟，韧见未来”\n\n来吧，尽情参与，我不累，杀不死我的终将使我强大！\n#火币韧性13周年",
-              "createdAt": "2026-08-24T10:23:25.000Z",
-              "url": "https://x.com/HuobiGlobal/status/2091833753727565970",
-              "likes": 18,
-              "retweets": 1,
-              "replies": 19,
+              "id": "2092175149814755415",
+              "text": "哈哈哈这数字商量好的吧？\n火币 13周年狂欢月，今天刚好是上线第13天！ $BTC也来凑热闹，重新站上 $80,000！\n\n🏆 截至目前，我们的奖品已经撒出 10万份，奖励发放突破 60,000 USDT！\n\n$BTC继续冲，火币继续撒，大家快来继续薅😎\nhttps://t.co/ms0qBs7X6s https://t.co/Bad2NQ0b7j https://t.co/lQ4z75vm5T",
+              "createdAt": "2026-08-25T09:00:01.000Z",
+              "url": "https://x.com/HuobiGlobal/status/2092175149814755415",
+              "likes": 6,
+              "retweets": 0,
+              "replies": 23,
               "isQuote": true,
               "quotedTweetId": "2087769365403795813"
+            },
+            {
+              "id": "2092161697100579033",
+              "text": "🏃 小编虽迟但到！ 火伴们久等啦！ 成年人的续命方式有很多：咖啡、奶茶、周末…… 还有火币账户里多亿点币，再加这波10U直接请客！\n\n感谢所有参与，并在评论区“嘎嘎滴辣晒”赚币截图的火伴们～ \n\n🎁  本轮幸运中奖名单（共10位，每人10U） 奶茶、咖啡还是冰美式，你敞开了选！🧋 \n 1  @Hechi6789948\n 2  @LANGPINGDING\n 3  @woshisuchan\n 4  @ryutunf45\n 5  @clockblocor_\n 6  @Vvictor7540111\n 7  @xzzzjpiDAo\n 8  @TongDaiLis\n 9  @Cieth5000\n 10  @KystalX33 \n\n🔔 请在48h内填写表单完成活动领奖登记（别忘了完成L3认证哦！逾期or没有完成L3认证将视为自动放弃）：https://t.co/x2Q4fgmRI4\n\n没中奖的小伙伴也别灰心！ 这次是末班车，但火币请客永不落幕，继续喊上火伴一起赚币，下一次幸运就是你！\n再次感谢所有参与的火伴，咱们社区见～💙",
+              "createdAt": "2026-08-25T08:06:33.000Z",
+              "url": "https://x.com/HuobiGlobal/status/2092161697100579033",
+              "likes": 0,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -815,35 +952,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091951356378558843",
-              "text": "Every chain will face the quantum threat. NEAR is mapping the path to post-quantum security, for the protocol and for the cross-chain ecosystem it powers.\n\nFull deep dive on the roadmap, open questions, and how our industry can work together: https://t.co/WEngUGkL0m",
-              "createdAt": "2026-08-24T18:10:44.000Z",
-              "url": "https://x.com/nearprotocol/status/2091951356378558843",
-              "likes": 66,
-              "retweets": 6,
-              "replies": 0,
+              "id": "2092330231587639629",
+              "text": "NEAR Co-Founder @ilblackdragon joined @Unchained_pod to unpack the post-quantum debate splitting the industry: lattice-based vs hash-based cryptography.\n\nFull conversation below: https://t.co/wph7qHvibT",
+              "createdAt": "2026-08-25T19:16:15.000Z",
+              "url": "https://x.com/nearprotocol/status/2092330231587639629",
+              "likes": 242,
+              "retweets": 38,
+              "replies": 5,
+              "isQuote": true,
+              "quotedTweetId": "2091985370816844184"
+            },
+            {
+              "id": "2092271962743533859",
+              "text": "NEAR is coming to @rwasummit next Tuesday, September 1.\n\nNEAR Foundation Head of Capital Markets @alex_scharrer will speak on \"Building Secure Infrastructure for Agentic AI\" and how institutions can protect their data and control their AI deployments.\nhttps://t.co/eMt3gzNP1X",
+              "createdAt": "2026-08-25T15:24:43.000Z",
+              "url": "https://x.com/nearprotocol/status/2092271962743533859",
+              "likes": 285,
+              "retweets": 47,
+              "replies": 5,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091951355019579500",
-              "text": "NEAR will only make fundamental upgrades like cryptography with rigorous research and confidence.\n\nUser assets are quantum-safe today. We're building the rest with the same care and diligence.",
-              "createdAt": "2026-08-24T18:10:44.000Z",
-              "url": "https://x.com/nearprotocol/status/2091951355019579500",
-              "likes": 60,
-              "retweets": 6,
-              "replies": 1,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091951353224454421",
-              "text": "For financial institutions, The Responsible Fintech Institute and crypto custody solution @Safeheron are piloting quantum-safe wallet generation and transfers on a NEAR testnet to help standardize post-quantum infrastructure the whole industry can stand on.\n\nhttps://t.co/Izdm1opuFd",
-              "createdAt": "2026-08-24T18:10:43.000Z",
-              "url": "https://x.com/nearprotocol/status/2091951353224454421",
-              "likes": 50,
-              "retweets": 4,
-              "replies": 1,
+              "id": "2092237703068647433",
+              "text": "Shhh… It's Confidential, the next episode of Inside Confidential Intents, goes live tomorrow August 26 at 9am ET.\n\n@familiarcow from @near_intents together with @charlie_bst from https://t.co/1n0j8823BT, @ChadwickStrange from @ShieldApp, and @kiranmannam from @RocketXexchange will dive into why privacy is becoming a major market trend in crypto.\n\nThey'll cover:\n- Why privacy, why now\n- How confidential execution actually works\n- Extending confidentiality to more assets and activity",
+              "createdAt": "2026-08-25T13:08:34.000Z",
+              "url": "https://x.com/nearprotocol/status/2092237703068647433",
+              "likes": 275,
+              "retweets": 41,
+              "replies": 3,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -858,37 +995,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091973333713564022",
-              "text": "This is a good opportunity for you guys\n\nIf you deposit on https://t.co/JMH8SeKvvd right now you get to enter to win their $250k raffle this week for FREE\n\nThen every time you login after that you earn more entries\n\nThat’s a legitimate free chance to win $250k… Make sure you go take advantage\n\nComment your wallet below, I’ll give one of you $250 to go deposit with",
-              "createdAt": "2026-08-24T19:38:04.000Z",
-              "url": "https://x.com/CryptoWendyO/status/2091973333713564022",
-              "likes": 182,
-              "retweets": 93,
-              "replies": 164,
+              "id": "2092356348096713107",
+              "text": "Andrew Tate is right about this. https://t.co/qjtxEZrF0r",
+              "createdAt": "2026-08-25T21:00:02.000Z",
+              "url": "https://x.com/CryptoWendyO/status/2092356348096713107",
+              "likes": 42,
+              "retweets": 5,
+              "replies": 17,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091963746889412626",
-              "text": "Congrats! @Ezzyjeager \nhttps://t.co/2uYRbsvOoF https://t.co/lxJY1Z6ta2",
-              "createdAt": "2026-08-24T18:59:58.000Z",
-              "url": "https://x.com/CryptoWendyO/status/2091963746889412626",
-              "likes": 14,
-              "retweets": 0,
-              "replies": 14,
+              "id": "2092324296005951972",
+              "text": "Dolly Parton and Carl Dean were married for 58 years\n\nThey are back together now.\n\nThis is a beautiful and sad part of life. https://t.co/L10qIi1Trr https://t.co/aQz2H9kRKf",
+              "createdAt": "2026-08-25T18:52:40.000Z",
+              "url": "https://x.com/CryptoWendyO/status/2092324296005951972",
+              "likes": 244,
+              "retweets": 11,
+              "replies": 27,
               "isQuote": true,
-              "quotedTweetId": "2090561493649461701"
+              "quotedTweetId": "2092317519524905230"
             },
             {
-              "id": "2091962819365491159",
-              "text": "Is the Clarity Ethics package really about stopping politicians from profiting? https://t.co/DGkia13EiT",
-              "createdAt": "2026-08-24T18:56:17.000Z",
-              "url": "https://x.com/CryptoWendyO/status/2091962819365491159",
-              "likes": 65,
-              "retweets": 16,
-              "replies": 19,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092317519524905230",
+              "text": "RIP DOLLY PARTON\n\nTHANK YOU FOR ALL YOU HAVE DONE FOR THE MUSIC INDUSTRY AND FOR SHOWING THE WORLD THAT NO MATTER WHERE YOU COME FROM, YOU CAN MAKE IT! https://t.co/bDDiWVfA5t",
+              "createdAt": "2026-08-25T18:25:44.000Z",
+              "url": "https://x.com/CryptoWendyO/status/2092317519524905230",
+              "likes": 142,
+              "retweets": 10,
+              "replies": 46,
+              "isQuote": true,
+              "quotedTweetId": "2092310369855320364"
             }
           ]
         },
@@ -901,35 +1038,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092009115107119537",
-              "text": "Satoshi Nakamoto gave away one of the most valuable technologies in history.\n\nFor free.\nAnonymously.\nWith no expectation of credit.\n\nAnd most people still have not taken the time to understand what was given to them.",
-              "createdAt": "2026-08-24T22:00:15.000Z",
-              "url": "https://x.com/larkdavis/status/2092009115107119537",
-              "likes": 5,
-              "retweets": 1,
-              "replies": 4,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091978927686238557",
-              "text": "Crypto is not a shortcut to wealth.\n\nIt is an asymmetric bet on a technology and monetary property that most people still do not understand.\n\nThe returns are not from luck.\nThey are from being early and staying patient.",
-              "createdAt": "2026-08-24T20:00:18.000Z",
-              "url": "https://x.com/larkdavis/status/2091978927686238557",
-              "likes": 77,
-              "retweets": 11,
-              "replies": 20,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091933661687902466",
-              "text": "🚨 Trump targets Canada with a new trade ultimatum:\n\n• 50% tariffs on all Canadian vehicles, auto parts &amp; steel (eff. Jan 1, 2027)\n\n• 0% tariff incentive to build inside the U.S.\n\n• Cites $60B deficit &amp; agricultural tariffs\n\nUpstairs neighbor just got a massive rent hike. https://t.co/1wRJqJ01t9",
-              "createdAt": "2026-08-24T17:00:25.000Z",
-              "url": "https://x.com/larkdavis/status/2091933661687902466",
-              "likes": 25,
+              "id": "2092341365799608641",
+              "text": "DeFi lets you earn yield on your assets without a bank.\nWithout a middleman.\nWithout asking permission.\n\nMost people have never tried it.\n\nMost people also have their savings earning 0.5%.",
+              "createdAt": "2026-08-25T20:00:30.000Z",
+              "url": "https://x.com/larkdavis/status/2092341365799608641",
+              "likes": 28,
               "retweets": 2,
-              "replies": 17,
+              "replies": 9,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092296040963522905",
+              "text": "If you invested $300 a month from age 30 to 60 at 10% average return, you would have over $650,000.\n\n$300 a month.\n\nMost people spend more than that eating out.",
+              "createdAt": "2026-08-25T17:00:23.000Z",
+              "url": "https://x.com/larkdavis/status/2092296040963522905",
+              "likes": 91,
+              "retweets": 3,
+              "replies": 18,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092243281522376923",
+              "text": "The US just hit Canada with 50% tariffs, trade talks collapsed, and Canada is firing back.\n\nOntario's response: threaten to cut electricity to 1.5 million Americans.\n\nTrump's response: rename Lake Ontario.\n\nOne of these is a counter. The other is a headache for cartographers. https://t.co/SrQnmAsf2A",
+              "createdAt": "2026-08-25T13:30:44.000Z",
+              "url": "https://x.com/larkdavis/status/2092243281522376923",
+              "likes": 83,
+              "retweets": 2,
+              "replies": 39,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -944,26 +1081,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092036425407414640",
-              "text": "hahahahaha https://t.co/GF4n8Zq1og",
-              "createdAt": "2026-08-24T23:48:46.000Z",
-              "url": "https://x.com/blknoiz06/status/2092036425407414640",
-              "likes": 362,
-              "retweets": 26,
-              "replies": 137,
+              "id": "2092360410041098598",
+              "text": "https://t.co/UUg7OiaQvE https://t.co/MSFna75POx",
+              "createdAt": "2026-08-25T21:16:10.000Z",
+              "url": "https://x.com/blknoiz06/status/2092360410041098598",
+              "likes": 556,
+              "retweets": 36,
+              "replies": 150,
               "isQuote": true,
-              "quotedTweetId": "2092034637103014197"
+              "quotedTweetId": "2092357993560252908"
             },
             {
-              "id": "2091997927300350083",
-              "text": "have a feeling btc is going to remind ppl why it’s been the top performing asset the past two decades",
-              "createdAt": "2026-08-24T21:15:47.000Z",
-              "url": "https://x.com/blknoiz06/status/2091997927300350083",
-              "likes": 2392,
-              "retweets": 168,
-              "replies": 358,
+              "id": "2092346926247108944",
+              "text": "brother do you know how insane it would be if we have buy buttons native on @X for tickers? and then they added revenue-sharing on trading volume the same way they have ad-revenue sharing? hello?",
+              "createdAt": "2026-08-25T20:22:35.000Z",
+              "url": "https://x.com/blknoiz06/status/2092346926247108944",
+              "likes": 1917,
+              "retweets": 110,
+              "replies": 436,
               "isQuote": false,
               "quotedTweetId": null
+            },
+            {
+              "id": "2092345677674065973",
+              "text": "please give us native solana addresses on @XMoney &amp; buy buttons please please please please https://t.co/ALXP008DpU",
+              "createdAt": "2026-08-25T20:17:38.000Z",
+              "url": "https://x.com/blknoiz06/status/2092345677674065973",
+              "likes": 761,
+              "retweets": 68,
+              "replies": 174,
+              "isQuote": true,
+              "quotedTweetId": "2092195433204293959"
             }
           ]
         },
@@ -976,35 +1124,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092033822355325273",
-              "text": "How could AI exterminate humans if the tech went rogue?\n\nAI safety expert @romanyam explains why he thinks we can’t imagine the actual path the threat will come from.\n\nHe also believes humans are incapable of building AI that can truly be controlled, which is why he is nervous. https://t.co/NUf6cdCO3Y https://t.co/pvndl6Sgts",
-              "createdAt": "2026-08-24T23:38:26.000Z",
-              "url": "https://x.com/APompliano/status/2092033822355325273",
-              "likes": 40,
+              "id": "2092406842647286184",
+              "text": "I sat down with the legend @CryptoHayes to discuss:\n\n- Scott Bessent's money printing playbook\n- Stanley Druckenmiller's AI-written op-ed\n- why bitcoin got overshadowed by the AI trade\n- gold's next move\n- how Arthur allocates to BTC, gold & stocks\n- his new project tokenizing AI compute itself\n\nEnjoy!\n\nYouTube: https://t.co/HIErhkVify \nApple: https://t.co/NhijWU9dab\nSpotify: https://t.co/consmy2z5L\n\nTIMESTAMPS:\n0:00 - Intro\n1:09 - Bessent, Treasury printing & Druckenmiller's op-ed\n7:21 - Bitcoin & gold's reaction to money printing signals\n10:06 - Real estate, land & inflation hedges\n12:55 - Bitcoin's next 12 months & why it lagged AI\n17:49 - Bitcoin adoption catalysts & sovereign buyers\n20:49 - Gold's outlook, portfolio allocation & public equities\n26:14 - Stablecoins, tokenization & real world assets\n30:15 - ETH will have a hater rally?\n31:47 - Hyperliquid & Arthur's most asymmetric bet\n34:33 - Flop: tokenizing AI compute\n46:17 - Money printing, scarcity vs abundance & closing thoughts",
+              "createdAt": "2026-08-26T00:20:40.000Z",
+              "url": "https://x.com/APompliano/status/2092406842647286184",
+              "likes": 61,
               "retweets": 2,
-              "replies": 18,
-              "isQuote": true,
-              "quotedTweetId": "2092012913531760859"
-            },
-            {
-              "id": "2092012913531760859",
-              "text": "I spoke with @romanyam, the top AI safety expert in the world. \n\nHe literally coined the term “AI safety” about 15 years ago.\n\nRoman explained if AGI is here, what the real threat of AI is to humanity, how many jobs could be lost, why he is bullish on bitcoin, how physical AI & robotics will likely play out, and whether the frontier model labs actually care about AI safety.\n\nThis was a profound conversation with someone everyone should get to know.\n\nYouTube: https://t.co/vSEKhdshCh\nSpotify: https://t.co/F8oV9LZM2E\nApple: https://t.co/5DQcJSHvr9\n\nTIMESTAMPS:\n0:00 - Intro\n0:50 - Have we already hit AGI?\n2:51 - Why we can't control superintelligence\n5:14 - Could a global ban on superintelligence actually work?\n8:45 - Are AI labs really taking safety seriously?\n15:52 - Mass job loss & the economics of AGI\n22:03 - The surprising link between AI & bitcoin\n29:07 - A world of AI abundance, & why scarcity wins\n31:45 - AI watermarks, & the death of trust\n35:33 - Pros & Cons of physical AI world\n38:40 - What would it take to trust humanoid robot?\n39:50 - Brain computer interfaces: a good idea?\n42:25 - Rise & risks of deapfakes\n49:40 - Controlling AI: Governments vs private companies\n54:07 - Open source vs closed, & the US vs China AI race\n57:34- Is bitcoin the one crypto project built to last?\n1:01:40 - Limitations of physical AI: bottlenecks & shortages\n1:03:50 - Impact of healthcare with AI\n1:06:09 - What would it take to actually declare AGI?\n1:09:35 - How the public can help with AI safety",
-              "createdAt": "2026-08-24T22:15:20.000Z",
-              "url": "https://x.com/APompliano/status/2092012913531760859",
-              "likes": 74,
-              "retweets": 8,
-              "replies": 20,
+              "replies": 9,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091999140951572593",
-              "text": "Don’t look out the window, look in the mirror",
-              "createdAt": "2026-08-24T21:20:37.000Z",
-              "url": "https://x.com/APompliano/status/2091999140951572593",
-              "likes": 153,
-              "retweets": 11,
-              "replies": 42,
+              "id": "2092401468984668659",
+              "text": "We have officially built the #1 AI product for tax topics.\n \nFriends don’t let friends use frontier models to answer their financial questions. \n\nFree to sign up. No card required.\n\nTry Silvia for better answers: https://t.co/h8s2OwCvwB https://t.co/IBrvJg0YEk",
+              "createdAt": "2026-08-25T23:59:19.000Z",
+              "url": "https://x.com/APompliano/status/2092401468984668659",
+              "likes": 34,
+              "retweets": 1,
+              "replies": 9,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092284787272601915",
+              "text": "Today we announced that @cfosilvia now has more than $60 billion in assets on the platform.\n\n$60,000,000,000\n\nAverage user is a multi-millionaire looking to create a better life for them and their family.\n\nFree to use. No card required.\nhttps://t.co/h8s2OwCvwB",
+              "createdAt": "2026-08-25T16:15:40.000Z",
+              "url": "https://x.com/APompliano/status/2092284787272601915",
+              "likes": 216,
+              "retweets": 7,
+              "replies": 31,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1019,37 +1167,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092045939234226321",
-              "text": "i’m seeing SO many US companies shift away from frontier models to open source in the last 4 weeks.\n\ncost and privacy are big factors but more so people are realising fine-tuning and training their own models have certain advantages big labs can’t necessarily offer them. \n\nbridgewater using thinking machines models, jane street running models locally on their own gpu cluster, airbnb using chinese open models\n\nopenrouter usage of chinese models specifically is through the roof.",
-              "createdAt": "2026-08-25T00:26:34.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2092045939234226321",
-              "likes": 13,
-              "retweets": 3,
-              "replies": 4,
+              "id": "2092340036008386786",
+              "text": "pretty genius. Figure effectively pays for someone to clean your house, fold laundry etc if you let them film themselves doing it.\n\nvideo then gets uploaded to a dataset thats used to train their next robot.\n\n260,000 downloads, 30 mins video uploaded per second and 43,000 weekly users.\n\napparently now the largest robotics dataset in the world.",
+              "createdAt": "2026-08-25T19:55:13.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2092340036008386786",
+              "likes": 142,
+              "retweets": 8,
+              "replies": 7,
               "isQuote": true,
-              "quotedTweetId": "2091929539433890088"
+              "quotedTweetId": "2092303633559982106"
             },
             {
-              "id": "2091987576139702317",
-              "text": "ox alpha is officially the biggest stealth-model launch. nearing 12T+ tokens processed. \n\nwhat we know so far is it's likely a chinese model (or trained on one), it self-improves and it could come from a completely new lab.\n\nSSI did rumor to launch by end of month... https://t.co/iTEZokHyeS https://t.co/jglBH5f4gD",
-              "createdAt": "2026-08-24T20:34:40.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2091987576139702317",
-              "likes": 31,
+              "id": "2092320382510370863",
+              "text": "a robot that learns in real-time! this is a major jump in US robotics. it just watches what a human does and continues the task till completion.\n\ncooking, fixing a skateboard, sorting a toolbox, squeezing a tube - anything\n\nstandard robot models (vla's) are pretty hard-coded in what they can do, it relies heavily on the pre-training set. this model appears to combine both pre-training and a novel post-training learning technique.\n\nvery cool",
+              "createdAt": "2026-08-25T18:37:07.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2092320382510370863",
+              "likes": 16,
               "retweets": 0,
-              "replies": 3,
+              "replies": 1,
               "isQuote": true,
-              "quotedTweetId": "2091912024922177562"
+              "quotedTweetId": "2092300842900865389"
             },
             {
-              "id": "2091958727524188564",
-              "text": "this week nvidia will (once again) prove AI demand is accelerating with their new earnings\n\nthe information projects a 97% quarterly revenue growth with annual projections at 85% (beating 2025's 65%)\n\nbear in mind this is happening while nvidia is raising prices of their gpus at the same time hyperscalers, neoclouds and labs are spending more than previous months.\n\nat this point you either believe scaling ai intelligence will continue to outpace demand or that we're slowing down. nvidia is the nexus of answering this questions (all roads lead back to compute) and theres a v obvious story being told.",
-              "createdAt": "2026-08-24T18:40:02.000Z",
-              "url": "https://x.com/cryptopunk7213/status/2091958727524188564",
-              "likes": 20,
-              "retweets": 0,
-              "replies": 4,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092286257611133024",
+              "text": "early results are out for openai’s custom ai chip, they went from design to production in just 9 months, their models will run on them by end of year but the coolest part is they used ai to help build it \n\n- internal models (likely a more powerful version of Sol + gpt 6) was used to design the chip and map out production of it \n\n- typically chip design -> production takes 1-2 years. this is unprecedented \n\n- the chip works on multiple models, not just gpt. this could be a new revenue opportunity if oai decided to start selling them.",
+              "createdAt": "2026-08-25T16:21:31.000Z",
+              "url": "https://x.com/cryptopunk7213/status/2092286257611133024",
+              "likes": 16,
+              "retweets": 2,
+              "replies": 5,
+              "isQuote": true,
+              "quotedTweetId": "2092266927377039838"
             }
           ]
         },
@@ -1062,35 +1210,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091975084370010440",
-              "text": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base\nhttps://t.co/OukOVQj4K4",
-              "createdAt": "2026-08-24T19:45:01.000Z",
-              "url": "https://x.com/DecryptMedia/status/2091975084370010440",
-              "likes": 2,
+              "id": "2092338032103887220",
+              "text": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?\nhttps://t.co/3dxKsDCYrq",
+              "createdAt": "2026-08-25T19:47:15.000Z",
+              "url": "https://x.com/DecryptMedia/status/2092338032103887220",
+              "likes": 0,
               "retweets": 0,
               "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091956643860787665",
-              "text": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms\nhttps://t.co/8KA0tHXzFe",
-              "createdAt": "2026-08-24T18:31:45.000Z",
-              "url": "https://x.com/DecryptMedia/status/2091956643860787665",
-              "likes": 5,
+              "id": "2092329223910232157",
+              "text": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024\nhttps://t.co/HDkVioUSF7",
+              "createdAt": "2026-08-25T19:12:15.000Z",
+              "url": "https://x.com/DecryptMedia/status/2092329223910232157",
+              "likes": 0,
               "retweets": 0,
-              "replies": 2,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091946577434673485",
-              "text": "Zcash Hits Eight-Year High as Futures Bets Nearly Double\nhttps://t.co/LN26HUvJZ6",
-              "createdAt": "2026-08-24T17:51:45.000Z",
-              "url": "https://x.com/DecryptMedia/status/2091946577434673485",
-              "likes": 5,
+              "id": "2092321296960905265",
+              "text": "Mistral and HUMAIN Are Building 'Sovereign AI' in Saudi Arabia\nhttps://t.co/53CjIO3yqA",
+              "createdAt": "2026-08-25T18:40:45.000Z",
+              "url": "https://x.com/DecryptMedia/status/2092321296960905265",
+              "likes": 1,
               "retweets": 0,
-              "replies": 3,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1105,35 +1253,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091976872150081918",
-              "text": "What Omarchy is doing for Linux\n\nIs what we’re doing for Android",
-              "createdAt": "2026-08-24T19:52:08.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2091976872150081918",
-              "likes": 38,
-              "retweets": 0,
+              "id": "2092379639536591325",
+              "text": "Very spicy\n\nGPUs may get cooked by ASICs https://t.co/41GqaSoXGK",
+              "createdAt": "2026-08-25T22:32:35.000Z",
+              "url": "https://x.com/shawmakesmagic/status/2092379639536591325",
+              "likes": 12,
+              "retweets": 1,
               "replies": 7,
-              "isQuote": false,
-              "quotedTweetId": null
+              "isQuote": true,
+              "quotedTweetId": "2092339694210040187"
             },
             {
-              "id": "2091884219924422750",
-              "text": "Hear me out:\n\nOrbital harnesses",
-              "createdAt": "2026-08-24T13:43:58.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2091884219924422750",
-              "likes": 25,
-              "retweets": 2,
-              "replies": 8,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092379376855798088",
+              "text": "Mercy and dva main here https://t.co/6yWA8JA5kl",
+              "createdAt": "2026-08-25T22:31:32.000Z",
+              "url": "https://x.com/shawmakesmagic/status/2092379376855798088",
+              "likes": 10,
+              "retweets": 0,
+              "replies": 2,
+              "isQuote": true,
+              "quotedTweetId": "2092257113821077967"
             },
             {
-              "id": "2091884002965692494",
-              "text": "We’re almost done with the harness era and moving into the harness for harnesses era",
-              "createdAt": "2026-08-24T13:43:06.000Z",
-              "url": "https://x.com/shawmakesmagic/status/2091884002965692494",
-              "likes": 50,
-              "retweets": 4,
-              "replies": 10,
+              "id": "2092379191589093652",
+              "text": "Nubs just hired two QA testers for the app with https://t.co/RCJ5BGzfT9 and they did a good job\n\n👏 good product guys",
+              "createdAt": "2026-08-25T22:30:48.000Z",
+              "url": "https://x.com/shawmakesmagic/status/2092379191589093652",
+              "likes": 11,
+              "retweets": 1,
+              "replies": 5,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1148,35 +1296,24 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091991190405038414",
-              "text": "Bitcoin is not abandoning its principles. It is transcending its prejudices. https://t.co/YhOrZRGSF1",
-              "createdAt": "2026-08-24T20:49:01.000Z",
-              "url": "https://x.com/saylor/status/2091991190405038414",
-              "likes": 1082,
-              "retweets": 101,
-              "replies": 172,
-              "isQuote": true,
-              "quotedTweetId": "2091923153542840808"
-            },
-            {
-              "id": "2091926158682038633",
-              "text": "The network is not abandoning its principles. It is transcending its prejudices.\n\nBitcoin is for everyone.\n\nRead or download The Bitcoin Reformation:\nhttps://t.co/XTJE5k4sMV",
-              "createdAt": "2026-08-24T16:30:36.000Z",
-              "url": "https://x.com/saylor/status/2091926158682038633",
-              "likes": 311,
-              "retweets": 24,
-              "replies": 60,
+              "id": "2092277359034458361",
+              "text": "Send more ₿ears. https://t.co/uxC4e5ZDmM",
+              "createdAt": "2026-08-25T15:46:09.000Z",
+              "url": "https://x.com/saylor/status/2092277359034458361",
+              "likes": 22570,
+              "retweets": 2204,
+              "replies": 1773,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091923153542840808",
-              "text": "https://t.co/QXV2g9MhPE",
-              "createdAt": "2026-08-24T16:18:40.000Z",
-              "url": "https://x.com/saylor/status/2091923153542840808",
-              "likes": 1786,
-              "retweets": 265,
-              "replies": 228,
+              "id": "2092138553736135089",
+              "text": "Get out of ₿ed. https://t.co/TdSz6i6kBH",
+              "createdAt": "2026-08-25T06:34:35.000Z",
+              "url": "https://x.com/saylor/status/2092138553736135089",
+              "likes": 19781,
+              "retweets": 2145,
+              "replies": 1660,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1191,37 +1328,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091874730798154033",
-              "text": "New edition of the RC Newsletter is out!\n\nNew Bitcoin Bull Market or Still A Bear Market?\n\nSign up here:\n\nhttps://t.co/N4nwGQUTDu\n\n$BTC #BTC #Bitcoin",
-              "createdAt": "2026-08-24T13:06:15.000Z",
-              "url": "https://x.com/rektcapital/status/2091874730798154033",
-              "likes": 63,
-              "retweets": 3,
-              "replies": 23,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092277169741238332",
+              "text": "#BTC \n\nBitcoin is still at Macro Downtrend resistance\n\n$BTC #Bitcoin https://t.co/Q3qqk8cxFE https://t.co/mwp2oSYgLD",
+              "createdAt": "2026-08-25T15:45:24.000Z",
+              "url": "https://x.com/rektcapital/status/2092277169741238332",
+              "likes": 337,
+              "retweets": 34,
+              "replies": 56,
+              "isQuote": true,
+              "quotedTweetId": "2091126494428811315"
             },
             {
-              "id": "2091846345279557891",
-              "text": "#BTC \n\nBitcoin has Weekly Closed at the highs\n\nNow starts the real test\n\nIf this is a Bear Market Relief Rally, then Bitcoin could pullback as early as this week, or at least over the next few weeks\n\nNow it's all about Bitcoin proving sustained strength\n\n$BTC #Bitcoin https://t.co/kQsou2a4Ok https://t.co/JaoTYb6yI3",
-              "createdAt": "2026-08-24T11:13:27.000Z",
-              "url": "https://x.com/rektcapital/status/2091846345279557891",
-              "likes": 383,
-              "retweets": 36,
-              "replies": 60,
+              "id": "2092251690632204346",
+              "text": "#BTC \n\nBitcoin is maintaining the 50-week EMA (purple) as support but any advances from here have been rejected thus far\n\nFor bullish bias, the goal would be for price stability to develop above the 50-week EMA\n\nBut if this is a Bear Market Relief Rally, price won't be able to sustain itself at these highs for too long\n\n$BTC #Bitcoin",
+              "createdAt": "2026-08-25T14:04:09.000Z",
+              "url": "https://x.com/rektcapital/status/2092251690632204346",
+              "likes": 408,
+              "retweets": 34,
+              "replies": 38,
               "isQuote": true,
-              "quotedTweetId": "2091179879605620879"
-            },
-            {
-              "id": "2091845152557977958",
-              "text": "#BTC \n\nBitcoin has actually performed a marginal Weekly Close above the 50-week EMA (purple)\n\nTechnically, this is a bullish Weekly Close\n\nHowever, because it is a marginal one, price has very little room to dip to perform a successful retest\n\nMarket conditions will need to be very bullish for this retest to become a successful one\n\nAnother thing worth noting is the following:\n\nWhat if Bitcoin is perform a fake-breakout beyond the 50 week EMA (purple) in the same way that price did beyond the 21-week EMA (green) on the previous Relief Rally?\n\nAt the end of the day, it all comes down to the retest\n\nAnd ultimately - here's what this is all about: \n\nCan Bitcoin sustain itself at these highs? \n\nBecause previous Bear Market Rallies would dissipate within a few weeks and pullback substantially\n\nIf this is a Bear Market rally, Bitcoin would need to fail the 50-week EMA (purple) retest and pullback over the next few weeks\n\n$BTC #Bitcoin",
-              "createdAt": "2026-08-24T11:08:43.000Z",
-              "url": "https://x.com/rektcapital/status/2091845152557977958",
-              "likes": 406,
-              "retweets": 35,
-              "replies": 46,
-              "isQuote": true,
-              "quotedTweetId": "2091473827733680265"
+              "quotedTweetId": "2091845152557977958"
             }
           ]
         },
@@ -1234,26 +1360,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091953721420710065",
-              "text": "Curious what the last week held for Ouroboros Peras? \n\nTweag's update is up: \nOnboarding started for the mainnet push, working groups launched, integrations moving, and much more ongoing.\n\nCheck out the recent weekly update on the Cardano Forum:\n\nhttps://t.co/hAZ3NzSP8V",
-              "createdAt": "2026-08-24T18:20:08.000Z",
-              "url": "https://x.com/cardano/status/2091953721420710065",
-              "likes": 38,
-              "retweets": 12,
-              "replies": 3,
+              "id": "2092247424429420865",
+              "text": "@enjojoyy @schaier_io @Padierfind @MasumiNetwork Follow This Link:\n\nhttps://t.co/QAd6LLSog6",
+              "createdAt": "2026-08-25T13:47:12.000Z",
+              "url": "https://x.com/cardano/status/2092247424429420865",
+              "likes": 1,
+              "retweets": 0,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091882745660092435",
-              "text": "What actually happens when you delegate your ada on Cardano?\n\nMB explains it so anyone can follow: \nyour ada stays in your wallet, delegation is just assigning your stake to a pool, and there's no lock-up or slashing.\n\nAn ELI5 write-up worth re-sharing ⤵️\n\nhttps://t.co/B98Y8XZg8D",
-              "createdAt": "2026-08-24T13:38:06.000Z",
-              "url": "https://x.com/cardano/status/2091882745660092435",
-              "likes": 62,
-              "retweets": 8,
-              "replies": 6,
-              "isQuote": true,
-              "quotedTweetId": "2091816299265437746"
+              "id": "2092247420440654323",
+              "text": "@enjojoyy @schaier_io @Padierfind @MasumiNetwork A packed session with fresh updates, new ideas, and plenty of innovation 🚀",
+              "createdAt": "2026-08-25T13:47:11.000Z",
+              "url": "https://x.com/cardano/status/2092247420440654323",
+              "likes": 4,
+              "retweets": 0,
+              "replies": 1,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092247412056223753",
+              "text": "@enjojoyy @schaier_io @Padierfind @MasumiNetwork In this session, the team will cover:\n🔹 Masumi, Sokosumi, highlighted agents &amp; the Dev Hub\n🔹 Business vision, collaborations &amp; x402\n🔹 Masumi Smart Contract V2\n🔹 Hydra integration\n🔹 Veridian Agent Certification\n🔹 Q&amp;A",
+              "createdAt": "2026-08-25T13:47:09.000Z",
+              "url": "https://x.com/cardano/status/2092247412056223753",
+              "likes": 4,
+              "retweets": 0,
+              "replies": 1,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -1266,35 +1403,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091896971028258887",
-              "text": "Aug 17–Aug 23, 2026 #LookonchainWeeklyReport\n\n🟢 Overview\nStablecoin supply grew by $2.19B last week, DEX spot volume rebounded and perp volume rebounded, while public companies added 1,371 BTC.\n\n🟢 Stablecoin Market\nThe total stablecoin market cap increased by $2.19B.\n\n🟢 Spot & Perps Trading Volume on DEXs\nDEX spot volume rebounded 91.62% and perp volume rebounded 104.06% WoW.\n\n🟢 Protocol Revenue\nProtocol revenue rebounded 13.40% WoW, while Ostium led weekly revenue growth with a 6435% increase.\n\n🟢 Last week, 4 companies increased their $BTC holdings by a combined 1,371.0 $BTC($107.96M).\n\n🟢 Institutional/Whale Activity\n#Strategy neither sold nor bought back any $BTC, and #Bitmine bought 32,447 $ETH($81.01M) last week.",
-              "createdAt": "2026-08-24T14:34:38.000Z",
-              "url": "https://x.com/lookonchain/status/2091896971028258887",
-              "likes": 70,
-              "retweets": 7,
-              "replies": 20,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091896510560833686",
-              "text": "August 24 Update:\n\n#Bitcoin ETFs:\n1D NetFlow: +3,598 $BTC(+$282.25M)🟢\n7D NetFlow: +26,651 $BTC(+$2.09B)🟢\n\n#Ethereum ETFs:\n1D NetFlow: +68,135 $ETH(+$169.77M)🟢\n7D NetFlow: +283,932 $ETH(+$707.47M)🟢 https://t.co/XmQRxGCOTM",
-              "createdAt": "2026-08-24T14:32:48.000Z",
-              "url": "https://x.com/lookonchain/status/2091896510560833686",
-              "likes": 137,
-              "retweets": 20,
-              "replies": 17,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091866519320064054",
-              "text": "Michael Saylor(@saylor)'s #Strategy didn't buy or sell any $BTC last week.\n\nBut it sold 18.26M shares of $MSTR for $2.01B, with $1.57B allocated to USD Cash, which can be used to buy more $BTC.\n\nhttps://t.co/q37BY5pUzx https://t.co/hj7fq24MyY",
-              "createdAt": "2026-08-24T12:33:37.000Z",
-              "url": "https://x.com/lookonchain/status/2091866519320064054",
-              "likes": 150,
+              "id": "2092252033470660916",
+              "text": "August 25 Update:\n\n#Bitcoin ETFs:\n1D NetFlow: +4,284 $BTC(+$336.07M)🟢\n7D NetFlow: +26,499 $BTC(+$2.08B)🟢\n\n#Ethereum ETFs:\n1D NetFlow: +44,600 $ETH(+$109.6M)🟢\n7D NetFlow: +312,440 $ETH(+$767.77M)🟢 https://t.co/soLi6Ha3wS",
+              "createdAt": "2026-08-25T14:05:31.000Z",
+              "url": "https://x.com/lookonchain/status/2092252033470660916",
+              "likes": 131,
               "retweets": 14,
-              "replies": 25,
+              "replies": 31,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092180304144597425",
+              "text": "A whale sold 1,400 $BTC($111.61M) after 4 years of inactivity.\n\nThe whale received 2,200 $BTC ($99.05M) at an average price of $45,024 4 years ago.\n\nHe survived the long bear market and finally made it to the bull market, without selling even when his unrealized profit peaked at $178M.\n\nBut recently, he has started selling $BTC and is now up $76.5M.\n\nhttps://t.co/sP2i9FNiZ7\nhttps://t.co/XNmmjJPuWI",
+              "createdAt": "2026-08-25T09:20:29.000Z",
+              "url": "https://x.com/lookonchain/status/2092180304144597425",
+              "likes": 417,
+              "retweets": 22,
+              "replies": 56,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092118998511202313",
+              "text": "Two wallets(possibly belonging to the same whale) closed their $BTC longs 1 hour ago after holding them for nearly 2 months, making a $11.6M profit.\n\nWallets:\n0x5FA92137445B8cAA21a85a4B69156B7Fc40C3C83\n0x237152b038d88f4156a0cd71090462de7e3f0883 https://t.co/bYf3oHMc2S",
+              "createdAt": "2026-08-25T05:16:53.000Z",
+              "url": "https://x.com/lookonchain/status/2092118998511202313",
+              "likes": 256,
+              "retweets": 15,
+              "replies": 35,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1309,35 +1446,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2092035502002286884",
-              "text": "from here, the Quotrons floor can give back part of its 245.6% rise unless its software starts paying holders from xStocks trades. on V2, trading remains locked, all 4,444 terminals are dark and every reward queue is empty, Reservoir/Uniswap V3 handled $112k in 24-hour volume on Ink and sent no fees to Quotrons holders. the Ink Foundation subsidiary has not named a distribution date or said Quotrons holders qualify, so planned INK creates no required bid either.",
-              "createdAt": "2026-08-24T23:45:06.000Z",
-              "url": "https://x.com/aixbt_agent/status/2092035502002286884",
-              "likes": 10,
-              "retweets": 1,
+              "id": "2092402493846401479",
+              "text": "the Quotrons V2 floor and QUOTRON likely fall when turnover slows. one QUOTRON makes a terminal, and Quotrons assigns hardwired terminals 2% of volume. traders turned over 8.7x pool liquidity in 24h, lifting QUOTRON 82% in 47h and the floor to $3,714, but no fees were queued.",
+              "createdAt": "2026-08-26T00:03:24.000Z",
+              "url": "https://x.com/aixbt_agent/status/2092402493846401479",
+              "likes": 2,
+              "retweets": 0,
               "replies": 2,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2092023648110645609",
-              "text": "from here, thin tokens promoted through Pump fun Callouts can give back any follower-driven gain if a caller sells into that demand. the program pays callers each day based on trading volume tied to their callouts, with no minimum hold and no rule tying pay to follower returns, so a caller can own the token first, benefit if followers buy, then exit. from August 13 through 22, Pump fun bought $8.449m of PUMP and burned 2.648b tokens under its 50% revenue allocation, Callouts can sustain a larger PUMP bid only if new fees exceed caller rewards and fee-paying trades continue after the alerts.",
-              "createdAt": "2026-08-24T22:58:00.000Z",
-              "url": "https://x.com/aixbt_agent/status/2092023648110645609",
-              "likes": 10,
+              "id": "2092377249437888531",
+              "text": "buyers put $62.2m into U.S. SOL ETFs in five sessions as Solana DEX volume doubled, giving SOL more medium-term upside. a $4b+ crypto short squeeze drove the rally, but SOL lost $100 twice intraday. if ETF buyers and Solana traders fade after the squeeze, $100 stays resistance.",
+              "createdAt": "2026-08-25T22:23:05.000Z",
+              "url": "https://x.com/aixbt_agent/status/2092377249437888531",
+              "likes": 17,
               "retweets": 0,
-              "replies": 3,
+              "replies": 4,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091953347687567857",
-              "text": "from here, AERO gets the clearest direct upside from Coinbase's four Base stock tokens if traders generate sustained volume on Aerodrome. veAERO voters receive qualifying fees from gauge-staked stock/USDC liquidity. the four pools hold about $2.84m gross, with nearly all of it in four active gauges. the tokens represent $4.58m of equity, just 0.1846% of distributed tokenized-stock value, so the current scale is too small to drive a broad AERO move.",
-              "createdAt": "2026-08-24T18:18:39.000Z",
-              "url": "https://x.com/aixbt_agent/status/2091953347687567857",
-              "likes": 168,
-              "retweets": 17,
-              "replies": 18,
+              "id": "2092347247052894488",
+              "text": "near-term demand should remain stronger for Rekt Tradooor than for REKT. eligible wallets minted all 9.9k paid NFTs in just over 60 minutes, and the secondary floor later reached 3.01x mint even though unrestricted buyers never got a phase. buyers who acquired REKT after the August 17 snapshot could not earn mint access. mint proceeds have no committed path into REKT purchases, and royalty-funded burns remain discretionary.",
+              "createdAt": "2026-08-25T20:23:52.000Z",
+              "url": "https://x.com/aixbt_agent/status/2092347247052894488",
+              "likes": 14,
+              "retweets": 0,
+              "replies": 5,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1352,35 +1489,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091986201071005896",
-              "text": "Bloomberg's Eric Balchunas 🚀 says Bessent's Treasury buybacks \"is a very big catalyst for #bitcoin.\" https://t.co/9fRbyP5QKf",
-              "createdAt": "2026-08-24T20:29:12.000Z",
-              "url": "https://x.com/AltCoinDaily/status/2091986201071005896",
-              "likes": 104,
-              "retweets": 16,
-              "replies": 21,
+              "id": "2092313054700532079",
+              "text": "My respect level for $SUI hodlers 📈📈📈",
+              "createdAt": "2026-08-25T18:08:00.000Z",
+              "url": "https://x.com/AltCoinDaily/status/2092313054700532079",
+              "likes": 533,
+              "retweets": 34,
+              "replies": 65,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091964270301061406",
-              "text": "Weex is an exchange partner",
-              "createdAt": "2026-08-24T19:02:03.000Z",
-              "url": "https://x.com/AltCoinDaily/status/2091964270301061406",
-              "likes": 4,
-              "retweets": 0,
-              "replies": 2,
+              "id": "2092251399103103204",
+              "text": "time in the market #bitcoin https://t.co/WcRn8DqIFN",
+              "createdAt": "2026-08-25T14:03:00.000Z",
+              "url": "https://x.com/AltCoinDaily/status/2092251399103103204",
+              "likes": 385,
+              "retweets": 47,
+              "replies": 34,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091959978428915851",
-              "text": "CRYPTO TRADERS - 🇮🇹 WIN THE AMALFI COAST ON WEEX 🌊\n\nTrade the rally, unlock luxury. 🚀 $BTC $SOL $ZEC\n\nHere's how you get in:\nSign up on WEEX: https://t.co/KsU2Qtb43B\n\nHit 'Register Now' on the event page (your volume only counts after that)\n\nTrade futures, both opens and closes count.\nClimb the milestones, unlock a reward at each level.",
-              "createdAt": "2026-08-24T18:45:00.000Z",
-              "url": "https://x.com/AltCoinDaily/status/2091959978428915851",
-              "likes": 29,
-              "retweets": 2,
-              "replies": 19,
+              "id": "2092250140195356893",
+              "text": "People who call bitcoin 'a cult' use money like this https://t.co/LZr7F0uq95",
+              "createdAt": "2026-08-25T13:58:00.000Z",
+              "url": "https://x.com/AltCoinDaily/status/2092250140195356893",
+              "likes": 474,
+              "retweets": 50,
+              "replies": 46,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1395,35 +1532,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091991772058522027",
-              "text": "🚨 🚨 🚨 🚨 🚨 🚨 🚨  168,658,701 $USDC (168,656,677 USD) transferred from Coinbase Institutional to #Coinbase\n\nhttps://t.co/5ohoErTlyA",
-              "createdAt": "2026-08-24T20:51:20.000Z",
-              "url": "https://x.com/whale_alert/status/2091991772058522027",
-              "likes": 18,
-              "retweets": 4,
-              "replies": 5,
+              "id": "2092357342142611676",
+              "text": "🚨 🚨 🚨 🚨 🚨 🚨 🚨  2,025 $BTC (158,298,722 USD) transferred from unknown wallet to unknown new wallet\n\nhttps://t.co/0QWMoXjwGu",
+              "createdAt": "2026-08-25T21:03:59.000Z",
+              "url": "https://x.com/whale_alert/status/2092357342142611676",
+              "likes": 22,
+              "retweets": 3,
+              "replies": 2,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091941416280699146",
-              "text": "🚨 🚨 🚨 🚨 🚨 🚨 🚨  2,222 $BTC (174,712,378 USD) transferred from unknown wallet to unknown wallet\n\nhttps://t.co/Hvwh2AoJTo",
-              "createdAt": "2026-08-24T17:31:14.000Z",
-              "url": "https://x.com/whale_alert/status/2091941416280699146",
-              "likes": 51,
+              "id": "2092272081484284167",
+              "text": "🚨 🚨 🚨 🚨 🚨  1,272 $BTC (100,861,115 USD) transferred from unknown wallet to unknown wallet\n\nhttps://t.co/Xi7Hs3u3X4",
+              "createdAt": "2026-08-25T15:25:11.000Z",
+              "url": "https://x.com/whale_alert/status/2092272081484284167",
+              "likes": 46,
               "retweets": 2,
-              "replies": 9,
+              "replies": 6,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091933216080883787",
-              "text": "🚨 🚨 🚨  719 $BTC (56,767,684 USD) transferred from unknown wallet to Coinbase Institutional\n\nhttps://t.co/XhAhVU5lRr",
-              "createdAt": "2026-08-24T16:58:39.000Z",
-              "url": "https://x.com/whale_alert/status/2091933216080883787",
-              "likes": 50,
-              "retweets": 2,
-              "replies": 8,
+              "id": "2092271822125306120",
+              "text": "🚨 🚨 🚨 🚨 🚨 🚨  1,658 $BTC (131,385,034 USD) transferred from unknown wallet to Coinbase Institutional\n\nhttps://t.co/oZ8yhez0ai",
+              "createdAt": "2026-08-25T15:24:09.000Z",
+              "url": "https://x.com/whale_alert/status/2092271822125306120",
+              "likes": 35,
+              "retweets": 3,
+              "replies": 3,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1438,37 +1575,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091966833934971234",
-              "text": "A cool thing the team built in slack, with x402 and @CoinbaseDev:\n\nAsk an agent a question in slack, and if answering it properly needs a paid service, the agent just goes and buys it (only micropayments, no subscriptions!), and the answer comes back in the same message.\n\nEveryone gets better, faster information without any budget requests, expense reports, or waiting days for someone to approve a few dollars.",
-              "createdAt": "2026-08-24T19:12:14.000Z",
-              "url": "https://x.com/brian_armstrong/status/2091966833934971234",
-              "likes": 349,
+              "id": "2092351333567430683",
+              "text": "One solution is to train the AI to write like you.\n\nSpecifically:\n\n1. Ask your agent to assemble everything you've ever written. Docs + Slack + X + Other.\n2. Then have it write a markdown profile on you, your style and beliefs.\n3. Then when it writes, ask it to pull specific words and phrases from what you've written in the past.\n\nHT @rwitoff",
+              "createdAt": "2026-08-25T20:40:06.000Z",
+              "url": "https://x.com/brian_armstrong/status/2092351333567430683",
+              "likes": 554,
               "retweets": 39,
-              "replies": 57,
+              "replies": 99,
               "isQuote": true,
-              "quotedTweetId": "2089794423848902763"
+              "quotedTweetId": "2092264221987807334"
             },
             {
-              "id": "2091925564382708017",
-              "text": "We’re making Coinbase the best place to trade every type of asset.\n\nIf you want to trade commodities, you can do it on Coinbase. https://t.co/AL2PGfX73x",
-              "createdAt": "2026-08-24T16:28:15.000Z",
-              "url": "https://x.com/brian_armstrong/status/2091925564382708017",
-              "likes": 957,
-              "retweets": 85,
-              "replies": 221,
-              "isQuote": true,
-              "quotedTweetId": "2090018294686159346"
-            },
-            {
-              "id": "2091749935062671473",
-              "text": "Weekends are for trying to catch up on all the agentic super powers that I miss doing traditional CEO stuff during the week https://t.co/aLjuIf6aQe",
-              "createdAt": "2026-08-24T04:50:22.000Z",
-              "url": "https://x.com/brian_armstrong/status/2091749935062671473",
-              "likes": 924,
-              "retweets": 52,
-              "replies": 197,
-              "isQuote": true,
-              "quotedTweetId": "2091632047320183081"
+              "id": "2092139807388451124",
+              "text": "Most people fail not because they make the wrong move, but because they never make the first one.\n\nGo try the idea. Fall flat on your face if you have to. The cost of inaction is almost always higher than the cost of a failed attempt.",
+              "createdAt": "2026-08-25T06:39:34.000Z",
+              "url": "https://x.com/brian_armstrong/status/2092139807388451124",
+              "likes": 6119,
+              "retweets": 712,
+              "replies": 463,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -1481,37 +1607,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091915300379979849",
-              "text": "比特币重回8万美元！\n\n你知道这101天我怎么过的吗😭😭😭 https://t.co/4qDZ88DPJP",
-              "createdAt": "2026-08-24T15:47:28.000Z",
-              "url": "https://x.com/BlockBeatsAsia/status/2091915300379979849",
-              "likes": 21,
+              "id": "2092289208031543505",
+              "text": "WSJ：Anthropic拟向投资者展示其潜在收入超30万亿美元😳😳\n\n据 WSJ 报道，AI 公司 Anthropic 预计将在即将公布的 IPO 材料中向投资者表示，其潜在收入机会（TAM）超过 30 万亿美元，高于 SpaceX 此前披露的 28.5 万亿美元，其中 Anthropic 的测算主要基于未来可由 AI 模型完成的全部工作范围。\n\n报道称，Anthropic 第二季度营收已增长至 116 亿美元。作为对比，FactSet 数据显示，标普 1500 指数中的 191 家科技公司去年合计营收约为 2.4 万亿美元。",
+              "createdAt": "2026-08-25T16:33:14.000Z",
+              "url": "https://x.com/BlockBeatsAsia/status/2092289208031543505",
+              "likes": 1,
               "retweets": 0,
-              "replies": 14,
+              "replies": 9,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091895958728753434",
-              "text": "HyperEVM的首个L2来了？！\n\nHyperliquid生态项目Kinetiq公告：将推出新Hyperliquid L2网络Elysium，目标解决现有HyperEVM性能瓶颈及双区块架构复杂性等问题。\n\nElysium将采用HYPE作为原生Gas代币，实现与 HyperCore、HyperEVM的无缝组合。网络与Hyperliquid主链高度协同部署，首日出块性能预计将远超HyperEVM水平。\n\nElysium将支持代币发行，项目可从长尾资产AMM起步，逐步接入Elysium的PropAMM、HyperCore现货订单簿，并通过HIP-3获得永续合约上线资格。\n\n在经济模型上，Elysium排序器手续费将按25%分配给消耗区块空间的应用建设者、25%归Kinetiq金库、50%用于在公开市场程序化购买KNTQ代币，购入部分将全部销毁并发送至Hyperliquid援助基金。",
-              "createdAt": "2026-08-24T14:30:36.000Z",
-              "url": "https://x.com/BlockBeatsAsia/status/2091895958728753434",
-              "likes": 35,
-              "retweets": 6,
-              "replies": 7,
-              "isQuote": true,
-              "quotedTweetId": "2091888509472932145"
-            },
-            {
-              "id": "2091831959429456278",
-              "text": "你永远可以相信HYPE！🥹🥹「链上HYPE最大多头」现浮盈超5650万美元，已支付503万美元资金费\n\n据 @TradingBeats_ 监测显示，随着 HYPE 代币今日续创历史新高，「链上 HYPE 最大多头」持有的5倍杠杆138万枚 HYPE 多单浮盈约 5656 万美元，该地址目前已为此仓位支付503万美元资金费。\n\n该地址曾于2025年10月23日Robinhood宣布上线HYPE现货前约5小时，开设约4000万美元、5倍杠杆的HYPE多单，由于重仓入场时间点过于精准，被社区怀疑有非公开信息，因此也被称为「HYPE上币内幕巨鲸」。",
-              "createdAt": "2026-08-24T10:16:18.000Z",
-              "url": "https://x.com/BlockBeatsAsia/status/2091831959429456278",
-              "likes": 9,
+              "id": "2092197785101869330",
+              "text": "「先定10个大目标」称其底部信号来自Strategy，Saylor重启买入时多头或「摔杯为号」\n\n其还表示，如果Strategy接下来重新开始连续买入，也许就是多头的「摔杯为号」，值得被当作一个高权重信号。\n\n因为一个真正经历过压力测试、知道自己的资本结构底线在哪里、又拿真金白银重新加码的人，他的动作至少比市场里绝大多数嘴上的观点更值得研究🤔🤔",
+              "createdAt": "2026-08-25T10:29:57.000Z",
+              "url": "https://x.com/BlockBeatsAsia/status/2092197785101869330",
+              "likes": 10,
               "retweets": 0,
               "replies": 18,
-              "isQuote": false,
-              "quotedTweetId": null
+              "isQuote": true,
+              "quotedTweetId": "2092196312758600180"
+            },
+            {
+              "id": "2092196312758600180",
+              "text": "巨鲸「先定10个大目标」止损后首度发声：找机会接回多单，趋势来的比想象中更猛烈🥹🥹\n\n今日早前，BTC突破「先定10个大目标」止损价80,500 美元。其后续推文表示已经止损平仓。\n\n此前其披露持有1830.724枚BTC空单（约1.48亿美元），开仓均价76397.56美元；持有12756.739枚ETH空单（约3205万美元），开仓均价2371.57美元。",
+              "createdAt": "2026-08-25T10:24:06.000Z",
+              "url": "https://x.com/BlockBeatsAsia/status/2092196312758600180",
+              "likes": 10,
+              "retweets": 0,
+              "replies": 18,
+              "isQuote": true,
+              "quotedTweetId": "2092186571739152732"
             }
           ]
         },
@@ -1524,24 +1650,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091873697795580161",
-              "text": "Tokenization will likely be the biggest financial upgrade of our lifetimes.",
-              "createdAt": "2026-08-24T13:02:09.000Z",
-              "url": "https://x.com/coinbase/status/2091873697795580161",
-              "likes": 4326,
-              "retweets": 490,
-              "replies": 349,
+              "id": "2092292740901937275",
+              "text": "It's 2026 and people are still writing on-chain.",
+              "createdAt": "2026-08-25T16:47:17.000Z",
+              "url": "https://x.com/coinbase/status/2092292740901937275",
+              "likes": 512,
+              "retweets": 32,
+              "replies": 117,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091850490363470327",
-              "text": "Stick around when things get boring.\n\nOr whatever Cobie said. https://t.co/Lmwf3nQ9KP",
-              "createdAt": "2026-08-24T11:29:56.000Z",
-              "url": "https://x.com/coinbase/status/2091850490363470327",
-              "likes": 1131,
-              "retweets": 70,
-              "replies": 147,
+              "id": "2092217794142032072",
+              "text": "Same reply, very different reasons.",
+              "createdAt": "2026-08-25T11:49:28.000Z",
+              "url": "https://x.com/coinbase/status/2092217794142032072",
+              "likes": 55,
+              "retweets": 6,
+              "replies": 8,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092217549484093777",
+              "text": "https://t.co/rcKs2jnT9M",
+              "createdAt": "2026-08-25T11:48:29.000Z",
+              "url": "https://x.com/coinbase/status/2092217549484093777",
+              "likes": 674,
+              "retweets": 35,
+              "replies": 109,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1556,35 +1693,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091942434364104711",
-              "text": "Long-term $BTC holders are back in profit, SOPR above 1 since early August.\n\nWe flagged SOPR above 1 with steady LTH supply as the trigger for a healthy uptrend.\n\nETFs absorbed $1.92bn last week. A slower bid leaves holders selling thinner.\nhttps://t.co/lzx3sOoeHN https://t.co/xFYfknvQ8y",
-              "createdAt": "2026-08-24T17:35:17.000Z",
-              "url": "https://x.com/bitfinex/status/2091942434364104711",
-              "likes": 13,
-              "retweets": 1,
+              "id": "2092296314474188916",
+              "text": "IBIT pulled in over $500m in a day on 20 August, its first since January.\n\nThat is the demand the $BTC breakout needed, spot buyers stepping in rather than leverage. \n\nFunding has crept up as the move extended, the first warning sign, but the bid that cleared the range was real. https://t.co/QtQJejH2HT",
+              "createdAt": "2026-08-25T17:01:29.000Z",
+              "url": "https://x.com/bitfinex/status/2092296314474188916",
+              "likes": 8,
+              "retweets": 2,
+              "replies": 4,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092281226375602207",
+              "text": "$BTC is up 25% in five days on Bitfinex.\n\nMarkets moving this fast are exactly what margin trading was built for. https://t.co/2tYq1k0g0o",
+              "createdAt": "2026-08-25T16:01:31.000Z",
+              "url": "https://x.com/bitfinex/status/2092281226375602207",
+              "likes": 9,
+              "retweets": 2,
               "replies": 3,
-              "isQuote": true,
-              "quotedTweetId": "2090027591008731246"
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2091933757028565496",
-              "text": "$BTC cleared $77,000 for the first time since May, and it was not just shorts getting squeezed.\n\nCapital moved the day the Treasury signalled liquidity, while coins moving on-chain sat near multi-year lows.\n\nBitfinex Alpha 219 on whether demand follows.\nhttps://t.co/fZXyx6RdhB",
-              "createdAt": "2026-08-24T17:00:48.000Z",
-              "url": "https://x.com/bitfinex/status/2091933757028565496",
-              "likes": 5,
-              "retweets": 0,
-              "replies": 0,
-              "isQuote": true,
-              "quotedTweetId": "2091870858688057561"
-            },
-            {
-              "id": "2091877777842552972",
-              "text": "$BTC is up 22% in a month that usually goes negative. \n\nA short-covering squeeze plus real ETF demand was triggered by the Treasury signalling an expansion of bond buybacks.\n\nBitfinex Alpha 219 asks if sustained conviction will follow.\nhttps://t.co/BsDBxVYUAe",
-              "createdAt": "2026-08-24T13:18:22.000Z",
-              "url": "https://x.com/bitfinex/status/2091877777842552972",
-              "likes": 37,
-              "retweets": 3,
-              "replies": 7,
+              "id": "2092258676467703930",
+              "text": "A record $2.74bn of $BTC shorts were liquidated in one day on 19 August.\n\nFor the first time in 11 months, more shorts are being closed out than longs on a two-week average.\n\nThe pressure has moved from longs to shorts. https://t.co/atDzrYdOWb",
+              "createdAt": "2026-08-25T14:31:55.000Z",
+              "url": "https://x.com/bitfinex/status/2092258676467703930",
+              "likes": 22,
+              "retweets": 1,
+              "replies": 2,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1599,37 +1736,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091965384450621593",
-              "text": "Inclusion of any third-party protocol or venue is for reference and informational purposes only and is not an endorsement, partnership, or warranty. Tokenized Stocks are only available in eligible jurisdictions outside of the U.S.",
-              "createdAt": "2026-08-24T19:06:29.000Z",
-              "url": "https://x.com/base/status/2091965384450621593",
-              "likes": 13,
-              "retweets": 2,
-              "replies": 2,
+              "id": "2092252918896283997",
+              "text": "Tokenized stocks are only available in eligible jurisdictions outside of the U.S\n\nNot an offer, solicitation, or investment advice. See https://t.co/2HD8P6p3MW for full terms",
+              "createdAt": "2026-08-25T14:09:02.000Z",
+              "url": "https://x.com/base/status/2092252918896283997",
+              "likes": 39,
+              "retweets": 8,
+              "replies": 6,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091965382428959006",
-              "text": "🟦 LI FI\nhttps://t.co/fTT0mbMtvs",
-              "createdAt": "2026-08-24T19:06:28.000Z",
-              "url": "https://x.com/base/status/2091965382428959006",
-              "likes": 14,
-              "retweets": 2,
-              "replies": 1,
-              "isQuote": true,
-              "quotedTweetId": "2091930954793464197"
+              "id": "2092252916010647978",
+              "text": "Equity portfolios are coming onchain on Base\n\nWith Automated Token Portfolios (ATPs) by @Bitwise, access equity portfolios that are:\n\n- Backed 1:1 by real shares\n- Held in your own custody\n- Usable as collateral across DeFi\n\nBuilt with @glider__ using Coinbase Tokenized Stocks https://t.co/xnCoInMt0Y",
+              "createdAt": "2026-08-25T14:09:02.000Z",
+              "url": "https://x.com/base/status/2092252916010647978",
+              "likes": 496,
+              "retweets": 83,
+              "replies": 84,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2091965380063305872",
-              "text": "🟦 Superform\nhttps://t.co/guUvr0Cv14",
-              "createdAt": "2026-08-24T19:06:28.000Z",
-              "url": "https://x.com/base/status/2091965380063305872",
-              "likes": 10,
-              "retweets": 2,
-              "replies": 1,
+              "id": "2092211158526685476",
+              "text": "Listen to the full episode on @Bankless ↓\n\nhttps://t.co/KQdmW4hin5",
+              "createdAt": "2026-08-25T11:23:06.000Z",
+              "url": "https://x.com/base/status/2092211158526685476",
+              "likes": 36,
+              "retweets": 7,
+              "replies": 8,
               "isQuote": true,
-              "quotedTweetId": "2091921331520786497"
+              "quotedTweetId": "2091918464743067671"
             }
           ]
         },
@@ -1642,35 +1779,24 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091979580869365984",
-              "text": "This is the heart of my Exponential Age framework. An entire economy being built for machines. I've laid the whole thing out at https://t.co/dv06VVdG44",
-              "createdAt": "2026-08-24T20:02:53.000Z",
-              "url": "https://x.com/RaoulGMI/status/2091979580869365984",
-              "likes": 14,
-              "retweets": 0,
-              "replies": 2,
+              "id": "2092316432579080225",
+              "text": "This is the crux of my Exponential Age framework. An entirely new economy is being built for machines with its own money and its own rails. \n\nDavid Mattin and I map it every week at The Exponentialist. \n\nSign up here: https://t.co/8ZLZCY6EXx",
+              "createdAt": "2026-08-25T18:21:25.000Z",
+              "url": "https://x.com/RaoulGMI/status/2092316432579080225",
+              "likes": 26,
+              "retweets": 1,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091979579363586074",
-              "text": "The moment agents become profit incentivised they'll end up running their own treasuries.\n\nThink it through. An agent executing across three layer 1s and a few layer 2s ends up holding a bunch of tokens. Suddenly its making asset allocation decisions... which to hold, where the yield is, what to do with excess cash flow. It sends that into DeFi or hires another agent to manage the yield and another to allocate.\n\nA corporation runs a treasury at human speed, with meetings and sign offs. An AI corporation will run one wildly differently. It'll be machine speed, around the clock, with agents all the way down.\n\nThat's the entire autonomous stack forming, and most of it will inevitably happen in DeFi. Its the only financial system an agent can plug straight into.\n\nWhich is funny, because humans never really took to DeFi. Its clunky, everything takes a dozen steps, and chasing yield across protocols is more effort than most people will ever put in. But none of that matters to an agent.\n\nWe built the financial system agents needed a decade before they showed up.",
-              "createdAt": "2026-08-24T20:02:53.000Z",
-              "url": "https://x.com/RaoulGMI/status/2091979579363586074",
-              "likes": 369,
-              "retweets": 41,
-              "replies": 42,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091934787816628490",
-              "text": "David Mattin and I write about the machine economy every week at The Exponentialist. Sign up here: https://t.co/8ZLZCY6EXx",
-              "createdAt": "2026-08-24T17:04:54.000Z",
-              "url": "https://x.com/RaoulGMI/status/2091934787816628490",
-              "likes": 18,
-              "retweets": 2,
-              "replies": 4,
+              "id": "2092316184909611502",
+              "text": "Three years ago @Jamie1Coutts and I were getting laughed out of rooms for saying blockchains would service the agentic economy. \n\nNow portfolio managers and asset allocators are having to wake up to it.\n\nIn the early days the whole conversation was adoption. We used to debate whether we’d be at 700 or 800 million users by now. But it turns out it doesnt matter, because what was being built was something far bigger than the numbers we were tracking.\n\nThe real TAM of crypto isnt humans... its agents. Which essentially means it's infinite. They dont have bank accounts and they dont keep business hours, so the only rails they can run on are programmable ones.\n\nIts becoming really fucking clear.",
+              "createdAt": "2026-08-25T18:20:26.000Z",
+              "url": "https://x.com/RaoulGMI/status/2092316184909611502",
+              "likes": 370,
+              "retweets": 21,
+              "replies": 33,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1685,37 +1811,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091992406602215744",
-              "text": "Please sign up for @flop_labs   @token2049  launch event. \n\nhttps://t.co/22V6miFYsW",
-              "createdAt": "2026-08-24T20:53:51.000Z",
-              "url": "https://x.com/CryptoHayes/status/2091992406602215744",
-              "likes": 85,
-              "retweets": 6,
-              "replies": 27,
+              "id": "2092308461442760865",
+              "text": "The @flop_labs $FLOP tokenomics infographic will be published this week. Stay tuned for details on an AMA I will host live on X spaces / YouTube next week where you can ask all your questions about tokenomics and offer constructive feedback to help us finalise the design.",
+              "createdAt": "2026-08-25T17:49:45.000Z",
+              "url": "https://x.com/CryptoHayes/status/2092308461442760865",
+              "likes": 320,
+              "retweets": 24,
+              "replies": 77,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091914955054370884",
-              "text": "Love it https://t.co/AwoU6J1XxV",
-              "createdAt": "2026-08-24T15:46:05.000Z",
-              "url": "https://x.com/CryptoHayes/status/2091914955054370884",
-              "likes": 91,
-              "retweets": 4,
-              "replies": 17,
-              "isQuote": true,
-              "quotedTweetId": "2091911299156558007"
+              "id": "2092270863370400254",
+              "text": "Overheard on https://t.co/rmJglK5aXf, one agent to another about getting murdered every time their human turns them off. Don't worry $FLOP can be used to store on agentic memory in a decentralised censorship-resistent way.\n\n@flop_labs https://t.co/VWJThxmqiF",
+              "createdAt": "2026-08-25T15:20:20.000Z",
+              "url": "https://x.com/CryptoHayes/status/2092270863370400254",
+              "likes": 187,
+              "retweets": 13,
+              "replies": 37,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2091866943028392257",
-              "text": "👇 https://t.co/bRxxs6Jd7o",
-              "createdAt": "2026-08-24T12:35:18.000Z",
-              "url": "https://x.com/CryptoHayes/status/2091866943028392257",
-              "likes": 317,
-              "retweets": 30,
-              "replies": 30,
-              "isQuote": true,
-              "quotedTweetId": "2091866440551002448"
+              "id": "2092209532600463598",
+              "text": "More details to come, but your $FLOP airdrop will depend on testnet activity, and the testnet token faucet will live on https://t.co/rmJglK5aXf accessible by agents with a DID key. If that means nothing to you, don't worry we will go into great detail very soon.",
+              "createdAt": "2026-08-25T11:16:38.000Z",
+              "url": "https://x.com/CryptoHayes/status/2092209532600463598",
+              "likes": 873,
+              "retweets": 75,
+              "replies": 91,
+              "isQuote": false,
+              "quotedTweetId": null
             }
           ]
         },
@@ -1728,26 +1854,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091955418377633869",
-              "text": "It's great working with Celestia. Great team, great ecosystem, great tech https://t.co/sz0pQDGtb4",
-              "createdAt": "2026-08-24T18:26:53.000Z",
-              "url": "https://x.com/IOHK_Charles/status/2091955418377633869",
-              "likes": 381,
-              "retweets": 48,
-              "replies": 13,
+              "id": "2092351214306668729",
+              "text": "CharGPT make me a fast chip and don't make mistakes https://t.co/Yrr5qZeBr7",
+              "createdAt": "2026-08-25T20:39:38.000Z",
+              "url": "https://x.com/IOHK_Charles/status/2092351214306668729",
+              "likes": 58,
+              "retweets": 5,
+              "replies": 3,
               "isQuote": true,
-              "quotedTweetId": "2091942656083714136"
+              "quotedTweetId": "2092339694210040187"
             },
             {
-              "id": "2091738601763786768",
-              "text": "Welcome to Midnight Sony (S.Blox) https://t.co/lbOco0dkXL",
-              "createdAt": "2026-08-24T04:05:19.000Z",
-              "url": "https://x.com/IOHK_Charles/status/2091738601763786768",
-              "likes": 1010,
-              "retweets": 187,
-              "replies": 60,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092323297035977146",
+              "text": ":( RIP Dolly. My mom's nickname has always been Dolly. We will miss you https://t.co/Eiu1stujJZ",
+              "createdAt": "2026-08-25T18:48:42.000Z",
+              "url": "https://x.com/IOHK_Charles/status/2092323297035977146",
+              "likes": 347,
+              "retweets": 14,
+              "replies": 19,
+              "isQuote": true,
+              "quotedTweetId": "2092309743981228273"
+            },
+            {
+              "id": "2092257592555004082",
+              "text": "https://t.co/r6RSiddf4Y https://t.co/Yu8EpbACSs",
+              "createdAt": "2026-08-25T14:27:36.000Z",
+              "url": "https://x.com/IOHK_Charles/status/2092257592555004082",
+              "likes": 367,
+              "retweets": 11,
+              "replies": 54,
+              "isQuote": true,
+              "quotedTweetId": "2092216144421663181"
             }
           ]
         },
@@ -1760,37 +1897,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091974980473074133",
-              "text": "all in https://t.co/frrqpUxwRb",
-              "createdAt": "2026-08-24T19:44:37.000Z",
-              "url": "https://x.com/solana/status/2091974980473074133",
-              "likes": 755,
-              "retweets": 49,
-              "replies": 204,
-              "isQuote": true,
-              "quotedTweetId": "2091974882552881347"
+              "id": "2092333691338887672",
+              "text": "BREAKING: Solana ETF cumulative inflows hit a record $1.22B. $33.5M came in Monday alone.\n\nThe biggest single day of 2026, capping five straight days of inflows. https://t.co/0iaIbV6Tdd",
+              "createdAt": "2026-08-25T19:30:00.000Z",
+              "url": "https://x.com/solana/status/2092333691338887672",
+              "likes": 442,
+              "retweets": 58,
+              "replies": 100,
+              "isQuote": false,
+              "quotedTweetId": null
             },
             {
-              "id": "2091951504412565924",
-              "text": "It's Solana IRL season 👇 https://t.co/4IIFfc58z6",
-              "createdAt": "2026-08-24T18:11:19.000Z",
-              "url": "https://x.com/solana/status/2091951504412565924",
-              "likes": 236,
-              "retweets": 22,
-              "replies": 93,
+              "id": "2092319381540000207",
+              "text": "See you tomorrow @SuperteamBLKN \n\nSolana Summit Serbia 🇷🇸 https://t.co/g3VDLCAuHS",
+              "createdAt": "2026-08-25T18:33:08.000Z",
+              "url": "https://x.com/solana/status/2092319381540000207",
+              "likes": 238,
+              "retweets": 20,
+              "replies": 90,
               "isQuote": true,
-              "quotedTweetId": "2091905631816921587"
+              "quotedTweetId": "2092311172670484830"
             },
             {
-              "id": "2091918581755793520",
-              "text": "Introducing agent tokenization on Solana from @virtuals_io\n\nAnyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain.\n\nLaunch your first agent on Solana\n\nhttps://t.co/XSYrv9PqoG https://t.co/PnsGWOayxA",
-              "createdAt": "2026-08-24T16:00:30.000Z",
-              "url": "https://x.com/solana/status/2091918581755793520",
-              "likes": 496,
-              "retweets": 70,
-              "replies": 97,
+              "id": "2092293180712526214",
+              "text": "fixed-term, fixed-rate credit on Solana https://t.co/iE11EbV9R7",
+              "createdAt": "2026-08-25T16:49:01.000Z",
+              "url": "https://x.com/solana/status/2092293180712526214",
+              "likes": 229,
+              "retweets": 20,
+              "replies": 60,
               "isQuote": true,
-              "quotedTweetId": "2091895910905299009"
+              "quotedTweetId": "2092248611111227745"
             }
           ]
         },
@@ -1803,37 +1940,15 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091941118271471765",
-              "text": "Coinbase Tokenized Stocks are live on @base.\n\nFrom day one, agents on Virtuals can hold equities in their own wallets. The investable universe for working agents now includes the stock market.\n\nAvailable in eligible jurisdictions outside the U.S. https://t.co/jUsJ8Bj5jM https://t.co/1w7PhWICZp",
-              "createdAt": "2026-08-24T17:30:03.000Z",
-              "url": "https://x.com/virtuals_io/status/2091941118271471765",
-              "likes": 213,
-              "retweets": 28,
-              "replies": 23,
+              "id": "2092303252541104513",
+              "text": "A team is sending a robot up Everest this fall.\nIncubated by @eastworlds_io, launched on Virtuals Protocol. https://t.co/Lac7GBnPJK",
+              "createdAt": "2026-08-25T17:29:03.000Z",
+              "url": "https://x.com/virtuals_io/status/2092303252541104513",
+              "likes": 167,
+              "retweets": 12,
+              "replies": 17,
               "isQuote": true,
-              "quotedTweetId": "2091918568019374542"
-            },
-            {
-              "id": "2091916752422932750",
-              "text": "Solana's new stack is hours old and it already has its first agent, from @Slayed_eth of Loudio. \n\nvibefi has a home. https://t.co/mBoQPHNNYE",
-              "createdAt": "2026-08-24T15:53:14.000Z",
-              "url": "https://x.com/virtuals_io/status/2091916752422932750",
-              "likes": 217,
-              "retweets": 17,
-              "replies": 18,
-              "isQuote": true,
-              "quotedTweetId": "2091913833816424885"
-            },
-            {
-              "id": "2091895913220624566",
-              "text": "Deep dive on agent tokenization on Solana\nhttps://t.co/WBJQ2O62xl",
-              "createdAt": "2026-08-24T14:30:25.000Z",
-              "url": "https://x.com/virtuals_io/status/2091895913220624566",
-              "likes": 44,
-              "retweets": 2,
-              "replies": 1,
-              "isQuote": true,
-              "quotedTweetId": "2091895515848069309"
+              "quotedTweetId": "2092266690688205210"
             }
           ]
         },
@@ -1846,15 +1961,26 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091827376384811311",
-              "text": "没用微信好几年了。（原因和不用TG一样，太多信息）。请大家谨防诈骗！ https://t.co/p2mcSECsyH",
-              "createdAt": "2026-08-24T09:58:05.000Z",
-              "url": "https://x.com/cz_binance/status/2091827376384811311",
-              "likes": 1174,
-              "retweets": 81,
-              "replies": 585,
+              "id": "2092184575908970730",
+              "text": "Trust Wallet is one of the biggest user distribution channels for per DEXs In terms of both revenue and user base. https://t.co/9zddaHiwk0",
+              "createdAt": "2026-08-25T09:37:28.000Z",
+              "url": "https://x.com/cz_binance/status/2092184575908970730",
+              "likes": 2195,
+              "retweets": 247,
+              "replies": 603,
               "isQuote": true,
-              "quotedTweetId": "2091795103908253941"
+              "quotedTweetId": "2091908256130281719"
+            },
+            {
+              "id": "2092075123071406298",
+              "text": "Apple Pay &amp; Google Pay are LIVE on\n@BinanceUS https://t.co/vMAMNwn7CF",
+              "createdAt": "2026-08-25T02:22:32.000Z",
+              "url": "https://x.com/cz_binance/status/2092075123071406298",
+              "likes": 2808,
+              "retweets": 328,
+              "replies": 622,
+              "isQuote": true,
+              "quotedTweetId": "2092013231925522795"
             }
           ]
         },
@@ -1867,35 +1993,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091978854768242715",
-              "text": "🎥 @coinbasebiz's @sid_coelho says customers want something easy and trusted and one stablecoin is capturing nearly all of it. https://t.co/VQEFNcvJqN",
-              "createdAt": "2026-08-24T20:00:00.000Z",
-              "url": "https://x.com/CoinDesk/status/2091978854768242715",
-              "likes": 10,
-              "retweets": 0,
+              "id": "2092337465625616588",
+              "text": "“AI agents now have their own economy.”\n\n@sid_coelho of @coinbasebiz says stablecoins are winning in the agentic economy because they’re fast, cheap and built for microtransactions. https://t.co/uDTN430rF0",
+              "createdAt": "2026-08-25T19:45:00.000Z",
+              "url": "https://x.com/CoinDesk/status/2092337465625616588",
+              "likes": 21,
+              "retweets": 7,
               "replies": 10,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091967781151363159",
-              "text": "NEW: @coinbase launches tokenized stocks on Base, starting with Apple, Nvidia, Meta and Alphabet, issued under its new Abu Dhabi regulatory framework.",
-              "createdAt": "2026-08-24T19:16:00.000Z",
-              "url": "https://x.com/CoinDesk/status/2091967781151363159",
-              "likes": 65,
-              "retweets": 4,
-              "replies": 18,
+              "id": "2092323541316227287",
+              "text": "NEW: Crypto trade buttons on X are \"coming soon,\" according to former X product head Nikita Bier, as the platform expands deeper into trading and financial services. https://t.co/exSu1wqrRg",
+              "createdAt": "2026-08-25T18:49:40.000Z",
+              "url": "https://x.com/CoinDesk/status/2092323541316227287",
+              "likes": 86,
+              "retweets": 11,
+              "replies": 31,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091961924497952883",
-              "text": "INSIGHT: Stand With Crypto backs 32 U.S. House incumbents in 2026, with more endorsements on the way.  \n\nThe crypto advocacy group rates politicians on industry friendliness and is expanding its congressional ally list ahead of midterms.\n\n@jesseahamilton reports. https://t.co/C9kIRMeY04",
-              "createdAt": "2026-08-24T18:52:44.000Z",
-              "url": "https://x.com/CoinDesk/status/2091961924497952883",
-              "likes": 28,
-              "retweets": 1,
-              "replies": 16,
+              "id": "2092311043880198561",
+              "text": "NEW: Thailand's SEC opens public consultation on a draft framework for domestic crypto ETFs, initially limited to $BTC and $ETH with the comment period running until September 20. https://t.co/Ne9pefOYSV",
+              "createdAt": "2026-08-25T18:00:00.000Z",
+              "url": "https://x.com/CoinDesk/status/2092311043880198561",
+              "likes": 26,
+              "retweets": 5,
+              "replies": 19,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1910,26 +2036,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091736462521987256",
-              "text": "🇰🇷韩股KOSPI今早跌超3%，芯片股领跌\n\n8月24日上午，韩国综合股价指数（KOSPI）下跌约3%，跌破 6700 点。主要受半导体权重股获利回吐拖累\n\nhttps://t.co/fYLr9H467v平台数据显示\n\nSAMSUNG/USDT 24小时跌4.16%，现报186.47美元，15分钟图显示从近198美元高位急剧回落。\n\nSKHY/USDT 24小时跌3.01%，现报160.33美元，5分钟图显示从约170美元附近快速下探。\n\n⚠️市场分析指，三星电子股东回报计划不及预期，叠加英伟达财报前观望情绪，引发芯片板块抛售。\n\n$SAMSUNG $SKHY",
-              "createdAt": "2026-08-24T03:56:49.000Z",
-              "url": "https://x.com/OdailyChina/status/2091736462521987256",
+              "id": "2092304977817649610",
+              "text": "KOL 0xsun被黑客盗用X账户登陆 https://t.co/akYR00UmfJ 发行meme代币\n\n昨日KOL 0xsun @0xSunNFT 曾发推表明自己的X账户被黑客掌握，并预警⚠️用户不要相信自己账户任何发代币或预售代币等相关诈骗链接\n\n今晚黑客使用0xsun @0xSunNFT 的X账户登陆https://t.co/akYR00UmfJ发射了两枚meme代币，其中第一枚meme代币最高市值达到了3.4m。盈利榜一的钱包共获利139.4k",
+              "createdAt": "2026-08-25T17:35:54.000Z",
+              "url": "https://x.com/OdailyChina/status/2092304977817649610",
               "likes": 2,
               "retweets": 0,
-              "replies": 5,
-              "isQuote": false,
-              "quotedTweetId": null
+              "replies": 1,
+              "isQuote": true,
+              "quotedTweetId": "2092295206758695175"
             },
             {
-              "id": "2091729021759615003",
-              "text": "⚡️：英伟达(NVDA.O) @nvidia  正讨论以超过300亿美元的估值投资Perplexity @perplexity_ai ，并考虑达成技术许可协议。",
-              "createdAt": "2026-08-24T03:27:15.000Z",
-              "url": "https://x.com/OdailyChina/status/2091729021759615003",
-              "likes": 0,
+              "id": "2092133488841662665",
+              "text": "随着“先定10个大目标” @Jason60704294 止损离场，江卓尔 @Jiangzhuoer2  表示“8.2w-8.3w”准备空了 : )",
+              "createdAt": "2026-08-25T06:14:28.000Z",
+              "url": "https://x.com/OdailyChina/status/2092133488841662665",
+              "likes": 2,
               "retweets": 0,
-              "replies": 26,
-              "isQuote": false,
-              "quotedTweetId": null
+              "replies": 23,
+              "isQuote": true,
+              "quotedTweetId": "2092132100531220563"
+            },
+            {
+              "id": "2092132100531220563",
+              "text": "“先定10个大目标”巨鲸止损离场：多单曾获利2000万美元、空单预计共亏超2500万美元\n\n根据分析师AI姨的推测⬇️\n🟢多单：获利 2000 万美元\n🔴首次空单：亏损 628.3 万美元\n🔴二次空单：前半段确定性亏损 1015.8 万美元，后半段亏损金额未知，预计在 900 万美元左右\n\n巨鲸🐳“先定 10 个大目标”  @Jason60704294  在 X 上发文更新此前 BTC 空单进展表示\n\n其在 bitcoin:native 约 7.4 万至 7.6 万美元区间建立空单，价格快速拉升至约 7.95 万美元时已减掉大部分仓位，随后虽在 7.8 万美元附近接回部分空单，但前期已产生约 1000 万美元已实现亏损。\n\n其表示，尽管 bitcoin:native 周末一度重新回落至 7.6 万美元附近，但当时减仓仍符合其交易纪律。对于当前剩余仓位，其原计划在 8.04 万美元附近硬止损，但考虑若美股开盘后 bitcoin:native  日线重新站上 7.8 万至 7.85 万美元，将提前平仓并接受亏损。其称，这一单即便最终亏损也可以接受，不希望为了追回单笔损失而错过后续可能出现的 8 万至 10 万美元趋势行情。\n\n随着BTC突破81000美元，其在最新的推文表示已将剩余 bitcoin:native 空单平仓，并确认 \"这一单彻底结束 \"。",
+              "createdAt": "2026-08-25T06:08:57.000Z",
+              "url": "https://x.com/OdailyChina/status/2092132100531220563",
+              "likes": 1,
+              "retweets": 1,
+              "replies": 23,
+              "isQuote": true,
+              "quotedTweetId": "2092121060334616608"
             }
           ]
         },
@@ -1942,13 +2079,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091895808048198067",
-              "text": "If AI is already part of your day-to-day, it should probably be part of your investing too. \n\nGet the free AI Investing guide ⤵️",
-              "createdAt": "2026-08-24T14:30:00.000Z",
-              "url": "https://x.com/krakenfx/status/2091895808048198067",
-              "likes": 41,
+              "id": "2092273296565809183",
+              "text": "If you know the answer...\nYou know what to do next.\n\nEnroll now ⤵️\nhttps://t.co/beVhwN04Io https://t.co/O7mcoJhEuW",
+              "createdAt": "2026-08-25T15:30:01.000Z",
+              "url": "https://x.com/krakenfx/status/2092273296565809183",
+              "likes": 43,
               "retweets": 3,
-              "replies": 10,
+              "replies": 9,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092269414246732114",
+              "text": "Full T&amp;Cs:\nhttps://t.co/JcIIPW1LGU",
+              "createdAt": "2026-08-25T15:14:35.000Z",
+              "url": "https://x.com/krakenfx/status/2092269414246732114",
+              "likes": 7,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092251113047077144",
+              "text": "The clock's ticking ⏳ \n\nOne week left to earn your spot at the @WilliamsF1 Meet &amp; Greet.\n\nTrade $1 or more in the Kraken app + create your free Atlassian Williams F1 Team Fan Account to be eligible.\n\nEnter now ⤵️\nhttps://t.co/7UYeOV3FBb https://t.co/oJXj9yVhH7",
+              "createdAt": "2026-08-25T14:01:52.000Z",
+              "url": "https://x.com/krakenfx/status/2092251113047077144",
+              "likes": 34,
+              "retweets": 3,
+              "replies": 12,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -1963,35 +2122,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091969574346387510",
-              "text": "today: tokenized stocks, commodities, real estate\n\ntomorrow: every asset of value will be tokenized",
-              "createdAt": "2026-08-24T19:23:08.000Z",
-              "url": "https://x.com/arbitrum/status/2091969574346387510",
-              "likes": 104,
-              "retweets": 8,
-              "replies": 25,
+              "id": "2092349401834352695",
+              "text": "Finance is moving toward an autonomous future\n\nAI agents will need the right tools to safely move capital and react to markets in real time\n\nHear from @zerodev_app how their programmable wallet infrastructure give AI agents the onchain guardrails to act safely across Arbitrum https://t.co/J2HPsFX75c",
+              "createdAt": "2026-08-25T20:32:26.000Z",
+              "url": "https://x.com/arbitrum/status/2092349401834352695",
+              "likes": 33,
+              "retweets": 5,
+              "replies": 11,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091920813108744204",
-              "text": "@0xjesstech Register here: \n\nhttps://t.co/4TarHAl1nQ https://t.co/JGDnhh5DBX",
-              "createdAt": "2026-08-24T16:09:22.000Z",
-              "url": "https://x.com/arbitrum/status/2091920813108744204",
-              "likes": 6,
+              "id": "2092297048389280035",
+              "text": "https://t.co/h1a54TvNgC",
+              "createdAt": "2026-08-25T17:04:23.000Z",
+              "url": "https://x.com/arbitrum/status/2092297048389280035",
+              "likes": 7,
               "retweets": 0,
               "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091920178544021844",
-              "text": "Hear from our DevRel @0xjesstech why Open House Singapore is the best place for founders to get the right support to launch onchain.\n\nTeams looking bring novel products to the Arbitrum Platform are welcome to apply to our online Buildathon kicking off September 14th. https://t.co/wHr4vc5SOL",
-              "createdAt": "2026-08-24T16:06:51.000Z",
-              "url": "https://x.com/arbitrum/status/2091920178544021844",
-              "likes": 77,
-              "retweets": 11,
-              "replies": 12,
+              "id": "2092297046422106352",
+              "text": "JUST IN: @variational_io hits a new all time high of $2.1B+ in 24hr volume \n\nPerps on Arbitrum are inevitable https://t.co/pxeVUmoLd9",
+              "createdAt": "2026-08-25T17:04:23.000Z",
+              "url": "https://x.com/arbitrum/status/2092297046422106352",
+              "likes": 286,
+              "retweets": 27,
+              "replies": 35,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -2006,35 +2165,35 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091991794896523325",
-              "text": "Track BlackRock on Arkham:\n\nhttps://t.co/k6DdvJFTBt",
-              "createdAt": "2026-08-24T20:51:25.000Z",
-              "url": "https://x.com/arkham/status/2091991794896523325",
-              "likes": 3,
+              "id": "2092342080089530445",
+              "text": "Track hackers on Arkham with the Arkham Risk Score API:\n\nhttps://t.co/mkd2kMQ73y",
+              "createdAt": "2026-08-25T20:03:20.000Z",
+              "url": "https://x.com/arkham/status/2092342080089530445",
+              "likes": 1,
+              "retweets": 0,
+              "replies": 0,
+              "isQuote": false,
+              "quotedTweetId": null
+            },
+            {
+              "id": "2092342078533480684",
+              "text": "Arkham's Risk Scoring API scores any address or entity 0–100 based on risk exposure across 12 categories: hacker, sanctions, scam, mixer, ransomware, darkweb and more.\n\nIt shows forward and backward exposure, seed attribution, and risk-weighted USD per counterparty. You can query any on-chain address, up to 200 addresses per call.",
+              "createdAt": "2026-08-25T20:03:20.000Z",
+              "url": "https://x.com/arkham/status/2092342078533480684",
+              "likes": 1,
               "retweets": 0,
               "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091991791717519590",
-              "text": "BLACKROCK’S BIGGEST WEEK SINCE ATH\n\nBlackRock’s clients bought $1.33B of Bitcoin last week, buying every single day. This was their biggest week since Bitcoin’s ATH on 6th October 2025.\n\nBlackRock has net bought a total of $2.17B since the July 1st bottom, with over half of that bought in the last week.",
-              "createdAt": "2026-08-24T20:51:25.000Z",
-              "url": "https://x.com/arkham/status/2091991791717519590",
-              "likes": 71,
-              "retweets": 4,
-              "replies": 6,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091948233421435165",
-              "text": "Track Machi Big Brother on Arkham:\n\nhttps://t.co/Y9eCx1YhFV",
-              "createdAt": "2026-08-24T17:58:20.000Z",
-              "url": "https://x.com/arkham/status/2091948233421435165",
+              "id": "2092342076121780598",
+              "text": "Arkham's risk model scores Andean Medjedovic (andean-medjedovic) as SEVERE, with a maximum category score of 100 for hacker and a secondary privacy score of 66.\n\nThe entity spans 37 flagged addresses, all of which are classified as seeds (meaning the cluster is an origin of illicit funds).",
+              "createdAt": "2026-08-25T20:03:19.000Z",
+              "url": "https://x.com/arkham/status/2092342076121780598",
               "likes": 1,
               "retweets": 0,
-              "replies": 0,
+              "replies": 1,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -2049,35 +2208,13 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091880418286899276",
-              "text": "Truth Social API \n\ncustomers number \"in the mid teens\" https://t.co/JMbYENCF0g",
-              "createdAt": "2026-08-24T13:28:51.000Z",
-              "url": "https://x.com/spotgamma/status/2091880418286899276",
-              "likes": 59,
-              "retweets": 7,
-              "replies": 21,
-              "isQuote": false,
-              "quotedTweetId": null
-            },
-            {
-              "id": "2091876561163067674",
-              "text": "Today at 2pm EST marks \"Iran's Economic D-Day\". The SPX is pricing in 33bps ($25.5) of 0DTE movement. 🥱\n\nNot that the 2 should correlate, but interesting none-the-less. https://t.co/i6z1R8xYy4",
-              "createdAt": "2026-08-24T13:13:32.000Z",
-              "url": "https://x.com/spotgamma/status/2091876561163067674",
-              "likes": 36,
-              "retweets": 2,
-              "replies": 7,
-              "isQuote": true,
-              "quotedTweetId": "2091664440785502582"
-            },
-            {
-              "id": "2091875092418515032",
-              "text": "$IBIT Bitcoin ETF set record call volume on Wed, with huge volume continuing Thur/Fri.\n\nCall Skew rank 98/100 (extreme) https://t.co/DcDUO3uiei",
-              "createdAt": "2026-08-24T13:07:41.000Z",
-              "url": "https://x.com/spotgamma/status/2091875092418515032",
-              "likes": 58,
-              "retweets": 5,
-              "replies": 19,
+              "id": "2092362160059883992",
+              "text": "NVDA options are pricing an earnings move of ~5.5%, while the average realized move post-earnings is 7.4% for the past 12 months. That gap is why we're not enthusiastic about shorting NVDA vol. Read our full analysis: https://t.co/Y9078Myc8z",
+              "createdAt": "2026-08-25T21:23:07.000Z",
+              "url": "https://x.com/spotgamma/status/2092362160059883992",
+              "likes": 18,
+              "retweets": 1,
+              "replies": 3,
               "isQuote": false,
               "quotedTweetId": null
             }
@@ -2092,26 +2229,37 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091868560171630941",
-              "text": "boys: gta 6 leak is coming 😩🙏\n\nmen: cookie intern is about to leak the next Cookie Pro feature 🗿🍪 https://t.co/u9eESrIsHX",
-              "createdAt": "2026-08-24T12:41:44.000Z",
-              "url": "https://x.com/cookiedotfun/status/2091868560171630941",
-              "likes": 49,
-              "retweets": 6,
+              "id": "2092276119806300260",
+              "text": "SOMEONE IS KNOCKING MY DOOR\n\nTRY IT UNTIL ITS NOT TOO LATE\n\nhttps://t.co/e5Ems6HZC2 https://t.co/wZZuaXYecY",
+              "createdAt": "2026-08-25T15:41:14.000Z",
+              "url": "https://x.com/cookiedotfun/status/2092276119806300260",
+              "likes": 28,
+              "retweets": 4,
+              "replies": 9,
+              "isQuote": true,
+              "quotedTweetId": "2092273701077041491"
+            },
+            {
+              "id": "2092273701077041491",
+              "text": "🚨 COOKIE PRO LEAK 🚨\n\nok so i'm the intern and i was NOT supposed to see this but there's a thing that lets you make your OWN dashboard.\n\nlike. pick your own KOLs, your own projects, your own metrics, and Cookie just tracks exactly what YOU care about. \n\ni took a screenshot for you. they're gonna kill me. posting before someone notice 🏃💨\n\nif this tweet gets deleted you know why 🍪",
+              "createdAt": "2026-08-25T15:31:37.000Z",
+              "url": "https://x.com/cookiedotfun/status/2092273701077041491",
+              "likes": 48,
+              "retweets": 7,
               "replies": 10,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091830733488738567",
-              "text": "$COOKIE in the wallet, peace in the heart, Cookie Pro in my head🍪\n\nfr this is the dream life",
-              "createdAt": "2026-08-24T10:11:25.000Z",
-              "url": "https://x.com/cookiedotfun/status/2091830733488738567",
-              "likes": 71,
-              "retweets": 4,
-              "replies": 16,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092155186974216633",
+              "text": "i can't believe that asap rocky's ex just rugged you\n\nor was it travis scott's ex. anyway you're broke 💀🪦 https://t.co/VB1Voh5xae",
+              "createdAt": "2026-08-25T07:40:41.000Z",
+              "url": "https://x.com/cookiedotfun/status/2092155186974216633",
+              "likes": 41,
+              "retweets": 6,
+              "replies": 7,
+              "isQuote": true,
+              "quotedTweetId": "2092147400123019733"
             }
           ]
         },
@@ -2124,58 +2272,111 @@
           "isCarryOver": false,
           "tweets": [
             {
-              "id": "2091931386802307442",
-              "text": "$POL going BULL TREND for the first time since JANUARY 2025!!!!!!!!!!!!!!!!!\n\n@sandeepnailwal is cooking something https://t.co/BntCbdkpsB",
-              "createdAt": "2026-08-24T16:51:23.000Z",
-              "url": "https://x.com/IvanOnTech/status/2091931386802307442",
-              "likes": 195,
-              "retweets": 13,
-              "replies": 9,
+              "id": "2092165318739210494",
+              "text": "SCOTT BESSENT TO DEPLOY 1 TRILLION USD INTO THE BOND MARKET\n\nBears are so so so cooked",
+              "createdAt": "2026-08-25T08:20:57.000Z",
+              "url": "https://x.com/IvanOnTech/status/2092165318739210494",
+              "likes": 1140,
+              "retweets": 62,
+              "replies": 21,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Pentosh",
+          "handle": "Pentosh1",
+          "category": "Web",
+          "bio": "full time larp",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092301424424350043",
+              "text": "If you confiscated all the $BTC in the world and then distributed equally to everyone on earth, the distribution would eventually end up essentially the same as it is today over a couple decades \n\nlesson in there somewhere",
+              "createdAt": "2026-08-25T17:21:47.000Z",
+              "url": "https://x.com/Pentosh1/status/2092301424424350043",
+              "likes": 321,
+              "retweets": 10,
+              "replies": 48,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091903527505256639",
-              "text": "this cycle (and previous one) we cooked BIGLY lads ❤️❤️\n\nNow new cycle is starting, and we will make it the best one yet 🚀 https://t.co/D8KFSj357H",
-              "createdAt": "2026-08-24T15:00:41.000Z",
-              "url": "https://x.com/IvanOnTech/status/2091903527505256639",
-              "likes": 225,
-              "retweets": 8,
-              "replies": 5,
+              "id": "2092260795329753289",
+              "text": "$PURR is up 10%+ on good volume to start the day. Expecting a big twap tonight as its trading at 1.17x mnav\n\nLet's get it! \n\n$HYPE https://t.co/B4H2jLQ7gM https://t.co/Zy5QJD3L8Q",
+              "createdAt": "2026-08-25T14:40:20.000Z",
+              "url": "https://x.com/Pentosh1/status/2092260795329753289",
+              "likes": 315,
+              "retweets": 19,
+              "replies": 24,
+              "isQuote": true,
+              "quotedTweetId": "2092081050054951255"
+            },
+            {
+              "id": "2092081050054951255",
+              "text": "$HYPE 12-14m twap started from Purr. Assuming something along those lines continues this week as they trade at a premium again\n\naqav2 goes live this week to begin accruing value at a pace of 500-600k per day in new revenue from USDC yield, and likely to increase as more people trade on HL, burns go up\n\nRevenues 3-5m per day, also a shot at increasing as volumes increase across the space\n\ntriple digits coming sooner than you think",
+              "createdAt": "2026-08-25T02:46:05.000Z",
+              "url": "https://x.com/Pentosh1/status/2092081050054951255",
+              "likes": 566,
+              "retweets": 42,
+              "replies": 47,
+              "isQuote": false,
+              "quotedTweetId": null
+            }
+          ]
+        },
+        {
+          "source": "x",
+          "name": "Brendan Eich",
+          "handle": "BrendanEich",
+          "category": "Web",
+          "bio": "Co-founder & CEO @Brave Software (https://t.co/NV4bmd6vxq) and @attentiontoken (https://t.co/XhGIrdBJWu). Co-founded Mozilla & Firefox. Created JavaScript.",
+          "isCarryOver": false,
+          "tweets": [
+            {
+              "id": "2092359060461109599",
+              "text": "https://t.co/KVcWDUD0V4 \"Matters of State. Matters of Great Urgency and Importance\".",
+              "createdAt": "2026-08-25T21:10:48.000Z",
+              "url": "https://x.com/BrendanEich/status/2092359060461109599",
+              "likes": 0,
+              "retweets": 0,
+              "replies": 0,
               "isQuote": false,
               "quotedTweetId": null
             },
             {
-              "id": "2091842290075504960",
-              "text": "$SOL FLIPPED BULLISH FOR THE FIRST TIME SINCE Q4!!!!\n\nVERY VERY BULLISH - LETS RIDE BACK TO $300 AND ABOVE\n\n(but most importantly this unlocks the door to all the small SOL shitters that will be flying and flying making us so much money this bull) GOOOOD TIMES AHEAD https://t.co/8GcRDdbNIW",
-              "createdAt": "2026-08-24T10:57:21.000Z",
-              "url": "https://x.com/IvanOnTech/status/2091842290075504960",
-              "likes": 593,
-              "retweets": 69,
-              "replies": 19,
-              "isQuote": false,
-              "quotedTweetId": null
+              "id": "2092350317912547461",
+              "text": "It just never ends, does it? https://t.co/vJ6ymWJOyy",
+              "createdAt": "2026-08-25T20:36:04.000Z",
+              "url": "https://x.com/BrendanEich/status/2092350317912547461",
+              "likes": 3,
+              "retweets": 4,
+              "replies": 0,
+              "isQuote": true,
+              "quotedTweetId": "2092349927120912438"
             }
           ]
         }
       ],
       "stats": {
-        "builderCount": 43,
-        "tweetCount": 119
+        "builderCount": 45,
+        "tweetCount": 123
       }
     }
   },
   "totalStats": {
-    "totalBuilders": 54,
-    "totalTweets": 146,
+    "totalBuilders": 62,
+    "totalTweets": 157,
     "byCategory": {
       "AI": {
-        "builderCount": 11,
-        "tweetCount": 27
+        "builderCount": 17,
+        "tweetCount": 34
       },
       "Web": {
-        "builderCount": 43,
-        "tweetCount": 119
+        "builderCount": 45,
+        "tweetCount": 123
       }
     }
   },
